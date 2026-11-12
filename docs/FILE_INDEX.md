@@ -238,7 +238,6 @@
 - docs/screenshots/comparison.png
 - docs/screenshots/detail.png
 - docs/screenshots/graphical-desktop.png
-- docs/screenshots/graphical-final.png
 - docs/screenshots/square-catalog.png
 - docs/screenshots/wiki-desktop.png
 - obsidian/HANDS-LAB/.obsidian/app.json
@@ -542,3 +541,4 @@
 - scripts/download-assets.py
 - scripts/extract-brand.py
 - tests/data.test.cjs
+- scripts/package-delivery.py
