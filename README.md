@@ -30,3 +30,8 @@
 원본: https://app.notion.com/p/45d4ac69d9048317a52181ba377f4b32
 
 Claude 설계 대화: https://claude.ai/chat/f64174dc-bbc3-401a-9598-65c9561487da
+
+## 공식 로고 디자인
+사용자 제공 HANDSLab 로고를 헤더·푸터·파비콘에 적용했습니다. 네이비·청록·흰색 팔레트와 정사각형 사진 프레임을 사용합니다. 원본 Illustrator 파일과 SVG·PNG는 assets/brand에 보존합니다. 자세한 변경 내역은 docs/BRAND-REVISION.md를 확인하세요.
+
+Obsidian에서는 HOME.md 또는 Atlas.canvas를 여세요.

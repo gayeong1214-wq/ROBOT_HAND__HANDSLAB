@@ -1,10 +1,13 @@
-# 파일 목록
+# 전체 산출물 파일 목록
 
-로컬 산출물의 경로 목록. 임시 파일·Git 내부 파일·ZIP은 제외합니다.
+임시 파일·Git 내부 파일·ZIP은 제외합니다. 총 540개 파일입니다.
 
 - .gitignore
-- .openai/hosting.json
 - README.md
+- assets/brand/HANDSLab-original.ai
+- assets/brand/handslab-logo.png
+- assets/brand/handslab-logo.svg
+- assets/brand/handslab-symbol.png
 - assets/robots/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
 - assets/robots/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
 - assets/robots/0e54ac69-d904-83bb-8677-015956164bcb.webp
@@ -110,6 +113,8 @@
 - data/notion-snapshot.json
 - data/robots.json
 - dist/app.js
+- dist/assets/brand/handslab-logo.png
+- dist/assets/brand/handslab-symbol.png
 - dist/assets/robots/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
 - dist/assets/robots/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
 - dist/assets/robots/0e54ac69-d904-83bb-8677-015956164bcb.webp
@@ -210,10 +215,14 @@
 - dist/assets/robots/ee44ac69-d904-8208-80e9-81fdeadb5923.png
 - dist/assets/robots/fca4ac69-d904-83c7-815f-01249338f86e.png
 - dist/assets/robots/ff94ac69-d904-8346-8b96-81fc58c9c7dc.png
+- dist/brand.css
 - dist/index.html
 - dist/robots.js
 - dist/style.css
 - dist/wiki.html
+- docs/BRAND-REVISION.md
+- docs/DELIVERY.md
+- docs/FILE_INDEX.md
 - docs/MILESTONES.md
 - docs/QA.md
 - docs/RESEARCH.md
@@ -230,9 +239,11 @@
 - docs/screenshots/detail.png
 - docs/screenshots/graphical-desktop.png
 - docs/screenshots/graphical-final.png
+- docs/screenshots/square-catalog.png
 - docs/screenshots/wiki-desktop.png
 - obsidian/HANDS-LAB/.obsidian/app.json
 - obsidian/HANDS-LAB/.obsidian/graph.json
+- obsidian/HANDS-LAB/Atlas.canvas
 - obsidian/HANDS-LAB/Attachments/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
 - obsidian/HANDS-LAB/Attachments/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
 - obsidian/HANDS-LAB/Attachments/0e54ac69-d904-83bb-8677-015956164bcb.webp
@@ -529,4 +540,5 @@
 - scripts/build-report.py
 - scripts/build-vault.py
 - scripts/download-assets.py
+- scripts/extract-brand.py
 - tests/data.test.cjs
