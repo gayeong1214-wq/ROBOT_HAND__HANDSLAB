@@ -1,0 +1,532 @@
+# 파일 목록
+
+로컬 산출물의 경로 목록. 임시 파일·Git 내부 파일·ZIP은 제외합니다.
+
+- .gitignore
+- .openai/hosting.json
+- README.md
+- assets/robots/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
+- assets/robots/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
+- assets/robots/0e54ac69-d904-83bb-8677-015956164bcb.webp
+- assets/robots/1304ac69-d904-83f0-83f4-81e04743e085.jpg
+- assets/robots/1734ac69-d904-83cb-812a-014dc6c2e2e8.png
+- assets/robots/19c4ac69-d904-83ea-89c7-01c0ba2f673b.jpg
+- assets/robots/1a44ac69-d904-83d6-8efb-018b26e4c68a.png
+- assets/robots/22e4ac69-d904-82b7-97ef-01ab48840f07.png
+- assets/robots/2424ac69-d904-8213-b6a0-819e62271864.png
+- assets/robots/24a4ac69-d904-83c8-be1f-8189fb9fdf96.jpg
+- assets/robots/2684ac69-d904-8247-8e04-01c1b77fbd96.png
+- assets/robots/29c4ac69-d904-82c1-bcee-810238d15e2a.webp
+- assets/robots/2a94ac69-d904-8245-9088-0139f81cc095.png
+- assets/robots/2a94ac69-d904-8261-972a-014499f6599d.jpg
+- assets/robots/2d54ac69-d904-8244-88a3-013d4f555389.jpg
+- assets/robots/30d4ac69-d904-829a-8cb5-817250c639ed.jpg
+- assets/robots/32f4ac69-d904-8208-83f0-01526a7e8a1d.jpg
+- assets/robots/3484ac69-d904-838b-8c8e-0177bbb2ccff.png
+- assets/robots/34a4ac69-d904-82dd-bcc4-019a48eeb8e2.png
+- assets/robots/3794ac69-d904-8257-b888-81c63114314e.png
+- assets/robots/3aa4ac69-d904-82d6-9afe-019cf543c7c5.jpg
+- assets/robots/3bc4ac69-d904-83b5-84fd-015f0109c5e2.png
+- assets/robots/3cd4ac69-d904-830d-ab6b-0193d34cac4c.jpg
+- assets/robots/4094ac69-d904-82e3-8cbb-812c64f1e3bb.webp
+- assets/robots/41d4ac69-d904-837f-9fc8-018ae34178f0.png
+- assets/robots/42e4ac69-d904-8251-8a02-010024123adf.jpg
+- assets/robots/4334ac69-d904-835a-b9b7-017f5d5f3cf8.png
+- assets/robots/4414ac69-d904-82d5-8c93-816811974c2a.jpg
+- assets/robots/46a4ac69-d904-83f1-84ba-81dd6aa51912.png
+- assets/robots/4814ac69-d904-83eb-9337-8176b484e4b8.jpg
+- assets/robots/4cd4ac69-d904-8363-9055-81fab578763c.png
+- assets/robots/50d4ac69-d904-832d-bc49-814aff859f13.jpg
+- assets/robots/5254ac69-d904-8367-b433-0129547dae86.jpg
+- assets/robots/5584ac69-d904-837d-8e46-013c886f4c54.png
+- assets/robots/5774ac69-d904-83f1-8c3a-01f4b8af32bc.jpg
+- assets/robots/5814ac69-d904-82e8-8deb-8107e0d84c3f.png
+- assets/robots/58e4ac69-d904-820d-bda0-8194fbb52403.jpg
+- assets/robots/58f4ac69-d904-83c0-9007-018fe6e68d39.png
+- assets/robots/5bd4ac69-d904-82b6-934e-81e93a71f669.jpg
+- assets/robots/5c14ac69-d904-832c-9a28-81482debba13.png
+- assets/robots/5db4ac69-d904-8256-853c-8103834dc0d7.jpg
+- assets/robots/5ea4ac69-d904-822e-a138-81a6b4e0e7ab.webp
+- assets/robots/6384ac69-d904-83ed-9c00-81b0200c53ea.png
+- assets/robots/67e4ac69-d904-8288-a88e-8122bac669d6.jpg
+- assets/robots/6d74ac69-d904-83d5-8863-816be3fa1d42.webp
+- assets/robots/7044ac69-d904-82f3-b327-0184619da656.png
+- assets/robots/7104ac69-d904-8335-937f-8184daf0e214.png
+- assets/robots/75c4ac69-d904-83ad-aeef-8128e894e9a8.png
+- assets/robots/77e4ac69-d904-83d7-8cda-810c60596a62.png
+- assets/robots/7cd4ac69-d904-835e-a435-01c19bedf3cc.png
+- assets/robots/8074ac69-d904-83c1-b291-01c9af2bf277.png
+- assets/robots/8404ac69-d904-8273-a253-81269220dc94.jpg
+- assets/robots/85b4ac69-d904-8377-b27a-01f0e7f44b30.jpg
+- assets/robots/8c94ac69-d904-8309-b0a3-81cbb7d986a2.webp
+- assets/robots/8f74ac69-d904-832f-be1f-01683d95cf32.jpg
+- assets/robots/93e4ac69-d904-834c-8e7f-8108072ba45a.png
+- assets/robots/9714ac69-d904-8279-84ed-81fd53c2fe5e.png
+- assets/robots/9734ac69-d904-824d-8992-81233dd90c25.png
+- assets/robots/9824ac69-d904-8352-a632-8195e0b24eaf.png
+- assets/robots/9b34ac69-d904-83c0-bfae-817350b89b7b.png
+- assets/robots/9dc4ac69-d904-8358-80bd-810acc297cf0.jpg
+- assets/robots/9f84ac69-d904-83f9-865e-81deebf3b065.png
+- assets/robots/a7a4ac69-d904-82c2-9ff0-815df64431be.png
+- assets/robots/a7c4ac69-d904-82a8-97f9-81b5f1f64b60.jpg
+- assets/robots/a874ac69-d904-838d-8d33-01b5f63df539.jpg
+- assets/robots/a974ac69-d904-8298-a6b3-8145814f496c.png
+- assets/robots/aa44ac69-d904-82b0-a5e0-0160e9f1f71b.png
+- assets/robots/afa4ac69-d904-827e-a05a-01b2f521e2cb.png
+- assets/robots/b084ac69-d904-82c2-9f9e-8176085a1652.png
+- assets/robots/b1e4ac69-d904-82d2-9757-8136c3ae8e07.jpg
+- assets/robots/b3d4ac69-d904-83a8-8da8-81e2f25eb755.webp
+- assets/robots/b7b4ac69-d904-820c-b52f-012f40cc2591.png
+- assets/robots/b894ac69-d904-83bc-a810-815ddf5e7211.jpg
+- assets/robots/bc44ac69-d904-82df-8d2f-818c43f2c2cf.png
+- assets/robots/bd44ac69-d904-82c9-9a0d-817fd30503f8.jpg
+- assets/robots/bdd4ac69-d904-8225-ad99-0182c5b3df12.jpg
+- assets/robots/c534ac69-d904-833d-bc28-81cd8c316373.png
+- assets/robots/cc24ac69-d904-8303-9cad-81176ba6075a.jpg
+- assets/robots/d0b4ac69-d904-8369-8212-81e55fe92f92.jpg
+- assets/robots/d144ac69-d904-8382-aa19-01fef2f1c22c.jpg
+- assets/robots/d284ac69-d904-82d5-aad2-81c1fa9f9323.jpg
+- assets/robots/d314ac69-d904-8287-94ba-8142238e3366.jpg
+- assets/robots/d6f4ac69-d904-83d5-b18d-01e9a60749ec.png
+- assets/robots/d794ac69-d904-827e-8325-81a98e4fd281.png
+- assets/robots/d844ac69-d904-8209-8443-019978ef7471.png
+- assets/robots/d924ac69-d904-8329-bd6f-01137bab230a.jpg
+- assets/robots/dab4ac69-d904-8365-a92e-0187c725512c.jpg
+- assets/robots/ddf4ac69-d904-8300-a80d-81c91b006caf.png
+- assets/robots/dec4ac69-d904-8321-9f49-01c21207f0d1.png
+- assets/robots/dfd4ac69-d904-8380-ab3b-014955bc14c7.jpg
+- assets/robots/e074ac69-d904-83b8-bc34-819a3160d639.jpg
+- assets/robots/e404ac69-d904-830f-b799-013c94e1f0f4.jpg
+- assets/robots/e524ac69-d904-82a0-930e-81ef1e69802a.png
+- assets/robots/e8c4ac69-d904-83c4-a9ad-81007c36157f.jpg
+- assets/robots/e984ac69-d904-8252-b03e-811e8b3c0b8f.jpg
+- assets/robots/ecd4ac69-d904-8281-a97b-01aa30162c5b.jpg
+- assets/robots/ed64ac69-d904-8262-b8d9-018b34155ffb.png
+- assets/robots/ee44ac69-d904-8208-80e9-81fdeadb5923.png
+- assets/robots/fca4ac69-d904-83c7-815f-01249338f86e.png
+- assets/robots/ff94ac69-d904-8346-8b96-81fc58c9c7dc.png
+- data/asset-manifest.json
+- data/notion-details.json
+- data/notion-snapshot.json
+- data/robots.json
+- dist/app.js
+- dist/assets/robots/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
+- dist/assets/robots/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
+- dist/assets/robots/0e54ac69-d904-83bb-8677-015956164bcb.webp
+- dist/assets/robots/1304ac69-d904-83f0-83f4-81e04743e085.jpg
+- dist/assets/robots/1734ac69-d904-83cb-812a-014dc6c2e2e8.png
+- dist/assets/robots/19c4ac69-d904-83ea-89c7-01c0ba2f673b.jpg
+- dist/assets/robots/1a44ac69-d904-83d6-8efb-018b26e4c68a.png
+- dist/assets/robots/22e4ac69-d904-82b7-97ef-01ab48840f07.png
+- dist/assets/robots/2424ac69-d904-8213-b6a0-819e62271864.png
+- dist/assets/robots/24a4ac69-d904-83c8-be1f-8189fb9fdf96.jpg
+- dist/assets/robots/2684ac69-d904-8247-8e04-01c1b77fbd96.png
+- dist/assets/robots/29c4ac69-d904-82c1-bcee-810238d15e2a.webp
+- dist/assets/robots/2a94ac69-d904-8245-9088-0139f81cc095.png
+- dist/assets/robots/2a94ac69-d904-8261-972a-014499f6599d.jpg
+- dist/assets/robots/2d54ac69-d904-8244-88a3-013d4f555389.jpg
+- dist/assets/robots/30d4ac69-d904-829a-8cb5-817250c639ed.jpg
+- dist/assets/robots/32f4ac69-d904-8208-83f0-01526a7e8a1d.jpg
+- dist/assets/robots/3484ac69-d904-838b-8c8e-0177bbb2ccff.png
+- dist/assets/robots/34a4ac69-d904-82dd-bcc4-019a48eeb8e2.png
+- dist/assets/robots/3794ac69-d904-8257-b888-81c63114314e.png
+- dist/assets/robots/3aa4ac69-d904-82d6-9afe-019cf543c7c5.jpg
+- dist/assets/robots/3bc4ac69-d904-83b5-84fd-015f0109c5e2.png
+- dist/assets/robots/3cd4ac69-d904-830d-ab6b-0193d34cac4c.jpg
+- dist/assets/robots/4094ac69-d904-82e3-8cbb-812c64f1e3bb.webp
+- dist/assets/robots/41d4ac69-d904-837f-9fc8-018ae34178f0.png
+- dist/assets/robots/42e4ac69-d904-8251-8a02-010024123adf.jpg
+- dist/assets/robots/4334ac69-d904-835a-b9b7-017f5d5f3cf8.png
+- dist/assets/robots/4414ac69-d904-82d5-8c93-816811974c2a.jpg
+- dist/assets/robots/46a4ac69-d904-83f1-84ba-81dd6aa51912.png
+- dist/assets/robots/4814ac69-d904-83eb-9337-8176b484e4b8.jpg
+- dist/assets/robots/4cd4ac69-d904-8363-9055-81fab578763c.png
+- dist/assets/robots/50d4ac69-d904-832d-bc49-814aff859f13.jpg
+- dist/assets/robots/5254ac69-d904-8367-b433-0129547dae86.jpg
+- dist/assets/robots/5584ac69-d904-837d-8e46-013c886f4c54.png
+- dist/assets/robots/5774ac69-d904-83f1-8c3a-01f4b8af32bc.jpg
+- dist/assets/robots/5814ac69-d904-82e8-8deb-8107e0d84c3f.png
+- dist/assets/robots/58e4ac69-d904-820d-bda0-8194fbb52403.jpg
+- dist/assets/robots/58f4ac69-d904-83c0-9007-018fe6e68d39.png
+- dist/assets/robots/5bd4ac69-d904-82b6-934e-81e93a71f669.jpg
+- dist/assets/robots/5c14ac69-d904-832c-9a28-81482debba13.png
+- dist/assets/robots/5db4ac69-d904-8256-853c-8103834dc0d7.jpg
+- dist/assets/robots/5ea4ac69-d904-822e-a138-81a6b4e0e7ab.webp
+- dist/assets/robots/6384ac69-d904-83ed-9c00-81b0200c53ea.png
+- dist/assets/robots/67e4ac69-d904-8288-a88e-8122bac669d6.jpg
+- dist/assets/robots/6d74ac69-d904-83d5-8863-816be3fa1d42.webp
+- dist/assets/robots/7044ac69-d904-82f3-b327-0184619da656.png
+- dist/assets/robots/7104ac69-d904-8335-937f-8184daf0e214.png
+- dist/assets/robots/75c4ac69-d904-83ad-aeef-8128e894e9a8.png
+- dist/assets/robots/77e4ac69-d904-83d7-8cda-810c60596a62.png
+- dist/assets/robots/7cd4ac69-d904-835e-a435-01c19bedf3cc.png
+- dist/assets/robots/8074ac69-d904-83c1-b291-01c9af2bf277.png
+- dist/assets/robots/8404ac69-d904-8273-a253-81269220dc94.jpg
+- dist/assets/robots/85b4ac69-d904-8377-b27a-01f0e7f44b30.jpg
+- dist/assets/robots/8c94ac69-d904-8309-b0a3-81cbb7d986a2.webp
+- dist/assets/robots/8f74ac69-d904-832f-be1f-01683d95cf32.jpg
+- dist/assets/robots/93e4ac69-d904-834c-8e7f-8108072ba45a.png
+- dist/assets/robots/9714ac69-d904-8279-84ed-81fd53c2fe5e.png
+- dist/assets/robots/9734ac69-d904-824d-8992-81233dd90c25.png
+- dist/assets/robots/9824ac69-d904-8352-a632-8195e0b24eaf.png
+- dist/assets/robots/9b34ac69-d904-83c0-bfae-817350b89b7b.png
+- dist/assets/robots/9dc4ac69-d904-8358-80bd-810acc297cf0.jpg
+- dist/assets/robots/9f84ac69-d904-83f9-865e-81deebf3b065.png
+- dist/assets/robots/a7a4ac69-d904-82c2-9ff0-815df64431be.png
+- dist/assets/robots/a7c4ac69-d904-82a8-97f9-81b5f1f64b60.jpg
+- dist/assets/robots/a874ac69-d904-838d-8d33-01b5f63df539.jpg
+- dist/assets/robots/a974ac69-d904-8298-a6b3-8145814f496c.png
+- dist/assets/robots/aa44ac69-d904-82b0-a5e0-0160e9f1f71b.png
+- dist/assets/robots/afa4ac69-d904-827e-a05a-01b2f521e2cb.png
+- dist/assets/robots/b084ac69-d904-82c2-9f9e-8176085a1652.png
+- dist/assets/robots/b1e4ac69-d904-82d2-9757-8136c3ae8e07.jpg
+- dist/assets/robots/b3d4ac69-d904-83a8-8da8-81e2f25eb755.webp
+- dist/assets/robots/b7b4ac69-d904-820c-b52f-012f40cc2591.png
+- dist/assets/robots/b894ac69-d904-83bc-a810-815ddf5e7211.jpg
+- dist/assets/robots/bc44ac69-d904-82df-8d2f-818c43f2c2cf.png
+- dist/assets/robots/bd44ac69-d904-82c9-9a0d-817fd30503f8.jpg
+- dist/assets/robots/bdd4ac69-d904-8225-ad99-0182c5b3df12.jpg
+- dist/assets/robots/c534ac69-d904-833d-bc28-81cd8c316373.png
+- dist/assets/robots/cc24ac69-d904-8303-9cad-81176ba6075a.jpg
+- dist/assets/robots/d0b4ac69-d904-8369-8212-81e55fe92f92.jpg
+- dist/assets/robots/d144ac69-d904-8382-aa19-01fef2f1c22c.jpg
+- dist/assets/robots/d284ac69-d904-82d5-aad2-81c1fa9f9323.jpg
+- dist/assets/robots/d314ac69-d904-8287-94ba-8142238e3366.jpg
+- dist/assets/robots/d6f4ac69-d904-83d5-b18d-01e9a60749ec.png
+- dist/assets/robots/d794ac69-d904-827e-8325-81a98e4fd281.png
+- dist/assets/robots/d844ac69-d904-8209-8443-019978ef7471.png
+- dist/assets/robots/d924ac69-d904-8329-bd6f-01137bab230a.jpg
+- dist/assets/robots/dab4ac69-d904-8365-a92e-0187c725512c.jpg
+- dist/assets/robots/ddf4ac69-d904-8300-a80d-81c91b006caf.png
+- dist/assets/robots/dec4ac69-d904-8321-9f49-01c21207f0d1.png
+- dist/assets/robots/dfd4ac69-d904-8380-ab3b-014955bc14c7.jpg
+- dist/assets/robots/e074ac69-d904-83b8-bc34-819a3160d639.jpg
+- dist/assets/robots/e404ac69-d904-830f-b799-013c94e1f0f4.jpg
+- dist/assets/robots/e524ac69-d904-82a0-930e-81ef1e69802a.png
+- dist/assets/robots/e8c4ac69-d904-83c4-a9ad-81007c36157f.jpg
+- dist/assets/robots/e984ac69-d904-8252-b03e-811e8b3c0b8f.jpg
+- dist/assets/robots/ecd4ac69-d904-8281-a97b-01aa30162c5b.jpg
+- dist/assets/robots/ed64ac69-d904-8262-b8d9-018b34155ffb.png
+- dist/assets/robots/ee44ac69-d904-8208-80e9-81fdeadb5923.png
+- dist/assets/robots/fca4ac69-d904-83c7-815f-01249338f86e.png
+- dist/assets/robots/ff94ac69-d904-8346-8b96-81fc58c9c7dc.png
+- dist/index.html
+- dist/robots.js
+- dist/style.css
+- dist/wiki.html
+- docs/MILESTONES.md
+- docs/QA.md
+- docs/RESEARCH.md
+- docs/claude/session-observed.txt
+- docs/reference/README.md
+- docs/reference/request-context-1.png
+- docs/reference/request-context-2.png
+- docs/screenshots/benchmark-allegro.png
+- docs/screenshots/benchmark-ieee.png
+- docs/screenshots/benchmark-leap.png
+- docs/screenshots/benchmark-robo2u.png
+- docs/screenshots/benchmark-shadow.png
+- docs/screenshots/comparison.png
+- docs/screenshots/detail.png
+- docs/screenshots/graphical-desktop.png
+- docs/screenshots/graphical-final.png
+- docs/screenshots/wiki-desktop.png
+- obsidian/HANDS-LAB/.obsidian/app.json
+- obsidian/HANDS-LAB/.obsidian/graph.json
+- obsidian/HANDS-LAB/Attachments/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png
+- obsidian/HANDS-LAB/Attachments/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp
+- obsidian/HANDS-LAB/Attachments/0e54ac69-d904-83bb-8677-015956164bcb.webp
+- obsidian/HANDS-LAB/Attachments/1304ac69-d904-83f0-83f4-81e04743e085.jpg
+- obsidian/HANDS-LAB/Attachments/1734ac69-d904-83cb-812a-014dc6c2e2e8.png
+- obsidian/HANDS-LAB/Attachments/19c4ac69-d904-83ea-89c7-01c0ba2f673b.jpg
+- obsidian/HANDS-LAB/Attachments/1a44ac69-d904-83d6-8efb-018b26e4c68a.png
+- obsidian/HANDS-LAB/Attachments/22e4ac69-d904-82b7-97ef-01ab48840f07.png
+- obsidian/HANDS-LAB/Attachments/2424ac69-d904-8213-b6a0-819e62271864.png
+- obsidian/HANDS-LAB/Attachments/24a4ac69-d904-83c8-be1f-8189fb9fdf96.jpg
+- obsidian/HANDS-LAB/Attachments/2684ac69-d904-8247-8e04-01c1b77fbd96.png
+- obsidian/HANDS-LAB/Attachments/29c4ac69-d904-82c1-bcee-810238d15e2a.webp
+- obsidian/HANDS-LAB/Attachments/2a94ac69-d904-8245-9088-0139f81cc095.png
+- obsidian/HANDS-LAB/Attachments/2a94ac69-d904-8261-972a-014499f6599d.jpg
+- obsidian/HANDS-LAB/Attachments/2d54ac69-d904-8244-88a3-013d4f555389.jpg
+- obsidian/HANDS-LAB/Attachments/30d4ac69-d904-829a-8cb5-817250c639ed.jpg
+- obsidian/HANDS-LAB/Attachments/32f4ac69-d904-8208-83f0-01526a7e8a1d.jpg
+- obsidian/HANDS-LAB/Attachments/3484ac69-d904-838b-8c8e-0177bbb2ccff.png
+- obsidian/HANDS-LAB/Attachments/34a4ac69-d904-82dd-bcc4-019a48eeb8e2.png
+- obsidian/HANDS-LAB/Attachments/3794ac69-d904-8257-b888-81c63114314e.png
+- obsidian/HANDS-LAB/Attachments/3aa4ac69-d904-82d6-9afe-019cf543c7c5.jpg
+- obsidian/HANDS-LAB/Attachments/3bc4ac69-d904-83b5-84fd-015f0109c5e2.png
+- obsidian/HANDS-LAB/Attachments/3cd4ac69-d904-830d-ab6b-0193d34cac4c.jpg
+- obsidian/HANDS-LAB/Attachments/4094ac69-d904-82e3-8cbb-812c64f1e3bb.webp
+- obsidian/HANDS-LAB/Attachments/41d4ac69-d904-837f-9fc8-018ae34178f0.png
+- obsidian/HANDS-LAB/Attachments/42e4ac69-d904-8251-8a02-010024123adf.jpg
+- obsidian/HANDS-LAB/Attachments/4334ac69-d904-835a-b9b7-017f5d5f3cf8.png
+- obsidian/HANDS-LAB/Attachments/4414ac69-d904-82d5-8c93-816811974c2a.jpg
+- obsidian/HANDS-LAB/Attachments/46a4ac69-d904-83f1-84ba-81dd6aa51912.png
+- obsidian/HANDS-LAB/Attachments/4814ac69-d904-83eb-9337-8176b484e4b8.jpg
+- obsidian/HANDS-LAB/Attachments/4cd4ac69-d904-8363-9055-81fab578763c.png
+- obsidian/HANDS-LAB/Attachments/50d4ac69-d904-832d-bc49-814aff859f13.jpg
+- obsidian/HANDS-LAB/Attachments/5254ac69-d904-8367-b433-0129547dae86.jpg
+- obsidian/HANDS-LAB/Attachments/5584ac69-d904-837d-8e46-013c886f4c54.png
+- obsidian/HANDS-LAB/Attachments/5774ac69-d904-83f1-8c3a-01f4b8af32bc.jpg
+- obsidian/HANDS-LAB/Attachments/5814ac69-d904-82e8-8deb-8107e0d84c3f.png
+- obsidian/HANDS-LAB/Attachments/58e4ac69-d904-820d-bda0-8194fbb52403.jpg
+- obsidian/HANDS-LAB/Attachments/58f4ac69-d904-83c0-9007-018fe6e68d39.png
+- obsidian/HANDS-LAB/Attachments/5bd4ac69-d904-82b6-934e-81e93a71f669.jpg
+- obsidian/HANDS-LAB/Attachments/5c14ac69-d904-832c-9a28-81482debba13.png
+- obsidian/HANDS-LAB/Attachments/5db4ac69-d904-8256-853c-8103834dc0d7.jpg
+- obsidian/HANDS-LAB/Attachments/5ea4ac69-d904-822e-a138-81a6b4e0e7ab.webp
+- obsidian/HANDS-LAB/Attachments/6384ac69-d904-83ed-9c00-81b0200c53ea.png
+- obsidian/HANDS-LAB/Attachments/67e4ac69-d904-8288-a88e-8122bac669d6.jpg
+- obsidian/HANDS-LAB/Attachments/6d74ac69-d904-83d5-8863-816be3fa1d42.webp
+- obsidian/HANDS-LAB/Attachments/7044ac69-d904-82f3-b327-0184619da656.png
+- obsidian/HANDS-LAB/Attachments/7104ac69-d904-8335-937f-8184daf0e214.png
+- obsidian/HANDS-LAB/Attachments/75c4ac69-d904-83ad-aeef-8128e894e9a8.png
+- obsidian/HANDS-LAB/Attachments/77e4ac69-d904-83d7-8cda-810c60596a62.png
+- obsidian/HANDS-LAB/Attachments/7cd4ac69-d904-835e-a435-01c19bedf3cc.png
+- obsidian/HANDS-LAB/Attachments/8074ac69-d904-83c1-b291-01c9af2bf277.png
+- obsidian/HANDS-LAB/Attachments/8404ac69-d904-8273-a253-81269220dc94.jpg
+- obsidian/HANDS-LAB/Attachments/85b4ac69-d904-8377-b27a-01f0e7f44b30.jpg
+- obsidian/HANDS-LAB/Attachments/8c94ac69-d904-8309-b0a3-81cbb7d986a2.webp
+- obsidian/HANDS-LAB/Attachments/8f74ac69-d904-832f-be1f-01683d95cf32.jpg
+- obsidian/HANDS-LAB/Attachments/93e4ac69-d904-834c-8e7f-8108072ba45a.png
+- obsidian/HANDS-LAB/Attachments/9714ac69-d904-8279-84ed-81fd53c2fe5e.png
+- obsidian/HANDS-LAB/Attachments/9734ac69-d904-824d-8992-81233dd90c25.png
+- obsidian/HANDS-LAB/Attachments/9824ac69-d904-8352-a632-8195e0b24eaf.png
+- obsidian/HANDS-LAB/Attachments/9b34ac69-d904-83c0-bfae-817350b89b7b.png
+- obsidian/HANDS-LAB/Attachments/9dc4ac69-d904-8358-80bd-810acc297cf0.jpg
+- obsidian/HANDS-LAB/Attachments/9f84ac69-d904-83f9-865e-81deebf3b065.png
+- obsidian/HANDS-LAB/Attachments/a7a4ac69-d904-82c2-9ff0-815df64431be.png
+- obsidian/HANDS-LAB/Attachments/a7c4ac69-d904-82a8-97f9-81b5f1f64b60.jpg
+- obsidian/HANDS-LAB/Attachments/a874ac69-d904-838d-8d33-01b5f63df539.jpg
+- obsidian/HANDS-LAB/Attachments/a974ac69-d904-8298-a6b3-8145814f496c.png
+- obsidian/HANDS-LAB/Attachments/aa44ac69-d904-82b0-a5e0-0160e9f1f71b.png
+- obsidian/HANDS-LAB/Attachments/afa4ac69-d904-827e-a05a-01b2f521e2cb.png
+- obsidian/HANDS-LAB/Attachments/b084ac69-d904-82c2-9f9e-8176085a1652.png
+- obsidian/HANDS-LAB/Attachments/b1e4ac69-d904-82d2-9757-8136c3ae8e07.jpg
+- obsidian/HANDS-LAB/Attachments/b3d4ac69-d904-83a8-8da8-81e2f25eb755.webp
+- obsidian/HANDS-LAB/Attachments/b7b4ac69-d904-820c-b52f-012f40cc2591.png
+- obsidian/HANDS-LAB/Attachments/b894ac69-d904-83bc-a810-815ddf5e7211.jpg
+- obsidian/HANDS-LAB/Attachments/bc44ac69-d904-82df-8d2f-818c43f2c2cf.png
+- obsidian/HANDS-LAB/Attachments/bd44ac69-d904-82c9-9a0d-817fd30503f8.jpg
+- obsidian/HANDS-LAB/Attachments/bdd4ac69-d904-8225-ad99-0182c5b3df12.jpg
+- obsidian/HANDS-LAB/Attachments/c534ac69-d904-833d-bc28-81cd8c316373.png
+- obsidian/HANDS-LAB/Attachments/cc24ac69-d904-8303-9cad-81176ba6075a.jpg
+- obsidian/HANDS-LAB/Attachments/d0b4ac69-d904-8369-8212-81e55fe92f92.jpg
+- obsidian/HANDS-LAB/Attachments/d144ac69-d904-8382-aa19-01fef2f1c22c.jpg
+- obsidian/HANDS-LAB/Attachments/d284ac69-d904-82d5-aad2-81c1fa9f9323.jpg
+- obsidian/HANDS-LAB/Attachments/d314ac69-d904-8287-94ba-8142238e3366.jpg
+- obsidian/HANDS-LAB/Attachments/d6f4ac69-d904-83d5-b18d-01e9a60749ec.png
+- obsidian/HANDS-LAB/Attachments/d794ac69-d904-827e-8325-81a98e4fd281.png
+- obsidian/HANDS-LAB/Attachments/d844ac69-d904-8209-8443-019978ef7471.png
+- obsidian/HANDS-LAB/Attachments/d924ac69-d904-8329-bd6f-01137bab230a.jpg
+- obsidian/HANDS-LAB/Attachments/dab4ac69-d904-8365-a92e-0187c725512c.jpg
+- obsidian/HANDS-LAB/Attachments/ddf4ac69-d904-8300-a80d-81c91b006caf.png
+- obsidian/HANDS-LAB/Attachments/dec4ac69-d904-8321-9f49-01c21207f0d1.png
+- obsidian/HANDS-LAB/Attachments/dfd4ac69-d904-8380-ab3b-014955bc14c7.jpg
+- obsidian/HANDS-LAB/Attachments/e074ac69-d904-83b8-bc34-819a3160d639.jpg
+- obsidian/HANDS-LAB/Attachments/e404ac69-d904-830f-b799-013c94e1f0f4.jpg
+- obsidian/HANDS-LAB/Attachments/e524ac69-d904-82a0-930e-81ef1e69802a.png
+- obsidian/HANDS-LAB/Attachments/e8c4ac69-d904-83c4-a9ad-81007c36157f.jpg
+- obsidian/HANDS-LAB/Attachments/e984ac69-d904-8252-b03e-811e8b3c0b8f.jpg
+- obsidian/HANDS-LAB/Attachments/ecd4ac69-d904-8281-a97b-01aa30162c5b.jpg
+- obsidian/HANDS-LAB/Attachments/ed64ac69-d904-8262-b8d9-018b34155ffb.png
+- obsidian/HANDS-LAB/Attachments/ee44ac69-d904-8208-80e9-81fdeadb5923.png
+- obsidian/HANDS-LAB/Attachments/fca4ac69-d904-83c7-815f-01249338f86e.png
+- obsidian/HANDS-LAB/Attachments/ff94ac69-d904-8346-8b96-81fc58c9c7dc.png
+- obsidian/HANDS-LAB/Categories/3지형 로봇핸드.md
+- obsidian/HANDS-LAB/Categories/로봇핸드.md
+- obsidian/HANDS-LAB/Categories/비교용 그리퍼.md
+- obsidian/HANDS-LAB/Countries/대한민국.md
+- obsidian/HANDS-LAB/Countries/덴마크.md
+- obsidian/HANDS-LAB/Countries/독일.md
+- obsidian/HANDS-LAB/Countries/미국.md
+- obsidian/HANDS-LAB/Countries/스웨덴.md
+- obsidian/HANDS-LAB/Countries/스위스.md
+- obsidian/HANDS-LAB/Countries/스페인.md
+- obsidian/HANDS-LAB/Countries/싱가포르.md
+- obsidian/HANDS-LAB/Countries/영국.md
+- obsidian/HANDS-LAB/Countries/이탈리아.md
+- obsidian/HANDS-LAB/Countries/일본.md
+- obsidian/HANDS-LAB/Countries/중국.md
+- obsidian/HANDS-LAB/Countries/캐나다.md
+- obsidian/HANDS-LAB/Countries/포르투갈.md
+- obsidian/HANDS-LAB/HOME.md
+- obsidian/HANDS-LAB/Indexes/All Models.md
+- obsidian/HANDS-LAB/Indexes/Categories.md
+- obsidian/HANDS-LAB/Indexes/Countries.md
+- obsidian/HANDS-LAB/Indexes/Manufacturers.md
+- obsidian/HANDS-LAB/Manufacturers/AGIBOT.md
+- obsidian/HANDS-LAB/Manufacturers/Agile Robots SE.md
+- obsidian/HANDS-LAB/Manufacturers/Barrett Technology.md
+- obsidian/HANDS-LAB/Manufacturers/BrainCo.md
+- obsidian/HANDS-LAB/Manufacturers/COVVI Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Carnegie Mellon University.md
+- obsidian/HANDS-LAB/Manufacturers/ChangingTek.md
+- obsidian/HANDS-LAB/Manufacturers/Chestnut Robotics (구 TetherIA).md
+- obsidian/HANDS-LAB/Manufacturers/Curious Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/DH-Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/DLR - Harbin Institute of Technology.md
+- obsidian/HANDS-LAB/Manufacturers/DLR - 하얼빈공업대.md
+- obsidian/HANDS-LAB/Manufacturers/DLR.md
+- obsidian/HANDS-LAB/Manufacturers/DexRobot (덱스로봇).md
+- obsidian/HANDS-LAB/Manufacturers/DexRobot.md
+- obsidian/HANDS-LAB/Manufacturers/Double Giken (더블기켄·ダブル技研).md
+- obsidian/HANDS-LAB/Manufacturers/Double Giken.md
+- obsidian/HANDS-LAB/Manufacturers/Elephant Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Festo.md
+- obsidian/HANDS-LAB/Manufacturers/FutureTakt.md
+- obsidian/HANDS-LAB/Manufacturers/HITBOT.md
+- obsidian/HANDS-LAB/Manufacturers/Hiwonder.md
+- obsidian/HANDS-LAB/Manufacturers/INSPIRE ROBOTS.md
+- obsidian/HANDS-LAB/Manufacturers/JODELL Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Joyson Electronics.md
+- obsidian/HANDS-LAB/Manufacturers/Leadshine 그룹.md
+- obsidian/HANDS-LAB/Manufacturers/Leadshine.md
+- obsidian/HANDS-LAB/Manufacturers/Linkerbot (링커봇).md
+- obsidian/HANDS-LAB/Manufacturers/Linkerbot.md
+- obsidian/HANDS-LAB/Manufacturers/Mand.ro.md
+- obsidian/HANDS-LAB/Manufacturers/ORCA Dexterity - ETH Zürich.md
+- obsidian/HANDS-LAB/Manufacturers/ORCA Dexterity.md
+- obsidian/HANDS-LAB/Manufacturers/OYMotion Technologi-es.md
+- obsidian/HANDS-LAB/Manufacturers/OYMotion.md
+- obsidian/HANDS-LAB/Manufacturers/OnRobot.md
+- obsidian/HANDS-LAB/Manufacturers/PAL Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/PaXini AI.md
+- obsidian/HANDS-LAB/Manufacturers/PaXini.md
+- obsidian/HANDS-LAB/Manufacturers/Piab.md
+- obsidian/HANDS-LAB/Manufacturers/Prensilia.md
+- obsidian/HANDS-LAB/Manufacturers/ROBOTERA (로보테라·星动纪元).md
+- obsidian/HANDS-LAB/Manufacturers/ROBOTIS.md
+- obsidian/HANDS-LAB/Manufacturers/Robotiq.md
+- obsidian/HANDS-LAB/Manufacturers/SCHUNK.md
+- obsidian/HANDS-LAB/Manufacturers/SMC.md
+- obsidian/HANDS-LAB/Manufacturers/Sandia National Laboratories.md
+- obsidian/HANDS-LAB/Manufacturers/Sarcomere Dynamics.md
+- obsidian/HANDS-LAB/Manufacturers/Schmalz.md
+- obsidian/HANDS-LAB/Manufacturers/Seed Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Shadow Robot Company.md
+- obsidian/HANDS-LAB/Manufacturers/Sharpa.md
+- obsidian/HANDS-LAB/Manufacturers/Shenzhen FRD.md
+- obsidian/HANDS-LAB/Manufacturers/Unitree Robotics (유니트리).md
+- obsidian/HANDS-LAB/Manufacturers/Unitree Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Weiss Robotics.md
+- obsidian/HANDS-LAB/Manufacturers/Wuji Technology (우지테크놀로지).md
+- obsidian/HANDS-LAB/Manufacturers/Wuji Technology.md
+- obsidian/HANDS-LAB/Manufacturers/qbrobotics.md
+- obsidian/HANDS-LAB/Manufacturers/기후대학교.md
+- obsidian/HANDS-LAB/Manufacturers/로보티즈 (ROBOTIS).md
+- obsidian/HANDS-LAB/Manufacturers/에이딘로보틱스 (AIDIN Robotics).md
+- obsidian/HANDS-LAB/Manufacturers/에이딘로보틱스.md
+- obsidian/HANDS-LAB/Manufacturers/원익로보틱스 (Wonik Robotics).md
+- obsidian/HANDS-LAB/Manufacturers/원익로보틱스.md
+- obsidian/HANDS-LAB/Manufacturers/테솔로 (TESOLLO).md
+- obsidian/HANDS-LAB/Models/2F-85-75c4ac69.md
+- obsidian/HANDS-LAB/Models/3FG25-9f84ac69.md
+- obsidian/HANDS-LAB/Models/ADH-5-6-P1-5814ac69.md
+- obsidian/HANDS-LAB/Models/AIDIN Hand Gen2-58e4ac69.md
+- obsidian/HANDS-LAB/Models/AIDIN-Hand (기존형)-ff94ac69.md
+- obsidian/HANDS-LAB/Models/ARTUS Lite-0074ac69.md
+- obsidian/HANDS-LAB/Models/Aero Hand Open-77e4ac69.md
+- obsidian/HANDS-LAB/Models/Aero Hand-07f4ac69.md
+- obsidian/HANDS-LAB/Models/Agile Hand-2424ac69.md
+- obsidian/HANDS-LAB/Models/Allegro Hand V4-85b4ac69.md
+- obsidian/HANDS-LAB/Models/Allegro Hand V5 Plus-ddf4ac69.md
+- obsidian/HANDS-LAB/Models/Allegro Hand V6 F-dec4ac69.md
+- obsidian/HANDS-LAB/Models/Allegro Hand V6 V-ee44ac69.md
+- obsidian/HANDS-LAB/Models/BarrettHand BH8-282-cc24ac69.md
+- obsidian/HANDS-LAB/Models/BionicSoftHand-32f4ac69.md
+- obsidian/HANDS-LAB/Models/CDH-MO-5-16-E0-dab4ac69.md
+- obsidian/HANDS-LAB/Models/COVVI Robotic Hand-bdd4ac69.md
+- obsidian/HANDS-LAB/Models/CR Hand-3cd4ac69.md
+- obsidian/HANDS-LAB/Models/CTDH4F08D-3794ac69.md
+- obsidian/HANDS-LAB/Models/CTMG3F60-7cd4ac69.md
+- obsidian/HANDS-LAB/Models/D-Hand 5MT＋-b084ac69.md
+- obsidian/HANDS-LAB/Models/D-Hand 5PT-e8c4ac69.md
+- obsidian/HANDS-LAB/Models/D-Hand 5ST-b7b4ac69.md
+- obsidian/HANDS-LAB/Models/DG-4F-0e54ac69.md
+- obsidian/HANDS-LAB/Models/DG-5F-M-5ea4ac69.md
+- obsidian/HANDS-LAB/Models/DG-5F-S-4094ac69.md
+- obsidian/HANDS-LAB/Models/DH-5-6-42e4ac69.md
+- obsidian/HANDS-LAB/Models/DH116-L1-8074ac69.md
+- obsidian/HANDS-LAB/Models/DH116-R1-M-e984ac69.md
+- obsidian/HANDS-LAB/Models/DHEB-22-E-U-S-L-3aa4ac69.md
+- obsidian/HANDS-LAB/Models/DHEF-20-A-e074ac69.md
+- obsidian/HANDS-LAB/Models/DLR Hand II-5774ac69.md
+- obsidian/HANDS-LAB/Models/DLR-HIT Hand I (SCHUNK SAH)-d0b4ac69.md
+- obsidian/HANDS-LAB/Models/DLR-HIT Hand II-67e4ac69.md
+- obsidian/HANDS-LAB/Models/Dex2-5-2d54ac69.md
+- obsidian/HANDS-LAB/Models/Dex3-1 (촉각형)-4334ac69.md
+- obsidian/HANDS-LAB/Models/Dex5-1-5254ac69.md
+- obsidian/HANDS-LAB/Models/Dex5-S-afa4ac69.md
+- obsidian/HANDS-LAB/Models/DexH13 Gen2-41d4ac69.md
+- obsidian/HANDS-LAB/Models/DexHand021 (Mass Production)-c534ac69.md
+- obsidian/HANDS-LAB/Models/DexHand021 Pro-8f74ac69.md
+- obsidian/HANDS-LAB/Models/FTHand-12-d924ac69.md
+- obsidian/HANDS-LAB/Models/FTHand-21-8404ac69.md
+- obsidian/HANDS-LAB/Models/Gecko SP5-1734ac69.md
+- obsidian/HANDS-LAB/Models/Gifu Hand III-9714ac69.md
+- obsidian/HANDS-LAB/Models/HX5-D20-MRT-58f4ac69.md
+- obsidian/HANDS-LAB/Models/Hey5-d794ac69.md
+- obsidian/HANDS-LAB/Models/IH2 Azzurra-e404ac69.md
+- obsidian/HANDS-LAB/Models/LEAP Hand v1-2a94ac69.md
+- obsidian/HANDS-LAB/Models/LEAP Hand v2 Standard-e524ac69.md
+- obsidian/HANDS-LAB/Models/Linker Hand L10-d284ac69.md
+- obsidian/HANDS-LAB/Models/Linker Hand L20-34a4ac69.md
+- obsidian/HANDS-LAB/Models/Linker Hand L30 Pro-bc44ac69.md
+- obsidian/HANDS-LAB/Models/Linker Hand O30-aa44ac69.md
+- obsidian/HANDS-LAB/Models/Linker Hand O6-d844ac69.md
+- obsidian/HANDS-LAB/Models/MG10-9b34ac69.md
+- obsidian/HANDS-LAB/Models/MHT2-32DZ-9dc4ac69.md
+- obsidian/HANDS-LAB/Models/Mark 7-3bc4ac69.md
+- obsidian/HANDS-LAB/Models/Mia Hand R&D-30d4ac69.md
+- obsidian/HANDS-LAB/Models/OmniHand 3-3484ac69.md
+- obsidian/HANDS-LAB/Models/OmniHand Pro 2025 (O12)-5c14ac69.md
+- obsidian/HANDS-LAB/Models/PGN-plus-P 380-2-29c4ac69.md
+- obsidian/HANDS-LAB/Models/PXDex III-5584ac69.md
+- obsidian/HANDS-LAB/Models/RH-P12-RN-9824ac69.md
+- obsidian/HANDS-LAB/Models/RH56BFX-bd44ac69.md
+- obsidian/HANDS-LAB/Models/RH56DFX-b894ac69.md
+- obsidian/HANDS-LAB/Models/RH56E2-46a4ac69.md
+- obsidian/HANDS-LAB/Models/RH56F2-7104ac69.md
+- obsidian/HANDS-LAB/Models/RH56H1-7044ac69.md
+- obsidian/HANDS-LAB/Models/RH5DG2-a874ac69.md
+- obsidian/HANDS-LAB/Models/RH6D-a7a4ac69.md
+- obsidian/HANDS-LAB/Models/RH8D-4cd4ac69.md
+- obsidian/HANDS-LAB/Models/ROH-A002-6384ac69.md
+- obsidian/HANDS-LAB/Models/ROH-AP002-2684ac69.md
+- obsidian/HANDS-LAB/Models/ROH-AP003-9734ac69.md
+- obsidian/HANDS-LAB/Models/Revo 2 Basic-4414ac69.md
+- obsidian/HANDS-LAB/Models/Revo 3 Basic-a974ac69.md
+- obsidian/HANDS-LAB/Models/SNG-V 6 1.5 V-HP-25-4814ac69.md
+- obsidian/HANDS-LAB/Models/SVH-b1e4ac69.md
+- obsidian/HANDS-LAB/Models/Sandia Hand-d6f4ac69.md
+- obsidian/HANDS-LAB/Models/Shadow Dexterous Hand Lite-1304ac69.md
+- obsidian/HANDS-LAB/Models/Shadow Hand Plus (수신 견적명)-2a94ac69.md
+- obsidian/HANDS-LAB/Models/Sharpa Wave W01 SE-19c4ac69.md
+- obsidian/HANDS-LAB/Models/Sharpa Wave W01-50d4ac69.md
+- obsidian/HANDS-LAB/Models/TeleHand Pro P20-6d74ac69.md
+- obsidian/HANDS-LAB/Models/VGP30-22e4ac69.md
+- obsidian/HANDS-LAB/Models/WSG 50-110-dfd4ac69.md
+- obsidian/HANDS-LAB/Models/Wuji Hand 2-8c94ac69.md
+- obsidian/HANDS-LAB/Models/Wuji Hand v1-b3d4ac69.md
+- obsidian/HANDS-LAB/Models/XHAND 1-d314ac69.md
+- obsidian/HANDS-LAB/Models/Xiaoyao Dexterous Hand-ed64ac69.md
+- obsidian/HANDS-LAB/Models/eHand-6-93e4ac69.md
+- obsidian/HANDS-LAB/Models/myGripper H100-24a4ac69.md
+- obsidian/HANDS-LAB/Models/orcahand Lite-fca4ac69.md
+- obsidian/HANDS-LAB/Models/orcahand Touch-1a44ac69.md
+- obsidian/HANDS-LAB/Models/piSOFTGRIP 100-4-d144ac69.md
+- obsidian/HANDS-LAB/Models/qb SoftHand Industry-5bd4ac69.md
+- obsidian/HANDS-LAB/Models/qb SoftHand Research-5db4ac69.md
+- obsidian/HANDS-LAB/Models/qb SoftHand2 Research-a7c4ac69.md
+- obsidian/HANDS-LAB/Models/uHand-ecd4ac69.md
+- obsidian/HANDS-LAB/Research/데이터 기준.md
+- obsidian/HANDS-LAB/Research/마일스톤.md
+- obsidian/HANDS-LAB/Research/벤치마크.md
+- output/pdf/HANDS-LAB-Research-and-Build-Report.pdf
+- package.json
+- scripts/build-data.py
+- scripts/build-report.py
+- scripts/build-vault.py
+- scripts/download-assets.py
+- tests/data.test.cjs

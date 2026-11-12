@@ -7,7 +7,7 @@ models=[]
 for r in rows:
  if not r.get('모델명'):continue
  price=r.get('가격') or '정보 없음'
- kind='견적 문의' if '문의' in price else '추정 예산' if re.search('추정|임시|예산',price) else '수신 견적' if '견적' in price else '자작 부품비' if re.search('부품비|자가조립|자작',price) else '미확인' if price=='정보 없음' else '공개가·원문 확인'
+ kind='견적 문의' if '문의' in price else '추정 예산' if re.search('추정|임시|예산',price) else '수신 견적' if '견적' in price else '자작 부품비' if re.search('부품비|자가조립|자가제작|재료비|자작',price) else '미확인' if price=='정보 없음' else '공개가·원문 확인'
  country=(r.get('본사국가위치') or '미확인').split('·')[0]
  if country.startswith('중국'): country='중국'
  if country=='한국': country='대한민국'

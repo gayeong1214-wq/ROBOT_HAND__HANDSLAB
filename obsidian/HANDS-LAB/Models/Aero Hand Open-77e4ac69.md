@@ -5,7 +5,7 @@ maker: "Chestnut Robotics (구 TetherIA)"
 country: "미국"
 category: "로봇핸드"
 fingers: "5"
-priceKind: "공개가·원문 확인"
+priceKind: "자작 부품비"
 collected: "2026-11-12"
 tags: [robot-hand, notion-import]
 ---
@@ -22,7 +22,7 @@ tags: [robot-hand, notion-import]
 ## 가격 및 근거
 약 1,000,000원 (자가제작 재료비·60~120만원)
 
-분류: 공개가·원문 확인
+분류: 자작 부품비
 
 ## 검토 메모
 완제품 판매가가 아닌 자가제작 재료비 추정이며 인건비 제외. 과거 공식 키트 US$314는 현재 조립 완제품 가격 아님. 현재 연구 협력용 안내, 구 쇼핑몰 $0은 무료 가격이 아닌 표시값.

@@ -47,6 +47,7 @@ Dexhands는 본문 요청이 시간 초과됐고 ORCA는 읽을 수 있는 본�
 
 ### 6. ROS 2 Documentation
 주소: https://docs.ros.org/en/rolling/
+접근 한계: 현행 페이지는 자동 열람 거부로 직접 확인하지 못했다. 아래 구조 평가는 공식 ROSCon 발표 자료의 문서 화면 및 공식 저장소의 문서 링크를 근거로 한 보조 벤치마크다. https://roscon.ros.org/2023/talks/Releasing_a_new_ROS_2_distribution.pdf ; https://github.com/ros2/ros2/blob/rolling/README.md
 관찰: 튜토리얼, 사용 안내, 개념, 참고 자료를 구분한 기술 문서 구조를 제공한다.
 장점: 반복 방문하는 연구자가 필요한 문서로 바로 접근하기 좋다.
 단점: 제품 사진과 시장 탐색에 최적화된 카탈로그는 아니다. 버전별 차이도 확인해야 한다.
