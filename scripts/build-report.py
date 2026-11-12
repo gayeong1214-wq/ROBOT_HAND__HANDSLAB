@@ -101,7 +101,7 @@ add('전체 파일명은 docs/FILE_INDEX.md에 기록합니다. 최종 보고서
 page('실행·유지보수·출처','14 / HANDOFF')
 add('로컬에서 바로 보기','h2');add('dist/index.html 또는 dist/wiki.html을 브라우저로 엽니다. 또는 저장소 폴더에서 python -m http.server 4173 --directory dist 를 실행하고 http://localhost:4173 에 접속합니다. 서버 없이도 robots.js를 읽으므로 데이터 탐색이 가능합니다.')
 add('다시 생성하기','h2');add('python scripts/build-data.py\npython scripts/build-vault.py\nnode --test tests/data.test.cjs\nPDF는 reportlab과 맑은 고딕 글꼴이 있는 Python에서 scripts/build-report.py를 실행합니다.')
-add('저장과 공유','h2');add('사용자 선택에 따라 GitHub와 로컬 파일만 전달합니다. 별도 Sites 서버에는 배포하지 않습니다. GitHub 업로드 결과는 docs/DELIVERY.md와 최종 응답에 기록합니다. 로컬 단계 커밋은 모두 보존됩니다.')
+add('저장과 공유','h2');add('사용자 선택에 따라 GitHub와 로컬 파일만 전달합니다. 별도 Sites 서버에는 배포하지 않습니다. GitHub main 브랜치에 전체 소스와 단계별 커밋을 업로드했습니다. 결과는 docs/DELIVERY.md와 최종 응답에 기록합니다. 로컬 단계 커밋도 모두 보존됩니다.')
 add('이미지 출처','h2');add('제품 사진 99개는 지정 노션 이미지 링크에서 수집했습니다. Sandia 원본 링크는 시간 초과되어 공식 연구소 사진으로 대체했습니다. 모델별 출처는 data/robots.json, 대체 기록은 data/asset-manifest.json에 있습니다. 벤치마크 화면은 조사 증거로 구분합니다. 사진·로고·화면의 권리는 원 권리자에게 있습니다.')
 add('Sandia 대체 사진 원문: https://www.sandia.gov/research/sandia-hand/\n노션: https://app.notion.com/p/45d4ac69d9048317a52181ba377f4b32','small')
 for start in range(0,100,20):
