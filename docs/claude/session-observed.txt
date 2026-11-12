@@ -1,0 +1,7 @@
+Claude conversation: https://claude.ai/chat/f64174dc-bbc3-401a-9598-65c9561487da
+Observed completed response, 2026-11-12.
+Requested: white/blue HTML CSS JS, cards and wiki, search, filters, 3-model comparison, separate price evidence and preserve DoF/joint distinction.
+Claude generated index.html and hands.json with two explicitly fictional samples. It reported syntax/JSON validation, no browser validation.
+Adopted guidance: difference markers in comparison, accessible live result counts, safe http(s) links, model deep links, photo catalog plus dense wiki.
+Final production implementation was adapted and rewritten locally for the actual 100 Notion records. Fictional examples are not included. Raw generated files could not be downloaded through the current browser control; this file is an observation summary, not the original code.
+Rejected: automatic underactuation inference and mixed-currency price sorting, because source data lacks consistently normalized measurements.

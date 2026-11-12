@@ -91,8 +91,9 @@
   },
   {
     "id": "30d4ac69-d904-829a-8cb5-817250c639ed",
-    "status": "failed",
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+    "status": "downloaded",
+    "file": "assets/robots/30d4ac69-d904-829a-8cb5-817250c639ed.jpg",
+    "bytes": 71198
   },
   {
     "id": "32f4ac69-d904-8208-83f0-01526a7e8a1d",
@@ -204,8 +205,9 @@
   },
   {
     "id": "5774ac69-d904-83f1-8c3a-01f4b8af32bc",
-    "status": "failed",
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+    "status": "downloaded",
+    "file": "assets/robots/5774ac69-d904-83f1-8c3a-01f4b8af32bc.jpg",
+    "bytes": 75206
   },
   {
     "id": "5814ac69-d904-82e8-8deb-8107e0d84c3f",
@@ -491,8 +493,11 @@
   },
   {
     "id": "d6f4ac69-d904-83d5-b18d-01e9a60749ec",
-    "status": "failed",
-    "error": "<urlopen error [WinError 10060] \uc5f0\uacb0\ub41c \uad6c\uc131\uc6d0\uc73c\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uac70\ub098, \ud638\uc2a4\ud2b8\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\uc774 \ub04a\uc5b4\uc84c\uc2b5\ub2c8\ub2e4>"
+    "status": "downloaded",
+    "file": "assets/robots/d6f4ac69-d904-83d5-b18d-01e9a60749ec.png",
+    "source": "https://www.sandia.gov/research/sandia-hand/",
+    "note": "Original attachment timed out; official replacement photograph",
+    "bytes": 122159
   },
   {
     "id": "d794ac69-d904-827e-8325-81a98e4fd281",
@@ -544,8 +549,9 @@
   },
   {
     "id": "e404ac69-d904-830f-b799-013c94e1f0f4",
-    "status": "failed",
-    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+    "status": "downloaded",
+    "file": "assets/robots/e404ac69-d904-830f-b799-013c94e1f0f4.jpg",
+    "bytes": 170246
   },
   {
     "id": "e524ac69-d904-82a0-930e-81ef1e69802a",
