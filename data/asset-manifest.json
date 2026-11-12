@@ -1,0 +1,598 @@
+[
+  {
+    "id": "0e54ac69-d904-83bb-8677-015956164bcb",
+    "file": "assets/robots/0e54ac69-d904-83bb-8677-015956164bcb.webp",
+    "bytes": 48138,
+    "status": "downloaded"
+  },
+  {
+    "id": "22e4ac69-d904-82b7-97ef-01ab48840f07",
+    "file": "assets/robots/22e4ac69-d904-82b7-97ef-01ab48840f07.png",
+    "bytes": 80341,
+    "status": "downloaded"
+  },
+  {
+    "id": "19c4ac69-d904-83ea-89c7-01c0ba2f673b",
+    "file": "assets/robots/19c4ac69-d904-83ea-89c7-01c0ba2f673b.jpg",
+    "bytes": 11687,
+    "status": "downloaded"
+  },
+  {
+    "id": "0074ac69-d904-83a5-8d1d-01baa61b7cb1",
+    "file": "assets/robots/0074ac69-d904-83a5-8d1d-01baa61b7cb1.png",
+    "bytes": 1147254,
+    "status": "downloaded"
+  },
+  {
+    "id": "2d54ac69-d904-8244-88a3-013d4f555389",
+    "file": "assets/robots/2d54ac69-d904-8244-88a3-013d4f555389.jpg",
+    "bytes": 33168,
+    "status": "downloaded"
+  },
+  {
+    "id": "1a44ac69-d904-83d6-8efb-018b26e4c68a",
+    "file": "assets/robots/1a44ac69-d904-83d6-8efb-018b26e4c68a.png",
+    "bytes": 927835,
+    "status": "downloaded"
+  },
+  {
+    "id": "07f4ac69-d904-836b-ac66-01cf3c58ce27",
+    "file": "assets/robots/07f4ac69-d904-836b-ac66-01cf3c58ce27.webp",
+    "bytes": 20968,
+    "status": "downloaded"
+  },
+  {
+    "id": "2684ac69-d904-8247-8e04-01c1b77fbd96",
+    "file": "assets/robots/2684ac69-d904-8247-8e04-01c1b77fbd96.png",
+    "bytes": 177296,
+    "status": "downloaded"
+  },
+  {
+    "id": "29c4ac69-d904-82c1-bcee-810238d15e2a",
+    "file": "assets/robots/29c4ac69-d904-82c1-bcee-810238d15e2a.webp",
+    "bytes": 14296,
+    "status": "downloaded"
+  },
+  {
+    "id": "24a4ac69-d904-83c8-be1f-8189fb9fdf96",
+    "file": "assets/robots/24a4ac69-d904-83c8-be1f-8189fb9fdf96.jpg",
+    "bytes": 182773,
+    "status": "downloaded"
+  },
+  {
+    "id": "1304ac69-d904-83f0-83f4-81e04743e085",
+    "file": "assets/robots/1304ac69-d904-83f0-83f4-81e04743e085.jpg",
+    "bytes": 31491,
+    "status": "downloaded"
+  },
+  {
+    "id": "1734ac69-d904-83cb-812a-014dc6c2e2e8",
+    "file": "assets/robots/1734ac69-d904-83cb-812a-014dc6c2e2e8.png",
+    "bytes": 237357,
+    "status": "downloaded"
+  },
+  {
+    "id": "2a94ac69-d904-8245-9088-0139f81cc095",
+    "file": "assets/robots/2a94ac69-d904-8245-9088-0139f81cc095.png",
+    "bytes": 350931,
+    "status": "downloaded"
+  },
+  {
+    "id": "2a94ac69-d904-8261-972a-014499f6599d",
+    "file": "assets/robots/2a94ac69-d904-8261-972a-014499f6599d.jpg",
+    "bytes": 340896,
+    "status": "downloaded"
+  },
+  {
+    "id": "2424ac69-d904-8213-b6a0-819e62271864",
+    "file": "assets/robots/2424ac69-d904-8213-b6a0-819e62271864.png",
+    "bytes": 211292,
+    "status": "downloaded"
+  },
+  {
+    "id": "30d4ac69-d904-829a-8cb5-817250c639ed",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "32f4ac69-d904-8208-83f0-01526a7e8a1d",
+    "file": "assets/robots/32f4ac69-d904-8208-83f0-01526a7e8a1d.jpg",
+    "bytes": 353467,
+    "status": "downloaded"
+  },
+  {
+    "id": "3484ac69-d904-838b-8c8e-0177bbb2ccff",
+    "file": "assets/robots/3484ac69-d904-838b-8c8e-0177bbb2ccff.png",
+    "bytes": 571287,
+    "status": "downloaded"
+  },
+  {
+    "id": "34a4ac69-d904-82dd-bcc4-019a48eeb8e2",
+    "file": "assets/robots/34a4ac69-d904-82dd-bcc4-019a48eeb8e2.png",
+    "bytes": 2427961,
+    "status": "downloaded"
+  },
+  {
+    "id": "3794ac69-d904-8257-b888-81c63114314e",
+    "file": "assets/robots/3794ac69-d904-8257-b888-81c63114314e.png",
+    "bytes": 209609,
+    "status": "downloaded"
+  },
+  {
+    "id": "3aa4ac69-d904-82d6-9afe-019cf543c7c5",
+    "file": "assets/robots/3aa4ac69-d904-82d6-9afe-019cf543c7c5.jpg",
+    "bytes": 14339,
+    "status": "downloaded"
+  },
+  {
+    "id": "3bc4ac69-d904-83b5-84fd-015f0109c5e2",
+    "file": "assets/robots/3bc4ac69-d904-83b5-84fd-015f0109c5e2.png",
+    "bytes": 847606,
+    "status": "downloaded"
+  },
+  {
+    "id": "3cd4ac69-d904-830d-ab6b-0193d34cac4c",
+    "file": "assets/robots/3cd4ac69-d904-830d-ab6b-0193d34cac4c.jpg",
+    "bytes": 116158,
+    "status": "downloaded"
+  },
+  {
+    "id": "4094ac69-d904-82e3-8cbb-812c64f1e3bb",
+    "file": "assets/robots/4094ac69-d904-82e3-8cbb-812c64f1e3bb.webp",
+    "bytes": 78978,
+    "status": "downloaded"
+  },
+  {
+    "id": "41d4ac69-d904-837f-9fc8-018ae34178f0",
+    "file": "assets/robots/41d4ac69-d904-837f-9fc8-018ae34178f0.png",
+    "bytes": 778119,
+    "status": "downloaded"
+  },
+  {
+    "id": "42e4ac69-d904-8251-8a02-010024123adf",
+    "file": "assets/robots/42e4ac69-d904-8251-8a02-010024123adf.jpg",
+    "bytes": 20882,
+    "status": "downloaded"
+  },
+  {
+    "id": "4334ac69-d904-835a-b9b7-017f5d5f3cf8",
+    "file": "assets/robots/4334ac69-d904-835a-b9b7-017f5d5f3cf8.png",
+    "bytes": 1741827,
+    "status": "downloaded"
+  },
+  {
+    "id": "4414ac69-d904-82d5-8c93-816811974c2a",
+    "file": "assets/robots/4414ac69-d904-82d5-8c93-816811974c2a.jpg",
+    "bytes": 85170,
+    "status": "downloaded"
+  },
+  {
+    "id": "46a4ac69-d904-83f1-84ba-81dd6aa51912",
+    "file": "assets/robots/46a4ac69-d904-83f1-84ba-81dd6aa51912.png",
+    "bytes": 92500,
+    "status": "downloaded"
+  },
+  {
+    "id": "4814ac69-d904-83eb-9337-8176b484e4b8",
+    "file": "assets/robots/4814ac69-d904-83eb-9337-8176b484e4b8.jpg",
+    "bytes": 15486,
+    "status": "downloaded"
+  },
+  {
+    "id": "4cd4ac69-d904-8363-9055-81fab578763c",
+    "file": "assets/robots/4cd4ac69-d904-8363-9055-81fab578763c.png",
+    "bytes": 373331,
+    "status": "downloaded"
+  },
+  {
+    "id": "50d4ac69-d904-832d-bc49-814aff859f13",
+    "file": "assets/robots/50d4ac69-d904-832d-bc49-814aff859f13.jpg",
+    "bytes": 14068,
+    "status": "downloaded"
+  },
+  {
+    "id": "5254ac69-d904-8367-b433-0129547dae86",
+    "file": "assets/robots/5254ac69-d904-8367-b433-0129547dae86.jpg",
+    "bytes": 82261,
+    "status": "downloaded"
+  },
+  {
+    "id": "5584ac69-d904-837d-8e46-013c886f4c54",
+    "file": "assets/robots/5584ac69-d904-837d-8e46-013c886f4c54.png",
+    "bytes": 636521,
+    "status": "downloaded"
+  },
+  {
+    "id": "5774ac69-d904-83f1-8c3a-01f4b8af32bc",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "5814ac69-d904-82e8-8deb-8107e0d84c3f",
+    "file": "assets/robots/5814ac69-d904-82e8-8deb-8107e0d84c3f.png",
+    "bytes": 784262,
+    "status": "downloaded"
+  },
+  {
+    "id": "58e4ac69-d904-820d-bda0-8194fbb52403",
+    "file": "assets/robots/58e4ac69-d904-820d-bda0-8194fbb52403.jpg",
+    "bytes": 79058,
+    "status": "downloaded"
+  },
+  {
+    "id": "58f4ac69-d904-83c0-9007-018fe6e68d39",
+    "file": "assets/robots/58f4ac69-d904-83c0-9007-018fe6e68d39.png",
+    "bytes": 65115,
+    "status": "downloaded"
+  },
+  {
+    "id": "5bd4ac69-d904-82b6-934e-81e93a71f669",
+    "file": "assets/robots/5bd4ac69-d904-82b6-934e-81e93a71f669.jpg",
+    "bytes": 427491,
+    "status": "downloaded"
+  },
+  {
+    "id": "5c14ac69-d904-832c-9a28-81482debba13",
+    "file": "assets/robots/5c14ac69-d904-832c-9a28-81482debba13.png",
+    "bytes": 329040,
+    "status": "downloaded"
+  },
+  {
+    "id": "5db4ac69-d904-8256-853c-8103834dc0d7",
+    "file": "assets/robots/5db4ac69-d904-8256-853c-8103834dc0d7.jpg",
+    "bytes": 223594,
+    "status": "downloaded"
+  },
+  {
+    "id": "5ea4ac69-d904-822e-a138-81a6b4e0e7ab",
+    "file": "assets/robots/5ea4ac69-d904-822e-a138-81a6b4e0e7ab.webp",
+    "bytes": 68506,
+    "status": "downloaded"
+  },
+  {
+    "id": "6384ac69-d904-83ed-9c00-81b0200c53ea",
+    "file": "assets/robots/6384ac69-d904-83ed-9c00-81b0200c53ea.png",
+    "bytes": 111752,
+    "status": "downloaded"
+  },
+  {
+    "id": "67e4ac69-d904-8288-a88e-8122bac669d6",
+    "file": "assets/robots/67e4ac69-d904-8288-a88e-8122bac669d6.jpg",
+    "bytes": 3171475,
+    "status": "downloaded"
+  },
+  {
+    "id": "6d74ac69-d904-83d5-8863-816be3fa1d42",
+    "file": "assets/robots/6d74ac69-d904-83d5-8863-816be3fa1d42.webp",
+    "bytes": 81636,
+    "status": "downloaded"
+  },
+  {
+    "id": "7044ac69-d904-82f3-b327-0184619da656",
+    "file": "assets/robots/7044ac69-d904-82f3-b327-0184619da656.png",
+    "bytes": 358012,
+    "status": "downloaded"
+  },
+  {
+    "id": "7104ac69-d904-8335-937f-8184daf0e214",
+    "file": "assets/robots/7104ac69-d904-8335-937f-8184daf0e214.png",
+    "bytes": 237469,
+    "status": "downloaded"
+  },
+  {
+    "id": "75c4ac69-d904-83ad-aeef-8128e894e9a8",
+    "file": "assets/robots/75c4ac69-d904-83ad-aeef-8128e894e9a8.png",
+    "bytes": 1716146,
+    "status": "downloaded"
+  },
+  {
+    "id": "77e4ac69-d904-83d7-8cda-810c60596a62",
+    "file": "assets/robots/77e4ac69-d904-83d7-8cda-810c60596a62.png",
+    "bytes": 455336,
+    "status": "downloaded"
+  },
+  {
+    "id": "7cd4ac69-d904-835e-a435-01c19bedf3cc",
+    "file": "assets/robots/7cd4ac69-d904-835e-a435-01c19bedf3cc.png",
+    "bytes": 202800,
+    "status": "downloaded"
+  },
+  {
+    "id": "8074ac69-d904-83c1-b291-01c9af2bf277",
+    "file": "assets/robots/8074ac69-d904-83c1-b291-01c9af2bf277.png",
+    "bytes": 145020,
+    "status": "downloaded"
+  },
+  {
+    "id": "8404ac69-d904-8273-a253-81269220dc94",
+    "file": "assets/robots/8404ac69-d904-8273-a253-81269220dc94.jpg",
+    "bytes": 786711,
+    "status": "downloaded"
+  },
+  {
+    "id": "85b4ac69-d904-8377-b27a-01f0e7f44b30",
+    "file": "assets/robots/85b4ac69-d904-8377-b27a-01f0e7f44b30.jpg",
+    "bytes": 44665,
+    "status": "downloaded"
+  },
+  {
+    "id": "8c94ac69-d904-8309-b0a3-81cbb7d986a2",
+    "file": "assets/robots/8c94ac69-d904-8309-b0a3-81cbb7d986a2.webp",
+    "bytes": 189490,
+    "status": "downloaded"
+  },
+  {
+    "id": "8f74ac69-d904-832f-be1f-01683d95cf32",
+    "file": "assets/robots/8f74ac69-d904-832f-be1f-01683d95cf32.jpg",
+    "bytes": 1120086,
+    "status": "downloaded"
+  },
+  {
+    "id": "93e4ac69-d904-834c-8e7f-8108072ba45a",
+    "file": "assets/robots/93e4ac69-d904-834c-8e7f-8108072ba45a.png",
+    "bytes": 135410,
+    "status": "downloaded"
+  },
+  {
+    "id": "9714ac69-d904-8279-84ed-81fd53c2fe5e",
+    "file": "assets/robots/9714ac69-d904-8279-84ed-81fd53c2fe5e.png",
+    "bytes": 21836,
+    "status": "downloaded"
+  },
+  {
+    "id": "9734ac69-d904-824d-8992-81233dd90c25",
+    "file": "assets/robots/9734ac69-d904-824d-8992-81233dd90c25.png",
+    "bytes": 86692,
+    "status": "downloaded"
+  },
+  {
+    "id": "9824ac69-d904-8352-a632-8195e0b24eaf",
+    "file": "assets/robots/9824ac69-d904-8352-a632-8195e0b24eaf.png",
+    "bytes": 62818,
+    "status": "downloaded"
+  },
+  {
+    "id": "9b34ac69-d904-83c0-bfae-817350b89b7b",
+    "file": "assets/robots/9b34ac69-d904-83c0-bfae-817350b89b7b.png",
+    "bytes": 133781,
+    "status": "downloaded"
+  },
+  {
+    "id": "9dc4ac69-d904-8358-80bd-810acc297cf0",
+    "file": "assets/robots/9dc4ac69-d904-8358-80bd-810acc297cf0.jpg",
+    "bytes": 14648,
+    "status": "downloaded"
+  },
+  {
+    "id": "9f84ac69-d904-83f9-865e-81deebf3b065",
+    "file": "assets/robots/9f84ac69-d904-83f9-865e-81deebf3b065.png",
+    "bytes": 126641,
+    "status": "downloaded"
+  },
+  {
+    "id": "a7a4ac69-d904-82c2-9ff0-815df64431be",
+    "file": "assets/robots/a7a4ac69-d904-82c2-9ff0-815df64431be.png",
+    "bytes": 300956,
+    "status": "downloaded"
+  },
+  {
+    "id": "a7c4ac69-d904-82a8-97f9-81b5f1f64b60",
+    "file": "assets/robots/a7c4ac69-d904-82a8-97f9-81b5f1f64b60.jpg",
+    "bytes": 105574,
+    "status": "downloaded"
+  },
+  {
+    "id": "a874ac69-d904-838d-8d33-01b5f63df539",
+    "file": "assets/robots/a874ac69-d904-838d-8d33-01b5f63df539.jpg",
+    "bytes": 45981,
+    "status": "downloaded"
+  },
+  {
+    "id": "a974ac69-d904-8298-a6b3-8145814f496c",
+    "file": "assets/robots/a974ac69-d904-8298-a6b3-8145814f496c.png",
+    "bytes": 337509,
+    "status": "downloaded"
+  },
+  {
+    "id": "aa44ac69-d904-82b0-a5e0-0160e9f1f71b",
+    "file": "assets/robots/aa44ac69-d904-82b0-a5e0-0160e9f1f71b.png",
+    "bytes": 1605399,
+    "status": "downloaded"
+  },
+  {
+    "id": "afa4ac69-d904-827e-a05a-01b2f521e2cb",
+    "file": "assets/robots/afa4ac69-d904-827e-a05a-01b2f521e2cb.png",
+    "bytes": 313462,
+    "status": "downloaded"
+  },
+  {
+    "id": "b084ac69-d904-82c2-9f9e-8176085a1652",
+    "file": "assets/robots/b084ac69-d904-82c2-9f9e-8176085a1652.png",
+    "bytes": 208603,
+    "status": "downloaded"
+  },
+  {
+    "id": "b1e4ac69-d904-82d2-9757-8136c3ae8e07",
+    "file": "assets/robots/b1e4ac69-d904-82d2-9757-8136c3ae8e07.jpg",
+    "bytes": 43418,
+    "status": "downloaded"
+  },
+  {
+    "id": "b3d4ac69-d904-83a8-8da8-81e2f25eb755",
+    "file": "assets/robots/b3d4ac69-d904-83a8-8da8-81e2f25eb755.webp",
+    "bytes": 24818,
+    "status": "downloaded"
+  },
+  {
+    "id": "b7b4ac69-d904-820c-b52f-012f40cc2591",
+    "file": "assets/robots/b7b4ac69-d904-820c-b52f-012f40cc2591.png",
+    "bytes": 241144,
+    "status": "downloaded"
+  },
+  {
+    "id": "b894ac69-d904-83bc-a810-815ddf5e7211",
+    "file": "assets/robots/b894ac69-d904-83bc-a810-815ddf5e7211.jpg",
+    "bytes": 159357,
+    "status": "downloaded"
+  },
+  {
+    "id": "bc44ac69-d904-82df-8d2f-818c43f2c2cf",
+    "file": "assets/robots/bc44ac69-d904-82df-8d2f-818c43f2c2cf.png",
+    "bytes": 1972501,
+    "status": "downloaded"
+  },
+  {
+    "id": "bd44ac69-d904-82c9-9a0d-817fd30503f8",
+    "file": "assets/robots/bd44ac69-d904-82c9-9a0d-817fd30503f8.jpg",
+    "bytes": 93555,
+    "status": "downloaded"
+  },
+  {
+    "id": "bdd4ac69-d904-8225-ad99-0182c5b3df12",
+    "file": "assets/robots/bdd4ac69-d904-8225-ad99-0182c5b3df12.jpg",
+    "bytes": 23754,
+    "status": "downloaded"
+  },
+  {
+    "id": "c534ac69-d904-833d-bc28-81cd8c316373",
+    "file": "assets/robots/c534ac69-d904-833d-bc28-81cd8c316373.png",
+    "bytes": 30996,
+    "status": "downloaded"
+  },
+  {
+    "id": "cc24ac69-d904-8303-9cad-81176ba6075a",
+    "file": "assets/robots/cc24ac69-d904-8303-9cad-81176ba6075a.jpg",
+    "bytes": 99746,
+    "status": "downloaded"
+  },
+  {
+    "id": "d0b4ac69-d904-8369-8212-81e55fe92f92",
+    "file": "assets/robots/d0b4ac69-d904-8369-8212-81e55fe92f92.jpg",
+    "bytes": 51631,
+    "status": "downloaded"
+  },
+  {
+    "id": "d144ac69-d904-8382-aa19-01fef2f1c22c",
+    "file": "assets/robots/d144ac69-d904-8382-aa19-01fef2f1c22c.jpg",
+    "bytes": 80683,
+    "status": "downloaded"
+  },
+  {
+    "id": "d284ac69-d904-82d5-aad2-81c1fa9f9323",
+    "file": "assets/robots/d284ac69-d904-82d5-aad2-81c1fa9f9323.jpg",
+    "bytes": 20719,
+    "status": "downloaded"
+  },
+  {
+    "id": "d314ac69-d904-8287-94ba-8142238e3366",
+    "file": "assets/robots/d314ac69-d904-8287-94ba-8142238e3366.jpg",
+    "bytes": 20079,
+    "status": "downloaded"
+  },
+  {
+    "id": "d6f4ac69-d904-83d5-b18d-01e9a60749ec",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10060] \uc5f0\uacb0\ub41c \uad6c\uc131\uc6d0\uc73c\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\ud558\uc9c0 \ubabb\ud588\uac70\ub098, \ud638\uc2a4\ud2b8\ub85c\ubd80\ud130 \uc751\ub2f5\uc774 \uc5c6\uc5b4 \uc5f0\uacb0\uc774 \ub04a\uc5b4\uc84c\uc2b5\ub2c8\ub2e4>"
+  },
+  {
+    "id": "d794ac69-d904-827e-8325-81a98e4fd281",
+    "file": "assets/robots/d794ac69-d904-827e-8325-81a98e4fd281.png",
+    "bytes": 373140,
+    "status": "downloaded"
+  },
+  {
+    "id": "d844ac69-d904-8209-8443-019978ef7471",
+    "file": "assets/robots/d844ac69-d904-8209-8443-019978ef7471.png",
+    "bytes": 215619,
+    "status": "downloaded"
+  },
+  {
+    "id": "d924ac69-d904-8329-bd6f-01137bab230a",
+    "file": "assets/robots/d924ac69-d904-8329-bd6f-01137bab230a.jpg",
+    "bytes": 61536,
+    "status": "downloaded"
+  },
+  {
+    "id": "dab4ac69-d904-8365-a92e-0187c725512c",
+    "file": "assets/robots/dab4ac69-d904-8365-a92e-0187c725512c.jpg",
+    "bytes": 65573,
+    "status": "downloaded"
+  },
+  {
+    "id": "ddf4ac69-d904-8300-a80d-81c91b006caf",
+    "file": "assets/robots/ddf4ac69-d904-8300-a80d-81c91b006caf.png",
+    "bytes": 830036,
+    "status": "downloaded"
+  },
+  {
+    "id": "dec4ac69-d904-8321-9f49-01c21207f0d1",
+    "file": "assets/robots/dec4ac69-d904-8321-9f49-01c21207f0d1.png",
+    "bytes": 1377566,
+    "status": "downloaded"
+  },
+  {
+    "id": "dfd4ac69-d904-8380-ab3b-014955bc14c7",
+    "file": "assets/robots/dfd4ac69-d904-8380-ab3b-014955bc14c7.jpg",
+    "bytes": 108442,
+    "status": "downloaded"
+  },
+  {
+    "id": "e074ac69-d904-83b8-bc34-819a3160d639",
+    "file": "assets/robots/e074ac69-d904-83b8-bc34-819a3160d639.jpg",
+    "bytes": 12018,
+    "status": "downloaded"
+  },
+  {
+    "id": "e404ac69-d904-830f-b799-013c94e1f0f4",
+    "status": "failed",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "e524ac69-d904-82a0-930e-81ef1e69802a",
+    "file": "assets/robots/e524ac69-d904-82a0-930e-81ef1e69802a.png",
+    "bytes": 1929254,
+    "status": "downloaded"
+  },
+  {
+    "id": "e8c4ac69-d904-83c4-a9ad-81007c36157f",
+    "file": "assets/robots/e8c4ac69-d904-83c4-a9ad-81007c36157f.jpg",
+    "bytes": 119189,
+    "status": "downloaded"
+  },
+  {
+    "id": "e984ac69-d904-8252-b03e-811e8b3c0b8f",
+    "file": "assets/robots/e984ac69-d904-8252-b03e-811e8b3c0b8f.jpg",
+    "bytes": 121908,
+    "status": "downloaded"
+  },
+  {
+    "id": "ecd4ac69-d904-8281-a97b-01aa30162c5b",
+    "file": "assets/robots/ecd4ac69-d904-8281-a97b-01aa30162c5b.jpg",
+    "bytes": 80200,
+    "status": "downloaded"
+  },
+  {
+    "id": "ed64ac69-d904-8262-b8d9-018b34155ffb",
+    "file": "assets/robots/ed64ac69-d904-8262-b8d9-018b34155ffb.png",
+    "bytes": 82788,
+    "status": "downloaded"
+  },
+  {
+    "id": "ee44ac69-d904-8208-80e9-81fdeadb5923",
+    "file": "assets/robots/ee44ac69-d904-8208-80e9-81fdeadb5923.png",
+    "bytes": 392676,
+    "status": "downloaded"
+  },
+  {
+    "id": "fca4ac69-d904-83c7-815f-01249338f86e",
+    "file": "assets/robots/fca4ac69-d904-83c7-815f-01249338f86e.png",
+    "bytes": 157029,
+    "status": "downloaded"
+  },
+  {
+    "id": "ff94ac69-d904-8346-8b96-81fc58c9c7dc",
+    "file": "assets/robots/ff94ac69-d904-8346-8b96-81fc58c9c7dc.png",
+    "bytes": 315334,
+    "status": "downloaded"
+  }
+]
