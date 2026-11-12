@@ -1,0 +1,5 @@
+# SMC
+
+[[HOME|HANDS LAB]]
+
+- [[Models/MHT2-32DZ-9dc4ac69|MHT2-32DZ]]

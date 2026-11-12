@@ -1,0 +1,29 @@
+{
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "colorGroups": [
+    {
+      "query": "path:Models",
+      "color": {
+        "a": 1,
+        "rgb": 1651434
+      }
+    },
+    {
+      "query": "path:Manufacturers",
+      "color": {
+        "a": 1,
+        "rgb": 4059636
+      }
+    },
+    {
+      "query": "path:Countries",
+      "color": {
+        "a": 1,
+        "rgb": 10320636
+      }
+    }
+  ]
+}
