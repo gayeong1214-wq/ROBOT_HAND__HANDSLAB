@@ -1,0 +1,1846 @@
+{
+  "nodes": [
+    {
+      "id": "country-0",
+      "type": "file",
+      "file": "Countries/대한민국.md",
+      "x": 0,
+      "y": 0,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "58e4ac69-d904-820d-bda0-8194fbb52403",
+      "type": "file",
+      "file": "Models/AIDIN Hand Gen2-58e4ac69.md",
+      "x": 0,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "ff94ac69-d904-8346-8b96-81fc58c9c7dc",
+      "type": "file",
+      "file": "Models/AIDIN-Hand (기존형)-ff94ac69.md",
+      "x": 410,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "85b4ac69-d904-8377-b27a-01f0e7f44b30",
+      "type": "file",
+      "file": "Models/Allegro Hand V4-85b4ac69.md",
+      "x": 820,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "ddf4ac69-d904-8300-a80d-81c91b006caf",
+      "type": "file",
+      "file": "Models/Allegro Hand V5 Plus-ddf4ac69.md",
+      "x": 0,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "dec4ac69-d904-8321-9f49-01c21207f0d1",
+      "type": "file",
+      "file": "Models/Allegro Hand V6 F-dec4ac69.md",
+      "x": 410,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "ee44ac69-d904-8208-80e9-81fdeadb5923",
+      "type": "file",
+      "file": "Models/Allegro Hand V6 V-ee44ac69.md",
+      "x": 820,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "0e54ac69-d904-83bb-8677-015956164bcb",
+      "type": "file",
+      "file": "Models/DG-4F-0e54ac69.md",
+      "x": 0,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5ea4ac69-d904-822e-a138-81a6b4e0e7ab",
+      "type": "file",
+      "file": "Models/DG-5F-M-5ea4ac69.md",
+      "x": 410,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "4094ac69-d904-82e3-8cbb-812c64f1e3bb",
+      "type": "file",
+      "file": "Models/DG-5F-S-4094ac69.md",
+      "x": 820,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "58f4ac69-d904-83c0-9007-018fe6e68d39",
+      "type": "file",
+      "file": "Models/HX5-D20-MRT-58f4ac69.md",
+      "x": 0,
+      "y": 990,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "3bc4ac69-d904-83b5-84fd-015f0109c5e2",
+      "type": "file",
+      "file": "Models/Mark 7-3bc4ac69.md",
+      "x": 410,
+      "y": 990,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "9824ac69-d904-8352-a632-8195e0b24eaf",
+      "type": "file",
+      "file": "Models/RH-P12-RN-9824ac69.md",
+      "x": 820,
+      "y": 990,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-1",
+      "type": "file",
+      "file": "Countries/덴마크.md",
+      "x": 1400,
+      "y": 0,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "9f84ac69-d904-83f9-865e-81deebf3b065",
+      "type": "file",
+      "file": "Models/3FG25-9f84ac69.md",
+      "x": 1400,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "1734ac69-d904-83cb-812a-014dc6c2e2e8",
+      "type": "file",
+      "file": "Models/Gecko SP5-1734ac69.md",
+      "x": 1810,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "9b34ac69-d904-83c0-bfae-817350b89b7b",
+      "type": "file",
+      "file": "Models/MG10-9b34ac69.md",
+      "x": 2220,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "22e4ac69-d904-82b7-97ef-01ab48840f07",
+      "type": "file",
+      "file": "Models/VGP30-22e4ac69.md",
+      "x": 1400,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-2",
+      "type": "file",
+      "file": "Countries/독일.md",
+      "x": 2800,
+      "y": 0,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "2424ac69-d904-8213-b6a0-819e62271864",
+      "type": "file",
+      "file": "Models/Agile Hand-2424ac69.md",
+      "x": 2800,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "32f4ac69-d904-8208-83f0-01526a7e8a1d",
+      "type": "file",
+      "file": "Models/BionicSoftHand-32f4ac69.md",
+      "x": 3210,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "3aa4ac69-d904-82d6-9afe-019cf543c7c5",
+      "type": "file",
+      "file": "Models/DHEB-22-E-U-S-L-3aa4ac69.md",
+      "x": 3620,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "e074ac69-d904-83b8-bc34-819a3160d639",
+      "type": "file",
+      "file": "Models/DHEF-20-A-e074ac69.md",
+      "x": 2800,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5774ac69-d904-83f1-8c3a-01f4b8af32bc",
+      "type": "file",
+      "file": "Models/DLR Hand II-5774ac69.md",
+      "x": 3210,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "67e4ac69-d904-8288-a88e-8122bac669d6",
+      "type": "file",
+      "file": "Models/DLR-HIT Hand II-67e4ac69.md",
+      "x": 3620,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d0b4ac69-d904-8369-8212-81e55fe92f92",
+      "type": "file",
+      "file": "Models/DLR-HIT Hand I (SCHUNK SAH)-d0b4ac69.md",
+      "x": 2800,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "29c4ac69-d904-82c1-bcee-810238d15e2a",
+      "type": "file",
+      "file": "Models/PGN-plus-P 380-2-29c4ac69.md",
+      "x": 3210,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "4814ac69-d904-83eb-9337-8176b484e4b8",
+      "type": "file",
+      "file": "Models/SNG-V 6 1.5 V-HP-25-4814ac69.md",
+      "x": 3620,
+      "y": 760,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "b1e4ac69-d904-82d2-9757-8136c3ae8e07",
+      "type": "file",
+      "file": "Models/SVH-b1e4ac69.md",
+      "x": 2800,
+      "y": 990,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "dfd4ac69-d904-8380-ab3b-014955bc14c7",
+      "type": "file",
+      "file": "Models/WSG 50-110-dfd4ac69.md",
+      "x": 3210,
+      "y": 990,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-3",
+      "type": "file",
+      "file": "Countries/미국.md",
+      "x": 4200,
+      "y": 0,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "07f4ac69-d904-836b-ac66-01cf3c58ce27",
+      "type": "file",
+      "file": "Models/Aero Hand-07f4ac69.md",
+      "x": 4200,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "77e4ac69-d904-83d7-8cda-810c60596a62",
+      "type": "file",
+      "file": "Models/Aero Hand Open-77e4ac69.md",
+      "x": 4610,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "cc24ac69-d904-8303-9cad-81176ba6075a",
+      "type": "file",
+      "file": "Models/BarrettHand BH8-282-cc24ac69.md",
+      "x": 5020,
+      "y": 300,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "2a94ac69-d904-8261-972a-014499f6599d",
+      "type": "file",
+      "file": "Models/LEAP Hand v1-2a94ac69.md",
+      "x": 4200,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "e524ac69-d904-82a0-930e-81ef1e69802a",
+      "type": "file",
+      "file": "Models/LEAP Hand v2 Standard-e524ac69.md",
+      "x": 4610,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d6f4ac69-d904-83d5-b18d-01e9a60749ec",
+      "type": "file",
+      "file": "Models/Sandia Hand-d6f4ac69.md",
+      "x": 5020,
+      "y": 530,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-4",
+      "type": "file",
+      "file": "Countries/스웨덴.md",
+      "x": 0,
+      "y": 3200,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "d144ac69-d904-8382-aa19-01fef2f1c22c",
+      "type": "file",
+      "file": "Models/piSOFTGRIP 100-4-d144ac69.md",
+      "x": 0,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-5",
+      "type": "file",
+      "file": "Countries/스위스.md",
+      "x": 1400,
+      "y": 3200,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "fca4ac69-d904-83c7-815f-01249338f86e",
+      "type": "file",
+      "file": "Models/orcahand Lite-fca4ac69.md",
+      "x": 1400,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "1a44ac69-d904-83d6-8efb-018b26e4c68a",
+      "type": "file",
+      "file": "Models/orcahand Touch-1a44ac69.md",
+      "x": 1810,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-6",
+      "type": "file",
+      "file": "Countries/스페인.md",
+      "x": 2800,
+      "y": 3200,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "d794ac69-d904-827e-8325-81a98e4fd281",
+      "type": "file",
+      "file": "Models/Hey5-d794ac69.md",
+      "x": 2800,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-7",
+      "type": "file",
+      "file": "Countries/싱가포르.md",
+      "x": 4200,
+      "y": 3200,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "50d4ac69-d904-832d-bc49-814aff859f13",
+      "type": "file",
+      "file": "Models/Sharpa Wave W01-50d4ac69.md",
+      "x": 4200,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "19c4ac69-d904-83ea-89c7-01c0ba2f673b",
+      "type": "file",
+      "file": "Models/Sharpa Wave W01 SE-19c4ac69.md",
+      "x": 4610,
+      "y": 3500,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-8",
+      "type": "file",
+      "file": "Countries/영국.md",
+      "x": 0,
+      "y": 6400,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "bdd4ac69-d904-8225-ad99-0182c5b3df12",
+      "type": "file",
+      "file": "Models/COVVI Robotic Hand-bdd4ac69.md",
+      "x": 0,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "1304ac69-d904-83f0-83f4-81e04743e085",
+      "type": "file",
+      "file": "Models/Shadow Dexterous Hand Lite-1304ac69.md",
+      "x": 410,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "2a94ac69-d904-8245-9088-0139f81cc095",
+      "type": "file",
+      "file": "Models/Shadow Hand Plus (수신 견적명)-2a94ac69.md",
+      "x": 820,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-9",
+      "type": "file",
+      "file": "Countries/이탈리아.md",
+      "x": 1400,
+      "y": 6400,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "e404ac69-d904-830f-b799-013c94e1f0f4",
+      "type": "file",
+      "file": "Models/IH2 Azzurra-e404ac69.md",
+      "x": 1400,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "30d4ac69-d904-829a-8cb5-817250c639ed",
+      "type": "file",
+      "file": "Models/Mia Hand R&D-30d4ac69.md",
+      "x": 1810,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5bd4ac69-d904-82b6-934e-81e93a71f669",
+      "type": "file",
+      "file": "Models/qb SoftHand Industry-5bd4ac69.md",
+      "x": 2220,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5db4ac69-d904-8256-853c-8103834dc0d7",
+      "type": "file",
+      "file": "Models/qb SoftHand Research-5db4ac69.md",
+      "x": 1400,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "a7c4ac69-d904-82a8-97f9-81b5f1f64b60",
+      "type": "file",
+      "file": "Models/qb SoftHand2 Research-a7c4ac69.md",
+      "x": 1810,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-10",
+      "type": "file",
+      "file": "Countries/일본.md",
+      "x": 2800,
+      "y": 6400,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "3cd4ac69-d904-830d-ab6b-0193d34cac4c",
+      "type": "file",
+      "file": "Models/CR Hand-3cd4ac69.md",
+      "x": 2800,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "b084ac69-d904-82c2-9f9e-8176085a1652",
+      "type": "file",
+      "file": "Models/D-Hand 5MT＋-b084ac69.md",
+      "x": 3210,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "e8c4ac69-d904-83c4-a9ad-81007c36157f",
+      "type": "file",
+      "file": "Models/D-Hand 5PT-e8c4ac69.md",
+      "x": 3620,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "b7b4ac69-d904-820c-b52f-012f40cc2591",
+      "type": "file",
+      "file": "Models/D-Hand 5ST-b7b4ac69.md",
+      "x": 2800,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "9714ac69-d904-8279-84ed-81fd53c2fe5e",
+      "type": "file",
+      "file": "Models/Gifu Hand III-9714ac69.md",
+      "x": 3210,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "9dc4ac69-d904-8358-80bd-810acc297cf0",
+      "type": "file",
+      "file": "Models/MHT2-32DZ-9dc4ac69.md",
+      "x": 3620,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-11",
+      "type": "file",
+      "file": "Countries/중국.md",
+      "x": 4200,
+      "y": 6400,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "5814ac69-d904-82e8-8deb-8107e0d84c3f",
+      "type": "file",
+      "file": "Models/ADH-5-6-P1-5814ac69.md",
+      "x": 4200,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "dab4ac69-d904-8365-a92e-0187c725512c",
+      "type": "file",
+      "file": "Models/CDH-MO-5-16-E0-dab4ac69.md",
+      "x": 4610,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "3794ac69-d904-8257-b888-81c63114314e",
+      "type": "file",
+      "file": "Models/CTDH4F08D-3794ac69.md",
+      "x": 5020,
+      "y": 6700,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "7cd4ac69-d904-835e-a435-01c19bedf3cc",
+      "type": "file",
+      "file": "Models/CTMG3F60-7cd4ac69.md",
+      "x": 4200,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "2d54ac69-d904-8244-88a3-013d4f555389",
+      "type": "file",
+      "file": "Models/Dex2-5-2d54ac69.md",
+      "x": 4610,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "4334ac69-d904-835a-b9b7-017f5d5f3cf8",
+      "type": "file",
+      "file": "Models/Dex3-1 (촉각형)-4334ac69.md",
+      "x": 5020,
+      "y": 6930,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5254ac69-d904-8367-b433-0129547dae86",
+      "type": "file",
+      "file": "Models/Dex5-1-5254ac69.md",
+      "x": 4200,
+      "y": 7160,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "afa4ac69-d904-827e-a05a-01b2f521e2cb",
+      "type": "file",
+      "file": "Models/Dex5-S-afa4ac69.md",
+      "x": 4610,
+      "y": 7160,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "41d4ac69-d904-837f-9fc8-018ae34178f0",
+      "type": "file",
+      "file": "Models/DexH13 Gen2-41d4ac69.md",
+      "x": 5020,
+      "y": 7160,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "c534ac69-d904-833d-bc28-81cd8c316373",
+      "type": "file",
+      "file": "Models/DexHand021 (Mass Production)-c534ac69.md",
+      "x": 4200,
+      "y": 7390,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "8f74ac69-d904-832f-be1f-01683d95cf32",
+      "type": "file",
+      "file": "Models/DexHand021 Pro-8f74ac69.md",
+      "x": 4610,
+      "y": 7390,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "42e4ac69-d904-8251-8a02-010024123adf",
+      "type": "file",
+      "file": "Models/DH-5-6-42e4ac69.md",
+      "x": 5020,
+      "y": 7390,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "8074ac69-d904-83c1-b291-01c9af2bf277",
+      "type": "file",
+      "file": "Models/DH116-L1-8074ac69.md",
+      "x": 4200,
+      "y": 7620,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "e984ac69-d904-8252-b03e-811e8b3c0b8f",
+      "type": "file",
+      "file": "Models/DH116-R1-M-e984ac69.md",
+      "x": 4610,
+      "y": 7620,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "93e4ac69-d904-834c-8e7f-8108072ba45a",
+      "type": "file",
+      "file": "Models/eHand-6-93e4ac69.md",
+      "x": 5020,
+      "y": 7620,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d924ac69-d904-8329-bd6f-01137bab230a",
+      "type": "file",
+      "file": "Models/FTHand-12-d924ac69.md",
+      "x": 4200,
+      "y": 7850,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "8404ac69-d904-8273-a253-81269220dc94",
+      "type": "file",
+      "file": "Models/FTHand-21-8404ac69.md",
+      "x": 4610,
+      "y": 7850,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d284ac69-d904-82d5-aad2-81c1fa9f9323",
+      "type": "file",
+      "file": "Models/Linker Hand L10-d284ac69.md",
+      "x": 5020,
+      "y": 7850,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "34a4ac69-d904-82dd-bcc4-019a48eeb8e2",
+      "type": "file",
+      "file": "Models/Linker Hand L20-34a4ac69.md",
+      "x": 4200,
+      "y": 8080,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "bc44ac69-d904-82df-8d2f-818c43f2c2cf",
+      "type": "file",
+      "file": "Models/Linker Hand L30 Pro-bc44ac69.md",
+      "x": 4610,
+      "y": 8080,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "aa44ac69-d904-82b0-a5e0-0160e9f1f71b",
+      "type": "file",
+      "file": "Models/Linker Hand O30-aa44ac69.md",
+      "x": 5020,
+      "y": 8080,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d844ac69-d904-8209-8443-019978ef7471",
+      "type": "file",
+      "file": "Models/Linker Hand O6-d844ac69.md",
+      "x": 4200,
+      "y": 8310,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "24a4ac69-d904-83c8-be1f-8189fb9fdf96",
+      "type": "file",
+      "file": "Models/myGripper H100-24a4ac69.md",
+      "x": 4610,
+      "y": 8310,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "3484ac69-d904-838b-8c8e-0177bbb2ccff",
+      "type": "file",
+      "file": "Models/OmniHand 3-3484ac69.md",
+      "x": 5020,
+      "y": 8310,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5c14ac69-d904-832c-9a28-81482debba13",
+      "type": "file",
+      "file": "Models/OmniHand Pro 2025 (O12)-5c14ac69.md",
+      "x": 4200,
+      "y": 8540,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "5584ac69-d904-837d-8e46-013c886f4c54",
+      "type": "file",
+      "file": "Models/PXDex III-5584ac69.md",
+      "x": 4610,
+      "y": 8540,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "4414ac69-d904-82d5-8c93-816811974c2a",
+      "type": "file",
+      "file": "Models/Revo 2 Basic-4414ac69.md",
+      "x": 5020,
+      "y": 8540,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "a974ac69-d904-8298-a6b3-8145814f496c",
+      "type": "file",
+      "file": "Models/Revo 3 Basic-a974ac69.md",
+      "x": 4200,
+      "y": 8770,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "bd44ac69-d904-82c9-9a0d-817fd30503f8",
+      "type": "file",
+      "file": "Models/RH56BFX-bd44ac69.md",
+      "x": 4610,
+      "y": 8770,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "b894ac69-d904-83bc-a810-815ddf5e7211",
+      "type": "file",
+      "file": "Models/RH56DFX-b894ac69.md",
+      "x": 5020,
+      "y": 8770,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "46a4ac69-d904-83f1-84ba-81dd6aa51912",
+      "type": "file",
+      "file": "Models/RH56E2-46a4ac69.md",
+      "x": 4200,
+      "y": 9000,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "7104ac69-d904-8335-937f-8184daf0e214",
+      "type": "file",
+      "file": "Models/RH56F2-7104ac69.md",
+      "x": 4610,
+      "y": 9000,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "7044ac69-d904-82f3-b327-0184619da656",
+      "type": "file",
+      "file": "Models/RH56H1-7044ac69.md",
+      "x": 5020,
+      "y": 9000,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "a874ac69-d904-838d-8d33-01b5f63df539",
+      "type": "file",
+      "file": "Models/RH5DG2-a874ac69.md",
+      "x": 4200,
+      "y": 9230,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "6384ac69-d904-83ed-9c00-81b0200c53ea",
+      "type": "file",
+      "file": "Models/ROH-A002-6384ac69.md",
+      "x": 4610,
+      "y": 9230,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "2684ac69-d904-8247-8e04-01c1b77fbd96",
+      "type": "file",
+      "file": "Models/ROH-AP002-2684ac69.md",
+      "x": 5020,
+      "y": 9230,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "9734ac69-d904-824d-8992-81233dd90c25",
+      "type": "file",
+      "file": "Models/ROH-AP003-9734ac69.md",
+      "x": 4200,
+      "y": 9460,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "6d74ac69-d904-83d5-8863-816be3fa1d42",
+      "type": "file",
+      "file": "Models/TeleHand Pro P20-6d74ac69.md",
+      "x": 4610,
+      "y": 9460,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "ecd4ac69-d904-8281-a97b-01aa30162c5b",
+      "type": "file",
+      "file": "Models/uHand-ecd4ac69.md",
+      "x": 5020,
+      "y": 9460,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "8c94ac69-d904-8309-b0a3-81cbb7d986a2",
+      "type": "file",
+      "file": "Models/Wuji Hand 2-8c94ac69.md",
+      "x": 4200,
+      "y": 9690,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "b3d4ac69-d904-83a8-8da8-81e2f25eb755",
+      "type": "file",
+      "file": "Models/Wuji Hand v1-b3d4ac69.md",
+      "x": 4610,
+      "y": 9690,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "d314ac69-d904-8287-94ba-8142238e3366",
+      "type": "file",
+      "file": "Models/XHAND 1-d314ac69.md",
+      "x": 5020,
+      "y": 9690,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "ed64ac69-d904-8262-b8d9-018b34155ffb",
+      "type": "file",
+      "file": "Models/Xiaoyao Dexterous Hand-ed64ac69.md",
+      "x": 4200,
+      "y": 9920,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-12",
+      "type": "file",
+      "file": "Countries/캐나다.md",
+      "x": 0,
+      "y": 9600,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "75c4ac69-d904-83ad-aeef-8128e894e9a8",
+      "type": "file",
+      "file": "Models/2F-85-75c4ac69.md",
+      "x": 0,
+      "y": 9900,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "0074ac69-d904-83a5-8d1d-01baa61b7cb1",
+      "type": "file",
+      "file": "Models/ARTUS Lite-0074ac69.md",
+      "x": 410,
+      "y": 9900,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "country-13",
+      "type": "file",
+      "file": "Countries/포르투갈.md",
+      "x": 1400,
+      "y": 9600,
+      "width": 500,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "a7a4ac69-d904-82c2-9ff0-815df64431be",
+      "type": "file",
+      "file": "Models/RH6D-a7a4ac69.md",
+      "x": 1400,
+      "y": 9900,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "4cd4ac69-d904-8363-9055-81fab578763c",
+      "type": "file",
+      "file": "Models/RH8D-4cd4ac69.md",
+      "x": 1810,
+      "y": 9900,
+      "width": 380,
+      "height": 190,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "country-0-58e4ac69-d904-820d-bda0-8194fbb52403",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "58e4ac69-d904-820d-bda0-8194fbb52403",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-ff94ac69-d904-8346-8b96-81fc58c9c7dc",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "ff94ac69-d904-8346-8b96-81fc58c9c7dc",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-85b4ac69-d904-8377-b27a-01f0e7f44b30",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "85b4ac69-d904-8377-b27a-01f0e7f44b30",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-ddf4ac69-d904-8300-a80d-81c91b006caf",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "ddf4ac69-d904-8300-a80d-81c91b006caf",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-dec4ac69-d904-8321-9f49-01c21207f0d1",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "dec4ac69-d904-8321-9f49-01c21207f0d1",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-ee44ac69-d904-8208-80e9-81fdeadb5923",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "ee44ac69-d904-8208-80e9-81fdeadb5923",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-0e54ac69-d904-83bb-8677-015956164bcb",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "0e54ac69-d904-83bb-8677-015956164bcb",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-5ea4ac69-d904-822e-a138-81a6b4e0e7ab",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "5ea4ac69-d904-822e-a138-81a6b4e0e7ab",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-4094ac69-d904-82e3-8cbb-812c64f1e3bb",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "4094ac69-d904-82e3-8cbb-812c64f1e3bb",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-58f4ac69-d904-83c0-9007-018fe6e68d39",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "58f4ac69-d904-83c0-9007-018fe6e68d39",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-3bc4ac69-d904-83b5-84fd-015f0109c5e2",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "3bc4ac69-d904-83b5-84fd-015f0109c5e2",
+      "toSide": "top"
+    },
+    {
+      "id": "country-0-9824ac69-d904-8352-a632-8195e0b24eaf",
+      "fromNode": "country-0",
+      "fromSide": "bottom",
+      "toNode": "9824ac69-d904-8352-a632-8195e0b24eaf",
+      "toSide": "top"
+    },
+    {
+      "id": "country-1-9f84ac69-d904-83f9-865e-81deebf3b065",
+      "fromNode": "country-1",
+      "fromSide": "bottom",
+      "toNode": "9f84ac69-d904-83f9-865e-81deebf3b065",
+      "toSide": "top"
+    },
+    {
+      "id": "country-1-1734ac69-d904-83cb-812a-014dc6c2e2e8",
+      "fromNode": "country-1",
+      "fromSide": "bottom",
+      "toNode": "1734ac69-d904-83cb-812a-014dc6c2e2e8",
+      "toSide": "top"
+    },
+    {
+      "id": "country-1-9b34ac69-d904-83c0-bfae-817350b89b7b",
+      "fromNode": "country-1",
+      "fromSide": "bottom",
+      "toNode": "9b34ac69-d904-83c0-bfae-817350b89b7b",
+      "toSide": "top"
+    },
+    {
+      "id": "country-1-22e4ac69-d904-82b7-97ef-01ab48840f07",
+      "fromNode": "country-1",
+      "fromSide": "bottom",
+      "toNode": "22e4ac69-d904-82b7-97ef-01ab48840f07",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-2424ac69-d904-8213-b6a0-819e62271864",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "2424ac69-d904-8213-b6a0-819e62271864",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-32f4ac69-d904-8208-83f0-01526a7e8a1d",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "32f4ac69-d904-8208-83f0-01526a7e8a1d",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-3aa4ac69-d904-82d6-9afe-019cf543c7c5",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "3aa4ac69-d904-82d6-9afe-019cf543c7c5",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-e074ac69-d904-83b8-bc34-819a3160d639",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "e074ac69-d904-83b8-bc34-819a3160d639",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-5774ac69-d904-83f1-8c3a-01f4b8af32bc",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "5774ac69-d904-83f1-8c3a-01f4b8af32bc",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-67e4ac69-d904-8288-a88e-8122bac669d6",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "67e4ac69-d904-8288-a88e-8122bac669d6",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-d0b4ac69-d904-8369-8212-81e55fe92f92",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "d0b4ac69-d904-8369-8212-81e55fe92f92",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-29c4ac69-d904-82c1-bcee-810238d15e2a",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "29c4ac69-d904-82c1-bcee-810238d15e2a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-4814ac69-d904-83eb-9337-8176b484e4b8",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "4814ac69-d904-83eb-9337-8176b484e4b8",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-b1e4ac69-d904-82d2-9757-8136c3ae8e07",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "b1e4ac69-d904-82d2-9757-8136c3ae8e07",
+      "toSide": "top"
+    },
+    {
+      "id": "country-2-dfd4ac69-d904-8380-ab3b-014955bc14c7",
+      "fromNode": "country-2",
+      "fromSide": "bottom",
+      "toNode": "dfd4ac69-d904-8380-ab3b-014955bc14c7",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-07f4ac69-d904-836b-ac66-01cf3c58ce27",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "07f4ac69-d904-836b-ac66-01cf3c58ce27",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-77e4ac69-d904-83d7-8cda-810c60596a62",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "77e4ac69-d904-83d7-8cda-810c60596a62",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-cc24ac69-d904-8303-9cad-81176ba6075a",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "cc24ac69-d904-8303-9cad-81176ba6075a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-2a94ac69-d904-8261-972a-014499f6599d",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "2a94ac69-d904-8261-972a-014499f6599d",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-e524ac69-d904-82a0-930e-81ef1e69802a",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "e524ac69-d904-82a0-930e-81ef1e69802a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-3-d6f4ac69-d904-83d5-b18d-01e9a60749ec",
+      "fromNode": "country-3",
+      "fromSide": "bottom",
+      "toNode": "d6f4ac69-d904-83d5-b18d-01e9a60749ec",
+      "toSide": "top"
+    },
+    {
+      "id": "country-4-d144ac69-d904-8382-aa19-01fef2f1c22c",
+      "fromNode": "country-4",
+      "fromSide": "bottom",
+      "toNode": "d144ac69-d904-8382-aa19-01fef2f1c22c",
+      "toSide": "top"
+    },
+    {
+      "id": "country-5-fca4ac69-d904-83c7-815f-01249338f86e",
+      "fromNode": "country-5",
+      "fromSide": "bottom",
+      "toNode": "fca4ac69-d904-83c7-815f-01249338f86e",
+      "toSide": "top"
+    },
+    {
+      "id": "country-5-1a44ac69-d904-83d6-8efb-018b26e4c68a",
+      "fromNode": "country-5",
+      "fromSide": "bottom",
+      "toNode": "1a44ac69-d904-83d6-8efb-018b26e4c68a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-6-d794ac69-d904-827e-8325-81a98e4fd281",
+      "fromNode": "country-6",
+      "fromSide": "bottom",
+      "toNode": "d794ac69-d904-827e-8325-81a98e4fd281",
+      "toSide": "top"
+    },
+    {
+      "id": "country-7-50d4ac69-d904-832d-bc49-814aff859f13",
+      "fromNode": "country-7",
+      "fromSide": "bottom",
+      "toNode": "50d4ac69-d904-832d-bc49-814aff859f13",
+      "toSide": "top"
+    },
+    {
+      "id": "country-7-19c4ac69-d904-83ea-89c7-01c0ba2f673b",
+      "fromNode": "country-7",
+      "fromSide": "bottom",
+      "toNode": "19c4ac69-d904-83ea-89c7-01c0ba2f673b",
+      "toSide": "top"
+    },
+    {
+      "id": "country-8-bdd4ac69-d904-8225-ad99-0182c5b3df12",
+      "fromNode": "country-8",
+      "fromSide": "bottom",
+      "toNode": "bdd4ac69-d904-8225-ad99-0182c5b3df12",
+      "toSide": "top"
+    },
+    {
+      "id": "country-8-1304ac69-d904-83f0-83f4-81e04743e085",
+      "fromNode": "country-8",
+      "fromSide": "bottom",
+      "toNode": "1304ac69-d904-83f0-83f4-81e04743e085",
+      "toSide": "top"
+    },
+    {
+      "id": "country-8-2a94ac69-d904-8245-9088-0139f81cc095",
+      "fromNode": "country-8",
+      "fromSide": "bottom",
+      "toNode": "2a94ac69-d904-8245-9088-0139f81cc095",
+      "toSide": "top"
+    },
+    {
+      "id": "country-9-e404ac69-d904-830f-b799-013c94e1f0f4",
+      "fromNode": "country-9",
+      "fromSide": "bottom",
+      "toNode": "e404ac69-d904-830f-b799-013c94e1f0f4",
+      "toSide": "top"
+    },
+    {
+      "id": "country-9-30d4ac69-d904-829a-8cb5-817250c639ed",
+      "fromNode": "country-9",
+      "fromSide": "bottom",
+      "toNode": "30d4ac69-d904-829a-8cb5-817250c639ed",
+      "toSide": "top"
+    },
+    {
+      "id": "country-9-5bd4ac69-d904-82b6-934e-81e93a71f669",
+      "fromNode": "country-9",
+      "fromSide": "bottom",
+      "toNode": "5bd4ac69-d904-82b6-934e-81e93a71f669",
+      "toSide": "top"
+    },
+    {
+      "id": "country-9-5db4ac69-d904-8256-853c-8103834dc0d7",
+      "fromNode": "country-9",
+      "fromSide": "bottom",
+      "toNode": "5db4ac69-d904-8256-853c-8103834dc0d7",
+      "toSide": "top"
+    },
+    {
+      "id": "country-9-a7c4ac69-d904-82a8-97f9-81b5f1f64b60",
+      "fromNode": "country-9",
+      "fromSide": "bottom",
+      "toNode": "a7c4ac69-d904-82a8-97f9-81b5f1f64b60",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-3cd4ac69-d904-830d-ab6b-0193d34cac4c",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "3cd4ac69-d904-830d-ab6b-0193d34cac4c",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-b084ac69-d904-82c2-9f9e-8176085a1652",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "b084ac69-d904-82c2-9f9e-8176085a1652",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-e8c4ac69-d904-83c4-a9ad-81007c36157f",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "e8c4ac69-d904-83c4-a9ad-81007c36157f",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-b7b4ac69-d904-820c-b52f-012f40cc2591",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "b7b4ac69-d904-820c-b52f-012f40cc2591",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-9714ac69-d904-8279-84ed-81fd53c2fe5e",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "9714ac69-d904-8279-84ed-81fd53c2fe5e",
+      "toSide": "top"
+    },
+    {
+      "id": "country-10-9dc4ac69-d904-8358-80bd-810acc297cf0",
+      "fromNode": "country-10",
+      "fromSide": "bottom",
+      "toNode": "9dc4ac69-d904-8358-80bd-810acc297cf0",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-5814ac69-d904-82e8-8deb-8107e0d84c3f",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "5814ac69-d904-82e8-8deb-8107e0d84c3f",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-dab4ac69-d904-8365-a92e-0187c725512c",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "dab4ac69-d904-8365-a92e-0187c725512c",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-3794ac69-d904-8257-b888-81c63114314e",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "3794ac69-d904-8257-b888-81c63114314e",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-7cd4ac69-d904-835e-a435-01c19bedf3cc",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "7cd4ac69-d904-835e-a435-01c19bedf3cc",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-2d54ac69-d904-8244-88a3-013d4f555389",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "2d54ac69-d904-8244-88a3-013d4f555389",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-4334ac69-d904-835a-b9b7-017f5d5f3cf8",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "4334ac69-d904-835a-b9b7-017f5d5f3cf8",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-5254ac69-d904-8367-b433-0129547dae86",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "5254ac69-d904-8367-b433-0129547dae86",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-afa4ac69-d904-827e-a05a-01b2f521e2cb",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "afa4ac69-d904-827e-a05a-01b2f521e2cb",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-41d4ac69-d904-837f-9fc8-018ae34178f0",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "41d4ac69-d904-837f-9fc8-018ae34178f0",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-c534ac69-d904-833d-bc28-81cd8c316373",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "c534ac69-d904-833d-bc28-81cd8c316373",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-8f74ac69-d904-832f-be1f-01683d95cf32",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "8f74ac69-d904-832f-be1f-01683d95cf32",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-42e4ac69-d904-8251-8a02-010024123adf",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "42e4ac69-d904-8251-8a02-010024123adf",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-8074ac69-d904-83c1-b291-01c9af2bf277",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "8074ac69-d904-83c1-b291-01c9af2bf277",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-e984ac69-d904-8252-b03e-811e8b3c0b8f",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "e984ac69-d904-8252-b03e-811e8b3c0b8f",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-93e4ac69-d904-834c-8e7f-8108072ba45a",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "93e4ac69-d904-834c-8e7f-8108072ba45a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-d924ac69-d904-8329-bd6f-01137bab230a",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "d924ac69-d904-8329-bd6f-01137bab230a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-8404ac69-d904-8273-a253-81269220dc94",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "8404ac69-d904-8273-a253-81269220dc94",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-d284ac69-d904-82d5-aad2-81c1fa9f9323",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "d284ac69-d904-82d5-aad2-81c1fa9f9323",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-34a4ac69-d904-82dd-bcc4-019a48eeb8e2",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "34a4ac69-d904-82dd-bcc4-019a48eeb8e2",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-bc44ac69-d904-82df-8d2f-818c43f2c2cf",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "bc44ac69-d904-82df-8d2f-818c43f2c2cf",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-aa44ac69-d904-82b0-a5e0-0160e9f1f71b",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "aa44ac69-d904-82b0-a5e0-0160e9f1f71b",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-d844ac69-d904-8209-8443-019978ef7471",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "d844ac69-d904-8209-8443-019978ef7471",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-24a4ac69-d904-83c8-be1f-8189fb9fdf96",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "24a4ac69-d904-83c8-be1f-8189fb9fdf96",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-3484ac69-d904-838b-8c8e-0177bbb2ccff",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "3484ac69-d904-838b-8c8e-0177bbb2ccff",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-5c14ac69-d904-832c-9a28-81482debba13",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "5c14ac69-d904-832c-9a28-81482debba13",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-5584ac69-d904-837d-8e46-013c886f4c54",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "5584ac69-d904-837d-8e46-013c886f4c54",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-4414ac69-d904-82d5-8c93-816811974c2a",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "4414ac69-d904-82d5-8c93-816811974c2a",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-a974ac69-d904-8298-a6b3-8145814f496c",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "a974ac69-d904-8298-a6b3-8145814f496c",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-bd44ac69-d904-82c9-9a0d-817fd30503f8",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "bd44ac69-d904-82c9-9a0d-817fd30503f8",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-b894ac69-d904-83bc-a810-815ddf5e7211",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "b894ac69-d904-83bc-a810-815ddf5e7211",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-46a4ac69-d904-83f1-84ba-81dd6aa51912",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "46a4ac69-d904-83f1-84ba-81dd6aa51912",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-7104ac69-d904-8335-937f-8184daf0e214",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "7104ac69-d904-8335-937f-8184daf0e214",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-7044ac69-d904-82f3-b327-0184619da656",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "7044ac69-d904-82f3-b327-0184619da656",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-a874ac69-d904-838d-8d33-01b5f63df539",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "a874ac69-d904-838d-8d33-01b5f63df539",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-6384ac69-d904-83ed-9c00-81b0200c53ea",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "6384ac69-d904-83ed-9c00-81b0200c53ea",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-2684ac69-d904-8247-8e04-01c1b77fbd96",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "2684ac69-d904-8247-8e04-01c1b77fbd96",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-9734ac69-d904-824d-8992-81233dd90c25",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "9734ac69-d904-824d-8992-81233dd90c25",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-6d74ac69-d904-83d5-8863-816be3fa1d42",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "6d74ac69-d904-83d5-8863-816be3fa1d42",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-ecd4ac69-d904-8281-a97b-01aa30162c5b",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "ecd4ac69-d904-8281-a97b-01aa30162c5b",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-8c94ac69-d904-8309-b0a3-81cbb7d986a2",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "8c94ac69-d904-8309-b0a3-81cbb7d986a2",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-b3d4ac69-d904-83a8-8da8-81e2f25eb755",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "b3d4ac69-d904-83a8-8da8-81e2f25eb755",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-d314ac69-d904-8287-94ba-8142238e3366",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "d314ac69-d904-8287-94ba-8142238e3366",
+      "toSide": "top"
+    },
+    {
+      "id": "country-11-ed64ac69-d904-8262-b8d9-018b34155ffb",
+      "fromNode": "country-11",
+      "fromSide": "bottom",
+      "toNode": "ed64ac69-d904-8262-b8d9-018b34155ffb",
+      "toSide": "top"
+    },
+    {
+      "id": "country-12-75c4ac69-d904-83ad-aeef-8128e894e9a8",
+      "fromNode": "country-12",
+      "fromSide": "bottom",
+      "toNode": "75c4ac69-d904-83ad-aeef-8128e894e9a8",
+      "toSide": "top"
+    },
+    {
+      "id": "country-12-0074ac69-d904-83a5-8d1d-01baa61b7cb1",
+      "fromNode": "country-12",
+      "fromSide": "bottom",
+      "toNode": "0074ac69-d904-83a5-8d1d-01baa61b7cb1",
+      "toSide": "top"
+    },
+    {
+      "id": "country-13-a7a4ac69-d904-82c2-9ff0-815df64431be",
+      "fromNode": "country-13",
+      "fromSide": "bottom",
+      "toNode": "a7a4ac69-d904-82c2-9ff0-815df64431be",
+      "toSide": "top"
+    },
+    {
+      "id": "country-13-4cd4ac69-d904-8363-9055-81fab578763c",
+      "fromNode": "country-13",
+      "fromSide": "bottom",
+      "toNode": "4cd4ac69-d904-8363-9055-81fab578763c",
+      "toSide": "top"
+    }
+  ]
+}
