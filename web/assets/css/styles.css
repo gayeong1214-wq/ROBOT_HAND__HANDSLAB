@@ -352,7 +352,7 @@ svg.has-focus .g-node.on text { opacity: 1; }
 @media (max-width: 1099px) { .graph-layout { grid-template-columns: 1fr; } .graph-canvas { height: 520px; } .graph-list { max-height: none; } .graph-legend { margin-left: 0; } }
 @media (max-width: 719px) { .graph-canvas { display: none; } .graph-legend { display: none; } .graph-list li a { min-height: 44px; } }
 
-/* Contact 섹션과 푸터 스타일은 motion.css 에 있다 */
+/* 푸터 스타일은 motion.css 에 있다 */
 
 /* ── 비교 트레이 / 토스트 ─────────────────────────── */
 .compare-tray {
