@@ -1,0 +1,893 @@
+{
+ "Sharpa Wave W01": {
+  "file": "assets/img/hands/sharpa-wave-w01-notion.webp",
+  "w": 360,
+  "h": 360,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH56DFX": {
+  "file": "assets/img/hands/rh56dfx-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH56E2": {
+  "file": "assets/img/hands/rh56e2-notion.webp",
+  "w": 700,
+  "h": 700,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH56H1": {
+  "file": "assets/img/hands/rh56h1-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH56F2": {
+  "file": "assets/img/hands/rh56f2-notion.webp",
+  "w": 960,
+  "h": 540,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://en.inspire-robots.com/wp-content/uploads/2026/09/%E4%BA%A7%E5%93%81%E8%AF%A6%E6%83%85%E9%A1%B5_F2%E5%B0%BA%E5%AF%B8%E5%9B%BE.png",
+  "origin": "notion"
+ },
+ "RH5DG2": {
+  "file": "assets/img/hands/rh5dg2-notion.webp",
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.mybotshop.de/media/image/product/8959/lg/inspire-robots-dexterous-hand-rh5dg2.jpg",
+  "origin": "notion"
+ },
+ "Allegro Hand V6 F": {
+  "file": "assets/img/hands/allegro-hand-v6-f-notion.webp",
+  "w": 960,
+  "h": 922,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Allegro Hand V6 V": {
+  "file": "assets/img/hands/allegro-hand-v6-v-notion.webp",
+  "w": 713,
+  "h": 677,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Allegro Hand V4": {
+  "file": "assets/img/hands/allegro-hand-v4-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.knoxlabs.com/cdn/shop/files/wonik-robotics-allegro-hand-v4-featured-white-square_e97d5e59-2384-4f45-9d6d-b07c320de01a.webp?v=1786689864&width=1200",
+  "origin": "notion"
+ },
+ "Dex2/5": {
+  "file": "assets/img/hands/dex2-5-notion.webp",
+  "w": 960,
+  "h": 554,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.unitree.com/images/35429049b2514a229d2808332af0e092_1560x900.jpg",
+  "origin": "notion"
+ },
+ "Dex5-1": {
+  "file": "assets/img/hands/dex5-1-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://robostore.com/cdn/shop/files/unitree-dex5-1-robotic-hands-4377616.jpg?v=1764083171&width=2000",
+  "origin": "notion"
+ },
+ "qb SoftHand Research": {
+  "file": "assets/img/hands/qb-softhand-research-notion.webp",
+  "w": 960,
+  "h": 640,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://qbrobotics.com/wp-content/uploads/2021/07/qb_softhand_research_003.jpg",
+  "origin": "notion"
+ },
+ "qb SoftHand2 Research": {
+  "file": "assets/img/hands/qb-softhand2-research-notion.webp",
+  "w": 960,
+  "h": 640,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "qb SoftHand Industry": {
+  "file": "assets/img/hands/qb-softhand-industry-notion.webp",
+  "w": 960,
+  "h": 640,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://qbrobotics.com/wp-content/uploads/2021/07/IMG_0170-scaled.jpg",
+  "origin": "notion"
+ },
+ "DLR Hand II": {
+  "file": "assets/img/hands/dlr-hand-ii-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.dlr.de/en/rm/images/roboter_und_systeme/hand/hand_ii/hand_2_greift_kolben_bg_black_3200x3200.jpg/@@images/image-1000-91f880d15491eee62be6b055577332ff.jpeg",
+  "origin": "notion"
+ },
+ "DLR-HIT Hand II": {
+  "file": "assets/img/hands/dlr-hit-hand-ii-notion.webp",
+  "w": 960,
+  "h": 638,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.automate.org/userAssets/Image/robotic_hands.jpg",
+  "origin": "notion"
+ },
+ "LEAP Hand v2 Standard": {
+  "file": "assets/img/hands/leap-hand-v2-standard-notion.webp",
+  "w": 777,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://v2.leaphand.com/static/figures/v2_anatomy.png",
+  "origin": "notion"
+ },
+ "Aero Hand": {
+  "file": "assets/img/hands/aero-hand-notion.webp",
+  "w": 960,
+  "h": 660,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DG-4F": {
+  "file": "assets/img/hands/dg-4f-notion.webp",
+  "w": 571,
+  "h": 925,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Shadow Dexterous Hand Lite": {
+  "file": "assets/img/hands/shadow-dexterous-hand-lite-notion.webp",
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.mybotshop.de/media/image/product/6990/lg/shadow-dexterous-hand-lite.jpg",
+  "origin": "notion"
+ },
+ "Gecko SP5": {
+  "file": "assets/img/hands/gecko-sp5-notion.webp",
+  "w": 347,
+  "h": 480,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Sharpa Wave W01 SE": {
+  "file": "assets/img/hands/sharpa-wave-w01-se-notion.webp",
+  "w": 360,
+  "h": 360,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "orcahand Touch": {
+  "file": "assets/img/hands/orcahand-touch-notion.webp",
+  "w": 336,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://www.orcahand.com/images/products/orcahand-2100-pose-pinky.png",
+  "origin": "notion"
+ },
+ "VGP30": {
+  "file": "assets/img/hands/vgp30-notion.webp",
+  "w": 404,
+  "h": 206,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Agile Hand": {
+  "file": "assets/img/hands/agile-hand-notion.webp",
+  "w": 634,
+  "h": 585,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "myGripper H100": {
+  "file": "assets/img/hands/mygripper-h100-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://shop.elephantrobotics.com/cdn/shop/files/H100-4.png?v=1737443871",
+  "origin": "notion"
+ },
+ "ROH-AP002": {
+  "file": "assets/img/hands/roh-ap002-notion.webp",
+  "w": 700,
+  "h": 430,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://oymotion.com/upload/images/20260306/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A1%2830%293007781.png",
+  "origin": "notion"
+ },
+ "PGN-plus-P 380-2": {
+  "file": "assets/img/hands/pgn-plus-p-380-2-notion.webp",
+  "w": 600,
+  "h": 324,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Shadow Hand Plus": {
+  "file": "assets/img/hands/shadow-hand-plus-notion.webp",
+  "w": 960,
+  "h": 478,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "LEAP Hand v1": {
+  "file": "assets/img/hands/leap-hand-v1-notion.webp",
+  "w": 900,
+  "h": 506,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.cs.cmu.edu/files/images/robot-hand-web.jpg",
+  "origin": "notion"
+ },
+ "BionicSoftHand": {
+  "file": "assets/img/hands/bionicsofthand-notion.webp",
+  "w": 960,
+  "h": 693,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.therobotreport.com/wp-content/uploads/2019/02/190123_Festo_Bionic_SoftHand_0372_13x18_rgb.jpg",
+  "origin": "notion"
+ },
+ "OmniHand 3": {
+  "file": "assets/img/hands/omnihand-3-notion.webp",
+  "w": 706,
+  "h": 942,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://store.agibot.com/cdn/shop/files/550-_M.png?v=1766125783&width=960",
+  "origin": "notion"
+ },
+ "Linker Hand L20": {
+  "file": "assets/img/hands/linker-hand-l20-notion.webp",
+  "w": 960,
+  "h": 937,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "CTDH4F08D": {
+  "file": "assets/img/hands/ctdh4f08d-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DHEB-22-E-U-S-L": {
+  "file": "assets/img/hands/dheb-22-e-u-s-l-notion.webp",
+  "w": 143,
+  "h": 400,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Mark 7": {
+  "file": "assets/img/hands/mark-7-notion.webp",
+  "w": 900,
+  "h": 600,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "CR Hand": {
+  "file": "assets/img/hands/cr-hand-notion.webp",
+  "w": 960,
+  "h": 635,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DG-5F-S": {
+  "file": "assets/img/hands/dg-5f-s-notion.webp",
+  "w": 584,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DexH13 Gen2": {
+  "file": "assets/img/hands/dexh13-gen2-notion.webp",
+  "w": 960,
+  "h": 540,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://cdn-cn.paxini.com/official/images/dex/dex-h13-1.png",
+  "origin": "notion"
+ },
+ "DH-5-6": {
+  "file": "assets/img/hands/dh-5-6-notion.webp",
+  "w": 396,
+  "h": 400,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.gongboshi-robot.com/photo/pt215115868-five_finger_robot_gripper_dh_robotics_dh_5_6_multi_finger_robotic_ai_robot_hand.jpg",
+  "origin": "notion"
+ },
+ "Dex3-1 (촉각형)": {
+  "file": "assets/img/hands/dex3-1-notion.webp",
+  "w": 779,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Revo 2 Basic": {
+  "file": "assets/img/hands/revo-2-basic-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.australiasatellite.com/pub/media/catalog/product/b/r/brainco-revo-2-gray-2_2_1.jpg",
+  "origin": "notion"
+ },
+ "SNG-V 6 1.5 V-HP-25": {
+  "file": "assets/img/hands/sng-v-6-1-5-v-hp-25-notion.webp",
+  "w": 600,
+  "h": 400,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH8D": {
+  "file": "assets/img/hands/rh8d-notion.webp",
+  "w": 594,
+  "h": 618,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/5db846da1bb60d0407fed0ac/1622562227456-JK3RSR2U2QRVC0IR40R3/Human-inspired-hand.png",
+  "origin": "notion"
+ },
+ "PXDex III": {
+  "file": "assets/img/hands/pxdex-iii-notion.webp",
+  "w": 960,
+  "h": 726,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "ADH-5-6-P1": {
+  "file": "assets/img/hands/adh-5-6-p1-notion.webp",
+  "w": 960,
+  "h": 773,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.worldrobotconference.com/profile/robot/download/2026/07/27/20260727142357000806_20260727142357A591.png",
+  "origin": "notion"
+ },
+ "AIDIN Hand Gen2": {
+  "file": "assets/img/hands/aidin-hand-gen2-notion.webp",
+  "w": 960,
+  "h": 540,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://i.ytimg.com/vi/4TkrscF5Bbk/maxresdefault.jpg",
+  "origin": "notion"
+ },
+ "HX5-D20-MRT": {
+  "file": "assets/img/hands/hx5-d20-mrt-notion.webp",
+  "w": 500,
+  "h": 500,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "OmniHand Pro 2025 (O12)": {
+  "file": "assets/img/hands/omnihand-pro-2025-o12-notion.webp",
+  "w": 581,
+  "h": 934,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://store.agibot.com/cdn/shop/files/AgiBot_OmniHand_Pro.png?v=1764049508&width=1200",
+  "origin": "notion"
+ },
+ "DG-5F-M": {
+  "file": "assets/img/hands/dg-5f-m-notion.webp",
+  "w": 533,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "ROH-A002": {
+  "file": "assets/img/hands/roh-a002-notion.webp",
+  "w": 585,
+  "h": 362,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "TeleHand Pro P20": {
+  "file": "assets/img/hands/telehand-pro-p20-notion.webp",
+  "w": 943,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://humanoid.guide/wp-content/uploads/2026/09/TeleHand-robotic-hand-by-Joyson-Electronics-humanoid-guide.webp",
+  "origin": "notion"
+ },
+ "2F-85": {
+  "file": "assets/img/hands/2f-85-notion.webp",
+  "w": 960,
+  "h": 772,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Aero Hand Open": {
+  "file": "assets/img/hands/aero-hand-open-notion.webp",
+  "w": 960,
+  "h": 660,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "CTMG3F60": {
+  "file": "assets/img/hands/ctmg3f60-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DH116-L1": {
+  "file": "assets/img/hands/dh116-l1-notion.webp",
+  "w": 533,
+  "h": 631,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "FTHand-21": {
+  "file": "assets/img/hands/fthand-21-notion.webp",
+  "w": 960,
+  "h": 540,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://29912541.s21i.faiusr.com/2/ABUIABACGAAgyZK4zgYo5b7w-gMwgBA4-wg.jpg",
+  "origin": "notion"
+ },
+ "Wuji Hand 2": {
+  "file": "assets/img/hands/wuji-hand-2-notion.webp",
+  "w": 602,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DexHand021 Pro": {
+  "file": "assets/img/hands/dexhand021-pro-notion.webp",
+  "w": 960,
+  "h": 601,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.worldrobotconference.com/profile/robot/download/2026/07/24/20260724193814000438_20260724193814A299.jpg",
+  "origin": "notion"
+ },
+ "eHand-6": {
+  "file": "assets/img/hands/ehand-6-notion.webp",
+  "w": 831,
+  "h": 483,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "ROH-AP003": {
+  "file": "assets/img/hands/roh-ap003-notion.webp",
+  "w": 340,
+  "h": 283,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.oymotion.com/upload/images/20260511/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A11928484.png",
+  "origin": "notion"
+ },
+ "RH-P12-RN": {
+  "file": "assets/img/hands/rh-p12-rn-notion.webp",
+  "w": 500,
+  "h": 500,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "MG10": {
+  "file": "assets/img/hands/mg10-notion.webp",
+  "w": 254,
+  "h": 369,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "MHT2-32DZ": {
+  "file": "assets/img/hands/mht2-32dz-notion.webp",
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "3FG25": {
+  "file": "assets/img/hands/3fg25-notion.webp",
+  "w": 354,
+  "h": 436,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "RH6D": {
+  "file": "assets/img/hands/rh6d-notion.webp",
+  "w": 550,
+  "h": 510,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://images.squarespace-cdn.com/content/v1/5db846da1bb60d0407fed0ac/1622567103659-RSA8SAF045YYEEX8DOWQ/childs-hand1.png?format=2500w",
+  "origin": "notion"
+ },
+ "Revo 3 Basic": {
+  "file": "assets/img/hands/revo-3-basic-notion.webp",
+  "w": 900,
+  "h": 900,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.usrobotstore.com/cdn/shop/files/Untitleddesign-262.png?v=1779081282&width=900",
+  "origin": "notion"
+ },
+ "Linker Hand O30": {
+  "file": "assets/img/hands/linker-hand-o30-notion.webp",
+  "w": 960,
+  "h": 897,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://botdata.oss-cn-beijing.aliyuncs.com/afterSales/linkerbot_img/products/linkerhand-o30/detail-2.png",
+  "origin": "notion"
+ },
+ "Dex5-S": {
+  "file": "assets/img/hands/dex5-s-notion.webp",
+  "w": 960,
+  "h": 484,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "D-Hand 5MT＋": {
+  "file": "assets/img/hands/d-hand-5mt-notion.webp",
+  "w": 387,
+  "h": 396,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "SVH": {
+  "file": "assets/img/hands/svh-notion.webp",
+  "w": 338,
+  "h": 600,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Wuji Hand v1": {
+  "file": "assets/img/hands/wuji-hand-v1-notion.webp",
+  "w": 354,
+  "h": 428,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://wuji.tech/assets/images/hand/C_2_6_03.webp",
+  "origin": "notion"
+ },
+ "D-Hand 5ST": {
+  "file": "assets/img/hands/d-hand-5st-notion.webp",
+  "w": 560,
+  "h": 560,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://image.mono.ipros.com/public/product/image/ef9/2000614336/IPROS25363202109332052972.png?w=560&h=560",
+  "origin": "notion"
+ },
+ "Linker Hand L30 Pro": {
+  "file": "assets/img/hands/linker-hand-l30-pro-notion.webp",
+  "w": 960,
+  "h": 959,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://botdata.oss-cn-beijing.aliyuncs.com/afterSales/linkerbot_img/products/linkerhand-l30pro/detail-2.png",
+  "origin": "notion"
+ },
+ "RH56BFX": {
+  "file": "assets/img/hands/rh56bfx-notion.webp",
+  "w": 960,
+  "h": 326,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "COVVI Robotic Hand": {
+  "file": "assets/img/hands/covvi-robotic-hand-notion.webp",
+  "w": 400,
+  "h": 615,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DexHand021 (Mass Production)": {
+  "file": "assets/img/hands/dexhand021-mass-production-notion.webp",
+  "w": 306,
+  "h": 246,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "BarrettHand BH8-282": {
+  "file": "assets/img/hands/barretthand-bh8-282-notion.webp",
+  "w": 960,
+  "h": 749,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DLR/HIT Hand I (SCHUNK SAH)": {
+  "file": "assets/img/hands/dlr-hit-hand-i-schunk-sah-notion.webp",
+  "w": 200,
+  "h": 298,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "piSOFTGRIP 100-4": {
+  "file": "assets/img/hands/pisoftgrip-100-4-notion.webp",
+  "w": 960,
+  "h": 343,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Linker Hand L10": {
+  "file": "assets/img/hands/linker-hand-l10-notion.webp",
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://aifitlab.com/cdn/shop/files/L10-main-1-1.jpg?v=1763086531&width=800",
+  "origin": "notion"
+ },
+ "XHAND 1": {
+  "file": "assets/img/hands/xhand-1-notion.webp",
+  "w": 800,
+  "h": 800,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Hey5": {
+  "file": "assets/img/hands/hey5-notion.webp",
+  "w": 753,
+  "h": 509,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://docs.pal-robotics.com/sdk/24.09/_images/hey5_hand.png",
+  "origin": "notion"
+ },
+ "Linker Hand O6": {
+  "file": "assets/img/hands/linker-hand-o6-notion.webp",
+  "w": 372,
+  "h": 521,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://robotopian.com/cdn/shop/files/O6-main-1.png?v=1774237213&width=1214",
+  "origin": "notion"
+ },
+ "FTHand-12": {
+  "file": "assets/img/hands/fthand-12-notion.webp",
+  "w": 960,
+  "h": 528,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://29912541.s21i.faiusr.com/2/ABUIABACGAAgo-3t0QYowPHJlgcwoB84mBE.jpg.webp",
+  "origin": "notion"
+ },
+ "CDH-MO-5-16-E0": {
+  "file": "assets/img/hands/cdh-mo-5-16-e0-notion.webp",
+  "w": 483,
+  "h": 483,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://cobotglobal.com/wp-content/uploads/2025/04/Agile-Hand-Series-Intelligent-bionic-five-finger-dexterous-hand.jpg",
+  "origin": "notion"
+ },
+ "Allegro Hand V5 Plus": {
+  "file": "assets/img/hands/allegro-hand-v5-plus-notion.webp",
+  "w": 717,
+  "h": 960,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "WSG 50-110": {
+  "file": "assets/img/hands/wsg-50-110-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "DHEF-20-A": {
+  "file": "assets/img/hands/dhef-20-a-notion.webp",
+  "w": 159,
+  "h": 400,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "D-Hand 5PT": {
+  "file": "assets/img/hands/d-hand-5pt-notion.webp",
+  "w": 960,
+  "h": 640,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://webmagazine.nedo.go.jp/practical-realization/articles/202403DG/img/08857312bc233d60513d6e66b9d33b821479de5f.jpg",
+  "origin": "notion"
+ },
+ "DH116-R1-M": {
+  "file": "assets/img/hands/dh116-r1-m-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://store.leadshine.com/cdn/shop/files/2_abe8fd87-bbc9-4252-8a2d-24767e3d513c.jpg?v=1787540546&width=2048",
+  "origin": "notion"
+ },
+ "uHand": {
+  "file": "assets/img/hands/uhand-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Xiaoyao Dexterous Hand": {
+  "file": "assets/img/hands/xiaoyao-dexterous-hand-notion.webp",
+  "w": 214,
+  "h": 403,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "orcahand Lite": {
+  "file": "assets/img/hands/orcahand-lite-notion.webp",
+  "w": 249,
+  "h": 800,
+  "alpha": true,
+  "bg": null,
+  "imageUrl": "https://www.orcahand.com/images/ability-hand-lite.png",
+  "origin": "notion"
+ },
+ "AIDIN-Hand (기존형)": {
+  "file": "assets/img/hands/aidin-hand-notion.webp",
+  "w": 819,
+  "h": 647,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": null,
+  "origin": "notion"
+ },
+ "Mia Hand R&D": {
+  "file": "assets/img/hands/mia-hand-r-d-notion.webp",
+  "w": 732,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.prensilia.com/wp-content/uploads/2023/04/Mia-Hand-piattaforma-di-ricerca-prensilia.jpg",
+  "origin": "notion"
+ },
+ "Gifu Hand III": {
+  "file": "assets/img/hands/gifu-hand-iii-notion.webp",
+  "w": 283,
+  "h": 203,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www1.gifu-u.ac.jp/~kawalab/research/Hand/gifuhand3.PNG",
+  "origin": "notion"
+ },
+ "Sandia Hand": {
+  "file": "assets/img/hands/sandia-hand-notion.webp",
+  "w": 960,
+  "h": 305,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.sandia.gov/app/uploads/sites/156/2021/09/sandia_hand-1.png",
+  "origin": "notion"
+ },
+ "IH2 Azzurra": {
+  "file": "assets/img/hands/ih2-azzurra-notion.webp",
+  "w": 960,
+  "h": 960,
+  "alpha": false,
+  "bg": null,
+  "imageUrl": "https://www.prensilia.com/wp-content/uploads/2023/03/ih2-azzurra-hand-prensilia.jpg",
+  "origin": "notion"
+ }
+}

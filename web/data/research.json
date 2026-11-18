@@ -1,0 +1,101 @@
+{
+ "Shadow Dexterous Hand Lite": [
+  "https://www.roboticsproceedings.org/rss20/p122.pdf"
+ ],
+ "Sharpa Wave W01 SE": [
+  "https://arxiv.org/pdf/2609.07002"
+ ],
+ "Shadow Hand Plus": [
+  "https://arxiv.org/pdf/2310.15599"
+ ],
+ "Linker Hand L20": [
+  "https://arxiv.org/pdf/2601.08246"
+ ],
+ "Mark 7": [
+  "https://www.nature.com/articles/s41467-026-73678-w?utm_source"
+ ],
+ "DG-5F-S": [
+  "https://arxiv.org/pdf/2603.05687"
+ ],
+ "DexH13 Gen2": [
+  "https://openaccess.thecvf.com/content/CVPR2026/papers/Jiang_Cross-Hand_Latent_Representation_for_Vision-Language-Action_Models_CVPR_2026_paper.pdf"
+ ],
+ "Dex3-1 (촉각형)": [
+  "https://arxiv.org/pdf/2510.08807"
+ ],
+ "RH56E2": [
+  "https://openreview.net/pdf?id=UvQOcw2oCD"
+ ],
+ "RH8D": [
+  "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2026.1735467/pdf"
+ ],
+ "Sharpa Wave W01": [
+  "https://arxiv.org/pdf/2609.07002"
+ ],
+ "HX5-D20-MRT": [
+  "https://arxiv.org/pdf/2609.31323"
+ ],
+ "DG-5F-M": [
+  "https://arxiv.org/pdf/2603.12243"
+ ],
+ "2F-85": [
+  "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02933.pdf"
+ ],
+ "Allegro Hand V4": [
+  "https://arxiv.org/pdf/2503.07989"
+ ],
+ "Wuji Hand 2": [
+  "https://arxiv.org/pdf/2606.16272"
+ ],
+ "Gifu Hand III": [
+  "https://www.jstage.jst.go.jp/article/kikaic1979/71/705/71_705_1646/_article/-char/ja"
+ ],
+ "RH-P12-RN": [
+  "https://www.mdpi.com/2076-3417/15/22/12077/pdf"
+ ],
+ "3FG25": [
+  "https://arxiv.org/pdf/2508.06295"
+ ],
+ "qb SoftHand2 Research": [
+  "https://www.researchgate.net/publication/397027837_The_Challenges_of_Using_Robots_to_Automate_the_Recycling_of_Electronic_Devices_A_New_Approach_Incorporating_AI_Modularity_and_Soft_Robotics"
+ ],
+ "SVH": [
+  "https://arxiv.org/pdf/1910.10900"
+ ],
+ "RH56DFX": [
+  "https://arxiv.org/pdf/2505.21864v2"
+ ],
+ "RH56BFX": [
+  "https://arxiv.org/pdf/2604.02820"
+ ],
+ "DexHand021 (Mass Production)": [
+  "https://arxiv.org/pdf/2603.09121"
+ ],
+ "BarrettHand BH8-282": [
+  "https://arxiv.org/pdf/2204.06343"
+ ],
+ "DLR/HIT Hand I (SCHUNK SAH)": [
+  "https://elib.dlr.de/55334/1/DLR-HIT-Hand-Liu-MeuselTransactions.pdf"
+ ],
+ "XHAND 1": [
+  "https://arxiv.org/pdf/2505.21864v2"
+ ],
+ "Hey5": [
+  "https://www.researchgate.net/publication/334639849_Long_Time_Sequential_Task_Learning_From_Unstructured_Demonstrations"
+ ],
+ "Allegro Hand V5 Plus": [
+  "https://arxiv.org/pdf/2506.19212"
+ ],
+ "WSG 50-110": [
+  "https://openreview.net/pdf/f4356c4300ca2cd867c5188e0eabd8f129f21816.pdf"
+ ],
+ "IH2 Azzurra": [
+  "https://www.iris.unicampus.it/handle/20.500.12610/72946"
+ ],
+ "LEAP Hand v2 Standard": [
+  "https://www.roboticsproceedings.org/rss21/p132.html"
+ ],
+ "uHand": [
+  "https://dr.ntu.edu.sg/server/api/core/bitstreams/9453ace1-8349-4966-bc6e-43f9856245a4/content"
+ ]
+}
