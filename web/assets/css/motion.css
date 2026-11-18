@@ -24,11 +24,15 @@ p, li, dd { text-wrap: pretty; }
 
 /* ── 특징 태그 ───────────────────────────────────── */
 .tags { display: flex; flex-wrap: wrap; gap: 4px 5px; margin: 0; padding: 0; list-style: none; }
-.tags li { padding: 2px 9px; border-radius: 999px; background: #EDF2F7; color: #1C3049; font-size: 12.5px; line-height: 1.6; white-space: nowrap; }
+.tags li { padding: 1px 8px; border-radius: 999px; background: #EDF2F7; color: #5B6B7E; font-size: 11.5px; line-height: 1.6; white-space: nowrap; }   /* 글자: 바탕(#EDF2F7)보다 진한 회색, 대비 약 4.9:1 */
 .wiki td.tc { min-width: 190px; max-width: 280px; }
 .wiki td.tc.wide { min-width: 260px; max-width: 360px; }
 .wiki td.tc .tags li { white-space: normal; }
 .compare td .tags li { white-space: normal; }
+/* 제조사 제품 페이지에서 보충한 칸: 오른쪽 위 작은 민트 점 */
+.wiki td.web { position: relative; }
+.wiki td.web::after { content: ""; position: absolute; top: 10px; right: 6px; width: 5px; height: 5px; border-radius: 50%; background: #2BB7A3; }
+.src-list small { color: var(--s-muted); font-size: 11.5px; }
 
 /* ── 갤러리: 사진 위 인덱스, 사진 아래 출처 ─────── */
 .g-photo-link { position: relative; }

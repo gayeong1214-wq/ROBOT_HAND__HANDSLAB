@@ -19,7 +19,12 @@
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   // 노션 '특징'을 항목별로 나눈 목록은 문장 대신 짧은 태그로 보여 준다
   const tags = (list) => (list && list.length ? `<ul class="tags">${list.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : NA);
-  const FEATURE_GROUPS = [['drive', '구동 방식'], ['sensors', '센서'], ['io', '통신·SW'], ['control', '제어'], ['notes', '주요 특징']];
+  const FEATURE_GROUPS = [['drive', '구동 방식'], ['sensors', '센서'], ['io', '통신·SW'], ['control', '제어'], ['notes', '주요 특징'], ['other', '기타 사양']];
+  // 표 칸 이름 → 필드. 제조사 페이지에서 보충한 칸(h.web)은 표에서 작게 표시한다.
+  const FIELD_OF = { '손가락': 'fingers', '능동 DoF': 'activeDof', '수동 DoF': 'passiveDof', '총 DoF': 'totalDof', '표기 DoF': 'dofStated', '관절': 'joints', '구동기': 'actuators',
+    '무게': 'weight', '제어·통신 주기': 'rate', 'Tip force (N)': 'tipForce', 'Grip force (N)': 'gripForce', 'Payload (kg)': 'payload', '기타 힘 표기': 'forceOther',
+    '스트로크·파지 범위': 'stroke', '동작 속도': 'speed', '구동 방식': 'drive', '센서': 'sensors', '통신·SW': 'io', '기타 사양': 'other' };
+  const isWeb = (h, label) => FIELD_OF[label] && h.web.some((w) => w.field === FIELD_OF[label]);
   const creditHTML = (h, cls) => (h.photo ? `<p class="${cls}">사진 출처 · <a href="${esc(h.photo.creditUrl)}" target="_blank" rel="noopener noreferrer">${esc(h.photo.creditName)}<span class="sr-only"> 제조사 페이지, 새 창</span></a> <span class="host">${esc(host(h.photo.creditUrl))} ↗</span></p>` : '');
 
   /* ── 상태 ─────────────────────────────────────────── */
@@ -377,6 +382,7 @@
     [null, '통신·SW', 'tc', (h) => tags(h.io)],
     [null, '제어', 'tc', (h) => tags(h.control)],
     [null, '주요 특징', 'tc wide', (h) => tags(h.notes)],
+    [null, '기타 사양', 'tc wide', (h) => tags(h.other)],
     [null, '출처', 'nw', (h) => `<a href="${esc(h.source)}" target="_blank" rel="noopener">${esc(host(h.source))}<span class="sr-only"> (${esc(h.model)} 사양 출처, 새 창)</span></a>`],
   ];
   function renderWiki(list) {
@@ -389,7 +395,7 @@
       const on = S.cmp.includes(h.id);
       return `<tr>
         <th scope="row"><div class="row-head"><input type="checkbox" data-cmp="${h.id}"${on ? ' checked' : ''} aria-label="${esc(cmpLabel(h, on))}"><a class="model-link" href="#/hand/${h.id}">${esc(h.model)}</a></div></th>
-        ${COLS.map(([, , cls, get]) => `<td${cls ? ` class="${cls}"` : ''}>${get(h)}</td>`).join('')}
+        ${COLS.map(([, label, cls, get]) => { const c = [cls, isWeb(h, label) ? 'web' : ''].filter(Boolean).join(' '); return `<td${c ? ` class="${c}"` : ''}${isWeb(h, label) ? ' title="제조사 제품 페이지에서 보충한 값"' : ''}>${get(h)}</td>`; }).join('')}
       </tr>`;
     }).join('');
   }
@@ -426,7 +432,7 @@
     ['스트로크·파지 범위', (h) => h.stroke], ['동작 속도', (h) => h.speed],
     ...FEATURE_GROUPS.map(([k, label]) => [label, (h) => (h[k].length ? h[k] : null)]),
   ];
-  const OPTIONAL_ROWS = ['기타 힘 표기', '제어·통신 주기', '표기 DoF', '수동 DoF', '스트로크·파지 범위', '동작 속도', '제어'];
+  const OPTIONAL_ROWS = ['기타 힘 표기', '제어·통신 주기', '표기 DoF', '수동 DoF', '스트로크·파지 범위', '동작 속도', '제어', '기타 사양'];
   function compareHTML() {
     const list = S.cmp.map((id) => byId.get(id));
     if (!list.length) return `<div class="compare"><h2 id="sheetTitle">모델 비교</h2><p>비교할 모델이 없습니다. 카드나 표에서 ‘비교’를 눌러 최대 ${MAX_CMP}개까지 담아 보세요.</p></div>`;
@@ -480,6 +486,7 @@
         <h3>출처</h3>
         <ul class="src-list">
           <li><span>사양</span><a href="${esc(h.source)}" target="_blank" rel="noopener">${esc(host(h.source))}</a></li>
+          ${[...new Set(h.web.map((w) => w.url))].map((url) => `<li><span>보충 사양</span><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(host(url))}</a> <small>${h.web.filter((w) => w.url === url).map((w) => esc(Object.keys(FIELD_OF).find((k) => FIELD_OF[k] === w.field) || w.field)).join(' · ')}</small></li>`).join('')}
           ${p ? `<li><span>사진</span><a href="${esc(p.creditUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.creditName)} · ${esc(host(p.creditUrl))}</a></li>` : ''}
           ${(h.research || []).map(url => `<li><span>관련 연구</span><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(host(url))}</a></li>`).join('')}
         </ul>
@@ -489,7 +496,7 @@
           ${h.countries.map((c) => `<a href="#explore" data-set="country" data-value="${esc(c)}">${esc(c)} 모델 모두 보기</a>`).join('')}
           <a href="#explore" data-set="maker" data-value="${esc(h.makerGroup)}">이 제조사만 보기</a>
         </div>
-        <p class="detail-foot">조사표 기준입니다. 조사표에 없는 값은 미확인으로 표시하며, 구매·설계 전에는 제조사 최신 자료를 확인해 주세요.</p>
+        <p class="detail-foot">조사표 기준이며, 조사표에 없던 값은 제조사 제품 페이지에서 보충했습니다(출처의 ‘보충 사양’). 어디에도 없는 값은 미확인입니다. 구매·설계 전에는 제조사 최신 자료를 확인해 주세요.</p>
       </div>
     </article>`;
   }

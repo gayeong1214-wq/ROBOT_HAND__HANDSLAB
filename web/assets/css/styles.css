@@ -283,7 +283,7 @@ button { cursor: pointer; }
 
 /* ── 위키 표 ──────────────────────────────────────── */
 .table-wrap { position: relative; overflow-x: auto; border-top: 1px solid var(--s-text); border-bottom: 1px solid var(--s-line); background: #fff; color: var(--s-text); -webkit-overflow-scrolling: touch; }
-.wiki { width: 100%; min-width: 2900px; border-collapse: separate; border-spacing: 0; font-size: 14px; }
+.wiki { width: 100%; min-width: 3260px; border-collapse: separate; border-spacing: 0; font-size: 14px; }
 .wiki th, .wiki td { padding: 13px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--s-line); }
 .wiki thead th { background: #fff; font-size: 12px; font-weight: 550; color: var(--s-muted); white-space: nowrap; letter-spacing: .01em; }
 .wiki thead th button { display: inline-flex; align-items: center; gap: 4px; min-height: 32px; margin: -6px 0; padding: 0; border: 0; background: none; font-weight: 550; color: inherit; }

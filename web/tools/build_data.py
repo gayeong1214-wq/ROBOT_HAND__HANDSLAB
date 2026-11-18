@@ -11,6 +11,12 @@ research = json.load(open(research_path, encoding='utf-8')) if os.path.exists(re
 # 노션 '특징' 문장 중 표의 숫자 열에 들어가지 않는 내용을 항목별로 정리한 값(구동·센서·통신·제어·기타)
 features = json.load(open(os.path.join(ROOT, 'data/features.json'), encoding='utf-8'))
 features.pop('_doc', None)
+# 노션에 없던 칸을 각 제품의 공식 페이지(노션 '대표사이트' 등)에서 보충한 값. 형식: {모델: {칸: {value, url, quote}}}
+web_path = os.path.join(ROOT, 'data/web_specs.json')
+web = json.load(open(web_path, encoding='utf-8')) if os.path.exists(web_path) else {}
+web.pop('_doc', None)
+WEB_FIELDS = {"fingers", "activeDof", "passiveDof", "totalDof", "dofStated", "joints", "actuators", "weight", "rate",
+              "tipForce", "gripForce", "payload", "forceOther", "stroke", "speed", "sensors", "io", "drive", "other"}
 
 # 사양 문장에서 옮긴 값. j=관절, a=구동기, d=능동/총 구분 없이 적힌 자유도, w=무게,
 # tip=손끝 힘(N), grip=파지력(N), pay=가반·권장 하중(kg), f=유형이 불분명한 힘 표기, hz=제어·통신 주기, an=능동 DoF 주석
@@ -21,7 +27,7 @@ EXTRA = {
  "DG-5F-M": dict(w="약 1.763 kg", pay="10 kg (감싸 쥐기 정격)", hz="250 Hz"),
  "3FG25": dict(grip="50–450 N", pay="25 kg (형상구속) / 15 kg (마찰파지)"),
  "SVH": dict(j=20, a=9, w="약 1.3 kg"),
- "RH56DFX": dict(j=12, w="약 540 g", f="엄지 15 N / 기타 10 N"),
+ "RH56DFX": dict(j=12, w="약 540 g", tip="엄지 15 N / 기타 10 N"),   # 제조사 페이지에서 손끝 힘(fingertip)으로 확인
  "Allegro Hand V5 Plus": dict(w="약 1.024 kg"),
  "AIDIN-Hand (기존형)": dict(d="15", w="약 1.3 kg"),
  "Aero Hand": dict(w="800 g 이하"),
@@ -155,13 +161,25 @@ for i, x in enumerate(src):
         # 사진 출처: 제조사(기관)명 + 노션 조사표의 대표 사이트(제조사 제품 페이지)
         "photo": ({"src": ph['file'], "w": ph['w'], "h": ph['h'], "alpha": ph['alpha'], "bg": ph['bg'],
                    "creditName": maker_key(x['maker']), "creditUrl": source} if ph else None),
+        "other": [], "web": [],
     })
-for name, table in (("EXTRA", EXTRA), ("photos", photos), ("features", features)):
+    # 제조사 페이지 보충: 노션 값이 비어 있는 칸만 채운다(노션 값은 덮어쓰지 않음).
+    h = hands[-1]
+    for field, item in web.get(x['model'], {}).items():
+        assert field in WEB_FIELDS, (x['model'], field)
+        v = item['value']
+        if h.get(field) not in (None, [], ""): continue
+        h[field] = v
+        h['web'].append({"field": field, "url": item['url']})
+    h['weightG'] = weight_g(h['weight'])
+    if h['totalDof'] is None and h['passiveDof'] is not None and h['activeDof'] is not None:
+        h['totalDof'] = h['activeDof'] + h['passiveDof']
+for name, table in (("EXTRA", EXTRA), ("photos", photos), ("features", features), ("web_specs", web)):
     missing = set(table) - {x['model'] for x in src}; assert not missing, (name, missing)
 missing = {x['model'] for x in src} - set(features); assert not missing, ("features 누락", missing)
 meta = {"basis": "HANDSLab 조사표(공개용) 기준", "count": len(hands),
         "makers": len({h['makerGroup'] for h in hands}), "countries": len({c for h in hands for c in h['countries']}),
-        "photos": sum(1 for h in hands if h['photo'])}
+        "photos": sum(1 for h in hands if h['photo']), "webFilled": sum(len(h['web']) for h in hands)}
 with open(os.path.join(ROOT, 'assets/data/hands.js'), 'w', encoding='utf-8') as f:
     f.write("/* tools/build_data.py 가 생성한 파일입니다. 직접 고치지 말고 원본과 스크립트를 수정하세요. */\n")
     f.write("window.HANDSLAB_DATA = " + json.dumps({"meta": meta, "hands": hands}, ensure_ascii=False, indent=1) + ";\n")

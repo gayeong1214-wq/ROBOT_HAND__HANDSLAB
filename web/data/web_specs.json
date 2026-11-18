@@ -1,0 +1,2751 @@
+{
+ "_doc": "노션 조사표에 없던 칸을 각 제품 공식 페이지(노션 '대표사이트' 또는 제조사 공식 자료)에서 보충한 값. value=표에 쓰는 값, url=값을 찾은 페이지, quote=페이지 원문. 노션 값이 있는 칸은 덮어쓰지 않는다(tools/build_data.py).",
+ "2F-85": {
+  "speed": {
+   "value": "닫힘 속도 20–150 mm/s",
+   "url": "https://blog.robotiq.com/hubfs/Product-sheets/Adaptive%20Grippers/Product-sheet-Adaptive-Grippers-EN.pdf",
+   "quote": "SPECIFICATIONS 2F-85 2F-140 ... 20 to 150 mm/s 30 to 250 mm/s"
+  },
+  "io": {
+   "value": [
+    "Modbus RTU (RS-485)"
+   ],
+   "url": "https://blog.robotiq.com/hubfs/Product-sheets/Adaptive%20Grippers/Product-sheet-Adaptive-Grippers-EN.pdf",
+   "quote": "Communication protocol Modbus RTU (RS-485)"
+  },
+  "sensors": {
+   "value": [
+    "물체 감지 (파지 확인)"
+   ],
+   "url": "https://robotiq.com/products/adaptive-grippers",
+   "quote": "Built-in part validation to confirm successful part grasping."
+  },
+  "other": {
+   "value": [
+    "IP40"
+   ],
+   "url": "https://blog.robotiq.com/hubfs/Product-sheets/Adaptive%20Grippers/Product-sheet-Adaptive-Grippers-EN.pdf",
+   "quote": "IP40"
+  }
+ },
+ "3FG25": {
+  "weight": {
+   "value": "1.6 kg",
+   "url": "https://onrobot.com/storage/datasheets/3fg25/datasheet_3fg25_v1.3_en.pdf",
+   "quote": "Weight 1.6 [kg]"
+  },
+  "stroke": {
+   "value": "파지 직경 외경 18–155 mm / 내경 41–184 mm",
+   "url": "https://onrobot.com/storage/datasheets/3fg25/datasheet_3fg25_v1.3_en.pdf",
+   "quote": "Grip Diameter External 18 - 155 [mm]; Internal 41 - 184 [mm]"
+  },
+  "speed": {
+   "value": "최대 90 mm/s (직경 변화), 파지 시간 500 ms (브레이크 포함)",
+   "url": "https://onrobot.com/storage/datasheets/3fg25/datasheet_3fg25_v1.3_en.pdf",
+   "quote": "Gripping speed (diameter change) 90 [mm/s]; Gripping time (including brake activation) 500 [ms]"
+  },
+  "other": {
+   "value": [
+    "전원 24 V (20–25 V)",
+    "소비 전류 50–1500 mA",
+    "IP67",
+    "손가락 위치 분해능 0.1 mm",
+    "직경 반복정밀도 0.1–0.2 mm",
+    "모터: 일체형 전동 BLDC",
+    "정전 시 파지 유지 (기계식 브레이크)",
+    "크기 156 × 168 × Ø187 mm",
+    "유연 파지 모드 파지력 50–300 N"
+   ],
+   "url": "https://onrobot.com/storage/datasheets/3fg25/datasheet_3fg25_v1.3_en.pdf",
+   "quote": "Motor Integrated, electric BLDC; IP Classification IP67; Power supply 20 24 25 [V]"
+  }
+ },
+ "Aero Hand": {
+  "rate": {
+   "value": "10 kHz (저수준 전류 루프)",
+   "url": "https://chestnut.bot/aero-hand.html",
+   "quote": "Control frequency | 10 kHz low-level current loop"
+  },
+  "tipForce": {
+   "value": "10 N",
+   "url": "https://chestnut.bot/aero-hand.html",
+   "quote": "Fingertip force | 10 N"
+  },
+  "speed": {
+   "value": "완전 열림→닫힘 0.5 s 이하",
+   "url": "https://chestnut.bot/aero-hand.html",
+   "quote": "Closing speed | Full open to full close ≤ 0.5 s"
+  },
+  "drive": {
+   "value": [
+    "직접 구동 (Direct drive)"
+   ],
+   "url": "https://chestnut.bot/aero-hand.html",
+   "quote": "Drive | Direct drive"
+  },
+  "other": {
+   "value": [
+    "작동 전압 20–50 VDC",
+    "크기 198 × 103 × 43 mm",
+    "IP54, 1 m 낙하 시험 통과",
+    "반복정밀도 ±1.0 mm",
+    "14비트 자기 엔코더 (0.05°)",
+    "관절 토크: 모터 전류 기반 추정",
+    "제어 모드: 위치·속도·토크/전류(MIT)·임피던스",
+    "C++/Python SDK, URDF",
+    "수명 30만 회 이상 완전 파지"
+   ],
+   "url": "https://chestnut.bot/aero-hand.html",
+   "quote": "Operating voltage 20–50 VDC; Dimensions 198 × 103 × 43 mm; IP54"
+  }
+ },
+ "Aero Hand Open": {
+  "activeDof": {
+   "value": 7,
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "7 active DoF (3 thumb, 4 fingers)"
+  },
+  "passiveDof": {
+   "value": 9,
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "Passive joints: 9"
+  },
+  "joints": {
+   "value": 16,
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "16 joints total"
+  },
+  "actuators": {
+   "value": 7,
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "all 7 servos"
+  },
+  "tipForce": {
+   "value": "손끝 약 12 N",
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "≈ 12 N per fingertip"
+  },
+  "speed": {
+   "value": "완전 개폐 약 1.2 Hz",
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "≈ 1.2 Hz full open plus full close"
+  },
+  "other": {
+   "value": [
+    "전원 6 V DC (서보 레일)",
+    "USB 2.0 (온보드 ESP32-S3)",
+    "크기 198×95×53.5 mm"
+   ],
+   "url": "https://docs.tetheria.ai/docs/mechanical_overview/",
+   "quote": "198 mm × 95 mm × 53.5 mm; 6 V DC"
+  }
+ },
+ "Agile Hand": {
+  "joints": {
+   "value": 21,
+   "url": "https://www.agile-robots.com/en/products/agile-hand/",
+   "quote": "With 21 joints and 15 or 16 degrees of freedom"
+  },
+  "tipForce": {
+   "value": "10 N (능동 손끝 힘)",
+   "url": "https://www.agile-robots.com/en/products/agile-hand/",
+   "quote": "10 N active fingertip force"
+  },
+  "speed": {
+   "value": "관절 360°/s",
+   "url": "https://www.agile-robots.com/en/products/agile-hand/",
+   "quote": "360°/s joint velocity"
+  },
+  "other": {
+   "value": [
+    "로봇 플랜지 ISO 9409-1-50-4-M6 퀵체인저 어댑터"
+   ],
+   "url": "https://www.agile-robots.com/en/products/agile-hand/",
+   "quote": "Fast changer adapter for the robot flange according to ISO 9409-1-50-4-M6."
+  }
+ },
+ "AIDIN Hand Gen2": {
+  "drive": {
+   "value": [
+    "링크 구동"
+   ],
+   "url": "https://www.aidinrobotics.co.kr/robotic-hand",
+   "quote": "링크 구조 기반으로 제작하여 제어 정밀도와 힘효율이 높음"
+  },
+  "other": {
+   "value": [
+    "자체 개발 힘/토크 센서 탑재",
+    "사람 손 크기의 콤팩트한 사이즈"
+   ],
+   "url": "https://www.aidinrobotics.co.kr/robotic-hand",
+   "quote": "자체 개발한 힘/토크 센서를 탑재한 인간형 로봇핸드"
+  }
+ },
+ "AIDIN-Hand (기존형)": {
+  "drive": {
+   "value": [
+    "링크 구동"
+   ],
+   "url": "https://www.aidinrobotics.co.kr/robotic-hand",
+   "quote": "링크 구조 기반으로 제작하여 제어 정밀도와 힘효율이 높음"
+  }
+ },
+ "Allegro Hand V4": {
+  "joints": {
+   "value": 16,
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "sixteen independent torque -controlled joints"
+  },
+  "weight": {
+   "value": "1.08 kg",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Weight: Finger 0.17 kg, Thumb 0.19 kg, Total 1.08 kg"
+  },
+  "rate": {
+   "value": "333 Hz",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Communication Frequency: 333 Hz"
+  },
+  "payload": {
+   "value": "5 kg",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Payload: 5 kg"
+  },
+  "speed": {
+   "value": "관절 최대 0.11 s/60°",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Max. Joint Speed: 0.11 (sec/60°)"
+  },
+  "sensors": {
+   "value": [
+    "관절 포텐셔미터 (분해능 0.002°)"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Joint Resolution Measurement: Potentiometer; Resolution (nominal): 0.002 deg"
+  },
+  "io": {
+   "value": [
+    "CAN"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Communication Type: CAN"
+  },
+  "other": {
+   "value": [
+    "전원 24 V / 100 W",
+    "DC 모터, 감속비 1:369",
+    "최대 토크 0.70 Nm"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=1",
+   "quote": "Power Requirement: 24V / 100W; Actuation Type: DC Motor; Gear Ratio: 1:369; Max. Torque: 0.70 (Nm)"
+  }
+ },
+ "Allegro Hand V5 Plus": {
+  "joints": {
+   "value": 16,
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "16 independent current-controlled joints (4 fingers × 4 DOF ea.)"
+  },
+  "rate": {
+   "value": "500 Hz (CAN)",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "Frequency: 500 Hz (CAN)"
+  },
+  "payload": {
+   "value": "15 kg (측정 방법에 따라 다름)",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "Payload: 15 kg (depending on the measurement method)"
+  },
+  "io": {
+   "value": [
+    "CAN",
+    "Allegro Hand UXD"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "Communication Type: CAN; Allegro Hand UXD"
+  },
+  "drive": {
+   "value": [
+    "전동 (DC 모터)"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "Actuator Type: DC Motor"
+  },
+  "other": {
+   "value": [
+    "전원 24 V / 5 A / 120 W",
+    "정지 토크 0.92 Nm (비엄지 2번 관절 1.84 Nm)",
+    "감속비 288.35:1 (비엄지 2번 관절 576.7:1)",
+    "관절 분해능 0.088°",
+    "손끝 센서: 360° 공압식(정전용량) 압력 촉각"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=4",
+   "quote": "Power Requirement 24.0 V / 5.0 A / 120 W; Stall Torque 0.92 Nm / 1.84 Nm; Joint Resolution 0.088 deg"
+  }
+ },
+ "Allegro Hand V6 F": {
+  "payload": {
+   "value": "최대 15 kg",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=25",
+   "quote": "Payload: Max. 15 kg"
+  },
+  "drive": {
+   "value": [
+    "전동 (DC 모터)",
+    "기어 감속 288.35:1"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=25",
+   "quote": "Actuation Type: DC Motor; Gear Ratio: 288.35:1"
+  },
+  "other": {
+   "value": [
+    "전원 24 V / 5 A / 120 W",
+    "정지 토크 0.92 Nm / 정격 토크 0.23 Nm",
+    "관절 분해능 0.088°",
+    "프로토콜 Modbus (RTU, TCP)"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=25",
+   "quote": "Power Requirement: 24.0 V / 5.0 A / 120 W; Stall Torque 0.92 Nm; Joint Resolution 0.088 deg"
+  }
+ },
+ "Allegro Hand V6 V": {
+  "payload": {
+   "value": "최대 15 kg",
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=26",
+   "quote": "Payload: Max. 15 kg"
+  },
+  "drive": {
+   "value": [
+    "전동 (DC 모터)",
+    "기어비 288.35:1"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=26",
+   "quote": "Motor type: DC Motor; Gear ratio: 288.35:1"
+  },
+  "other": {
+   "value": [
+    "전원 24 V / 5 A / 120 W",
+    "정지 토크 0.92 Nm / 정격 토크 0.23 Nm",
+    "관절 분해능 0.088°",
+    "GelSight 촉각 센서 USB 2.0 (VGA 640×480 @ 15/30 fps)"
+   ],
+   "url": "https://www.allegrohand.com/sub/product/p.php?idx=26",
+   "quote": "Stall torque: 0.92 Nm; Nominal torque: 0.23 Nm; 24.0 V / 5.0 A / 120 W"
+  }
+ },
+ "BarrettHand BH8-282": {
+  "speed": {
+   "value": "손가락 완전 개방→닫힘 1.0 s / 180° 스프레드 0.5 s",
+   "url": "https://web.barrett.com/files/BH8-282_Datasheet.pdf",
+   "quote": "Finger Speed: Finger full open to close 1.0 sec; Full 180 degree spread 0.5 sec"
+  },
+  "sensors": {
+   "value": [
+    "모터 엔코더 (4096 counts)",
+    "전 관절 위치 엔코더",
+    "손끝 토크 센서 (옵션, 스트레인 게이지 ±1 N·m)",
+    "촉각 센서 96셀 (옵션)",
+    "6축 힘·토크 센서 (옵션)"
+   ],
+   "url": "https://web.barrett.com/files/BH8-282_Datasheet.pdf",
+   "quote": "All joints have high-precision position encoders; Fingertip Torque Sensors P/N: B0106; Tactile Sensors 96 active cells"
+  },
+  "io": {
+   "value": [
+    "CAN",
+    "RS-232",
+    "USB 어댑터",
+    "C/C++ 라이브러리"
+   ],
+   "url": "https://web.barrett.com/files/BH8-282_Datasheet.pdf",
+   "quote": "Communication: CAN, RS-232 (USB adapters provided)"
+  },
+  "other": {
+   "value": [
+    "DC 20–80 V (대기/평균/피크 7/15/250 W)",
+    "모터 브러시리스",
+    "가동범위 손가락 기저관절 140° · 손끝관절 45° · 스프레드 180°",
+    "손가락 3개 (고정 1, 회전 2)"
+   ],
+   "url": "https://web.barrett.com/files/BH8-282_Datasheet.pdf",
+   "quote": "DC Operation Voltage 20-80 VDC; Motor Type Brushless Electric; Total fingers 3 (1 fixed, 2 rotatable)"
+  }
+ },
+ "BionicSoftHand": {
+  "totalDof": {
+   "value": 12,
+   "url": "https://www.festo.com.cn/cn/en/e/about-festo/innovation-and-technology/bionic-learning-network/bionicsofthand-id_68106",
+   "quote": "This gives the bionic robot hand a total of twelve degrees of freedom."
+  },
+  "other": {
+   "value": [
+    "비례 피에조 밸브로 제어 (손 아래 소형 밸브 터미널)",
+    "엄지·검지 측면 스위블 모듈",
+    "급·배기 튜브 각 1개"
+   ],
+   "url": "https://www.festo.com.cn/cn/en/e/about-festo/innovation-and-technology/bionic-learning-network/bionicsofthand-id_68106",
+   "quote": "The proportional piezo valves used enable the movements of the fingers to be precisely controlled."
+  }
+ },
+ "COVVI Robotic Hand": {
+  "gripForce": {
+   "value": "파워 그립 213 N",
+   "url": "https://www.covvi-robotics.com/robotic-hand/product-overview/",
+   "quote": "Force (Power) 213N"
+  },
+  "payload": {
+   "value": "10 kg (들기 하중)",
+   "url": "https://www.covvi-robotics.com/robotic-hand/product-overview/",
+   "quote": "Hand Load (Lifting Weight) 10kg"
+  },
+  "speed": {
+   "value": "트라이포드 그립 0.4 s",
+   "url": "https://www.covvi-robotics.com/robotic-hand/product-overview/",
+   "quote": "0.4s Tripod grip"
+  }
+ },
+ "CR Hand": {
+  "actuators": {
+   "value": 6,
+   "url": "https://www.curious-robotics.com/home-en",
+   "quote": "Diverse movements with 13 joints and 6 motors."
+  },
+  "forceOther": {
+   "value": "손가락당 모터 최대 힘 18 N",
+   "url": "https://www.curious-robotics.com/home-en",
+   "quote": "Max Motor Force: 18N(Per Finger)"
+  },
+  "other": {
+   "value": [
+    "전원 6 V",
+    "손목 장착면~손끝 172 mm",
+    "서보 컨트롤러 Pololu Micro Maestro 6채널",
+    "플랜지 ISO 9409-1-50-4-M6"
+   ],
+   "url": "https://www.curious-robotics.com/home-en",
+   "quote": "Voltage: 6V; only 172 mm; Pololu Micro Maestro 6-Channel USB Servo Controller; ISO 9409-1-50-4-M6"
+  }
+ },
+ "CTDH4F08D": {
+  "io": {
+   "value": [
+    "Modbus RTU"
+   ],
+   "url": "https://en.changingtek.com/fuhe/257",
+   "quote": "Communication protocol: Modbus RTU"
+  },
+  "drive": {
+   "value": [
+    "전동 (모터 구동)"
+   ],
+   "url": "https://en.changingtek.com/fuhe/257",
+   "quote": "Drive mode: Motor drive"
+  },
+  "sensors": {
+   "value": [
+    "위치·속도·힘 피드백"
+   ],
+   "url": "https://en.changingtek.com/fuhe/257",
+   "quote": "Feedback parameters: Position, Speed, Force"
+  },
+  "other": {
+   "value": [
+    "전원 24 V",
+    "최대 전류 1 A",
+    "반복정밀도 ±0.15 mm",
+    "최대 소음 60 dB"
+   ],
+   "url": "https://en.changingtek.com/fuhe/257",
+   "quote": "Operating voltage 24V; Maximum current 1A; ±0.15 mm; 60 dB"
+  }
+ },
+ "CTMG3F60": {
+  "payload": {
+   "value": "5 kg (권장 최대, 감싸 쥐기)",
+   "url": "https://en.changingtek.com/fuhe/176",
+   "quote": "Maximum recommended load：5 kg(envelope)"
+  },
+  "stroke": {
+   "value": "최대 개방 각도 100°",
+   "url": "https://en.changingtek.com/fuhe/176",
+   "quote": "Maximum opening angle：100°"
+  },
+  "speed": {
+   "value": "최대 파지 속도 100 mm/s",
+   "url": "https://en.changingtek.com/fuhe/176",
+   "quote": "Maximum gripping speed：100 mm/s"
+  },
+  "sensors": {
+   "value": [
+    "위치·크기·속도·힘 피드백"
+   ],
+   "url": "https://en.changingtek.com/fuhe/176",
+   "quote": "Feedback parameters: Position, Size, Speed, Force"
+  },
+  "other": {
+   "value": [
+    "전원 24 V",
+    "최대 전류 4.5 A",
+    "반복정밀도 ±0.03 mm",
+    "구동: MaxiServo",
+    "통신 확장 옵션: CAN, TCP/IP, EtherCAT, Profinet 등",
+    "사용 환경 0–40℃, 85%RH 이하"
+   ],
+   "url": "https://en.changingtek.com/fuhe/176",
+   "quote": "Repeat positioning accuracy：±0.03 mm; Operating voltage：24V"
+  }
+ },
+ "D-Hand 5ST": {
+  "weight": {
+   "value": "450 g",
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "450gの軽量設計"
+  },
+  "gripForce": {
+   "value": "손가락당 약 19.6 N (약 2 kgf)",
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "各指あたり 約19.6N（約2kgf）の把持が可能"
+  },
+  "sensors": {
+   "value": [
+    "위치·전류·온도 실시간 모니터링"
+   ],
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "位置・電流・温度をリアルタイム監視"
+  },
+  "io": {
+   "value": [
+    "2.4 GHz 무선",
+    "UART",
+    "CAN (옵션)",
+    "Python",
+    "ROS 2"
+   ],
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "2.4GHz無線、UART、CAN（オプション）対応 / Python／ROS2に対応"
+  },
+  "drive": {
+   "value": [
+    "각 손가락 독립 구동"
+   ],
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "各指独立駆動を取り入れたモデル"
+  },
+  "dofStated": {
+   "value": "6",
+   "url": "https://j-d.co.jp/dhand-5finger.html",
+   "quote": "6自由度"
+  }
+ },
+ "Dex2/5": {
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Communication Rate: 1000Hz"
+  },
+  "tipForce": {
+   "value": "엄지 15 N / 네 손가락 합계 15 N",
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Thumb：15N; Index finger, middle finger, ring finger, little finger: total 15 N"
+  },
+  "payload": {
+   "value": "1.5 kg (최대, 5 cm 원형 물체)",
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "The Maximum Weight is 1.5kg"
+  },
+  "stroke": {
+   "value": "최소 파지 직경 8 mm",
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Minimum grip diameter: 8mm"
+  },
+  "speed": {
+   "value": "주먹 쥐기 최소 0.5 s",
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Minimum fist clench time: 0.5 s"
+  },
+  "sensors": {
+   "value": [
+    "관절 위치·속도·토크·온도 피드백",
+    "전압·전류 피드백"
+   ],
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Joint Mode, Joint Position, Joint Velocity, Joint Torque, Joint Temperature, Voltage and Current"
+  },
+  "io": {
+   "value": [
+    "RS-485"
+   ],
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Communication Interface: RS485"
+  },
+  "other": {
+   "value": [
+    "작동 전압 24–60 V",
+    "크기 151 x 70 x 63 mm (펼친 상태)",
+    "기어-텐던 로프 구동"
+   ],
+   "url": "https://www.unitree.com/Dex2-5/",
+   "quote": "Working Voltage: 24V-60V; 151mm x 70mm x 63mm"
+  }
+ },
+ "Dex3-1 (촉각형)": {
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.unitree.com/mobile/Dex3-1/",
+   "quote": "Communication rate: 1000Hz"
+  },
+  "payload": {
+   "value": "0.5 kg (최대, 5 cm 구형 강체 파지)",
+   "url": "https://www.unitree.com/mobile/Dex3-1/",
+   "quote": "The Maximum Weight is 500g"
+  },
+  "io": {
+   "value": [
+    "USB 2.0"
+   ],
+   "url": "https://www.unitree.com/mobile/Dex3-1/",
+   "quote": "Hand communication interface: USB2.0"
+  },
+  "drive": {
+   "value": [
+    "전동 (소형 브러시리스 힘제어 관절)",
+    "직접 구동 모터 6개 + 기어 구동 모터 1개"
+   ],
+   "url": "https://www.unitree.com/mobile/Dex3-1/",
+   "quote": "6 Motors Drive Directly; 1 Motor Drive with Gears; Miniature Brushless Force Control Joint"
+  },
+  "other": {
+   "value": [
+    "전원 12–58 V",
+    "크기 175×88×77 mm",
+    "손끝 반복정밀도 ±2 mm",
+    "관절 최대 회전속도 23 rad/s / 11 rad/s (관절 모델별)"
+   ],
+   "url": "https://www.unitree.com/mobile/Dex3-1/",
+   "quote": "12~58V; 175mm x 88mm x 77mm; ±2mm; 23rad/s 11rad/s"
+  }
+ },
+ "Dex5-1": {
+  "passiveDof": {
+   "value": 4,
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "20 Degrees of freedom (16 active+4)"
+  },
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "Communication rate: 1000Hz"
+  },
+  "tipForce": {
+   "value": "10 N",
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "Fingertip strength: 10N"
+  },
+  "payload": {
+   "value": "3.5 kg (손바닥 아래) / 4.5 kg (손바닥 측면), 5 cm 원형 물체",
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "The Maximum Weight is 3.5kg ... The Maximum Weight is 4.5kg"
+  },
+  "stroke": {
+   "value": "최소 파지 직경 10 mm",
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "Minimum grip diameter: 10mm"
+  },
+  "sensors": {
+   "value": [
+    "고정밀 엔코더",
+    "IMU",
+    "관절 위치·속도·토크·온도 피드백"
+   ],
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "High-power density drive and high-precision encoder; Joint Mode, Joint Position, Joint Velocity, Joint Torque, Joint Temperature, Voltage and Current, imu Data"
+  },
+  "io": {
+   "value": [
+    "USB 2.0"
+   ],
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "Interface: USB2.0"
+  },
+  "drive": {
+   "value": [
+    "전동 (코어리스 모터)",
+    "저백래시 감속기",
+    "기어 전동 관절 4개 + 복합 전동 관절 12개"
+   ],
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "High-power density hollow-cup motor; 12 self-developed micro force-controlled composite transmission joints and 4 micro force-controlled joint gear transmission"
+  },
+  "other": {
+   "value": [
+    "작동 전압 24–60 V",
+    "크기 217.3 x 127.5 x 72.1 mm",
+    "손끝 반복 위치정밀도 ±1 mm",
+    "작동 온도 -20~60 ℃"
+   ],
+   "url": "https://www.unitree.com/Dex5-1/",
+   "quote": "Working voltage: 24V~60V; 217.3mm x 127.5mm x 72.1mm"
+  }
+ },
+ "Dex5-S": {
+  "actuators": {
+   "value": 22,
+   "url": "https://www.unitree.com/Dex5-S/",
+   "quote": "All 22 motors are direct-drive and backdrivable with dual encoders"
+  },
+  "payload": {
+   "value": "연속 1 kg / 피크 2 kg (한 손)",
+   "url": "https://www.unitree.com/Dex5-S/",
+   "quote": "Continuous payload per hand: 1kg; Peak payload: 2kg"
+  },
+  "drive": {
+   "value": [
+    "전동 직접 구동 (백드라이브 가능)"
+   ],
+   "url": "https://www.unitree.com/Dex5-S/",
+   "quote": "All 22 motors are direct-drive and backdrivable"
+  },
+  "other": {
+   "value": [
+    "전원 15–65 V",
+    "피크 전력 200 W",
+    "크기 102×187×26 mm",
+    "알루미늄 합금 하우징",
+    "고속 RS-485 (50 Hz) 추가 지원"
+   ],
+   "url": "https://www.unitree.com/Dex5-S/",
+   "quote": "15V~65V; Peak power 200W; 102*187*26mm; High-speed RS-485: 50 Hz"
+  }
+ },
+ "DexH13 Gen2": {
+  "tipForce": {
+   "value": "최대 15 N",
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Maximum Fingertip Force 15 N *"
+  },
+  "payload": {
+   "value": "5 kg",
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Payload 5 kg"
+  },
+  "speed": {
+   "value": "최소 개폐 시간 1.5 s",
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Minimum Opening and Closing Time 1.5 s *"
+  },
+  "stroke": {
+   "value": "최대 파지 직경 15 cm",
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Maximum Grip Diameter 15 cm"
+  },
+  "drive": {
+   "value": [
+    "전동 (코어리스 모터)"
+   ],
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Coreless Motor"
+  },
+  "other": {
+   "value": [
+    "촉각 신호 3,420채널",
+    "수명 100만 회"
+   ],
+   "url": "https://www.paxini.com/product/dex/gen2",
+   "quote": "Number of Tactile Signals 3420 channels; Service Life 1 Million times"
+  }
+ },
+ "DexHand021 (Mass Production)": {
+  "tipForce": {
+   "value": "12 N 이상",
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "Fingertip Force ≥ 12 N"
+  },
+  "gripForce": {
+   "value": "38 N 이상",
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "Grasping Force ≥ 38 N"
+  },
+  "payload": {
+   "value": "5 kg (손 전체 하중)",
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "Total Hand Load 5 kg"
+  },
+  "speed": {
+   "value": "최소 사이클 1 s 미만",
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "Minimum Cycle Time < 1 s"
+  },
+  "stroke": {
+   "value": "최소 파지 직경 10 mm 이상",
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "Min Grasp Diameter ≥ 10 mm"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24 V",
+    "반복정밀도 ±0.15 mm",
+    "크기 292.6×113.2×56.5 mm",
+    "촉각 샘플링 50 Hz 이상",
+    "센서 23개 내장",
+    "수명 100만 사이클 이상"
+   ],
+   "url": "https://www.dex-robot.com/en/productionDexhand",
+   "quote": "DC 24 V; ± 0.15 mm; 292.6mm * 113.2mm * 56.5mm; Sampling Frequency ≥ 50 Hz; 23 integrated sensors"
+  }
+ },
+ "DG-4F": {
+  "payload": {
+   "value": "10 kg (감싸 쥐기 정격)",
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-4f",
+   "quote": "Envelop 파지 중량 (정격 / 최대) : 10 / 20 kg"
+  },
+  "other": {
+   "value": [
+    "파지 중량 집기 정격 3 kg·최대 5 kg / 감싸 쥐기 정격 10 kg·최대 20 kg",
+    "입력 전압 24 V",
+    "최대 소비 전류 10 A",
+    "절대 엔코더",
+    "통신 Modbus (RTU, TCP), Ethernet (TCP/IP)",
+    "조절 가능한 베이스 관절 구조 (좌/우손·그리퍼형 구성)"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-4f",
+   "quote": "입력 전압 24 V; 최대 소비 전류 Max. 10 A; 통신 Modbus (RTU, TCP), Ethernet (TCP/IP)"
+  }
+ },
+ "DG-5F-M": {
+  "joints": {
+   "value": 20,
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-m",
+   "quote": "20개의 각 관절에 독립적인 액추에이터가 내장되어 있어 관절 간 기계적 커플링 없이 모든 관절을 개별적으로 제어할 수 있습니다."
+  },
+  "actuators": {
+   "value": 20,
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-m",
+   "quote": "20개의 각 관절에 독립적인 액추에이터가 내장되어 있어"
+  },
+  "io": {
+   "value": [
+    "Modbus RTU",
+    "Modbus TCP",
+    "Ethernet (TCP/IP)",
+    "ROS 2",
+    "SDK"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-m",
+   "quote": "Modbus (RTU, TCP), Ethernet (TCP/IP); SDK와 ROS 2 연동을 지원하여"
+  },
+  "drive": {
+   "value": [
+    "완전 구동형 (관절별 개별 액추에이터)"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-m",
+   "quote": "DG-5F-M은 20자유도(DoF)를 갖춘 완전 구동형 5지 로봇 핸드입니다."
+  },
+  "other": {
+   "value": [
+    "파지 중량 집기 정격 2.5 kg·최대 5 kg / 감싸 쥐기 정격 10 kg·최대 20 kg",
+    "입력 전압 24 V",
+    "최대 소비 전류 10 A",
+    "절대 엔코더",
+    "자유도 구성 4자유도/손가락"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-m",
+   "quote": "입력 전압 24 V; 최대 소비 전류 Max. 10 A; 절대 엔코더"
+  }
+ },
+ "DG-5F-S": {
+  "joints": {
+   "value": 20,
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-s",
+   "quote": "20개의 각 관절에 개별 액추에이터가 내장되어 있어 관절 간 기계적 커플링 없이 완전히 독립적으로 제어할 수 있습니다."
+  },
+  "actuators": {
+   "value": 20,
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-s",
+   "quote": "20개의 각 관절에 개별 액추에이터가 내장되어 있어"
+  },
+  "io": {
+   "value": [
+    "Ethernet (TCP/IP)",
+    "Modbus TCP",
+    "ROS 2",
+    "SDK"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-s",
+   "quote": "Ethernet (TCP/IP), Modbus (TCP); SDK와 ROS 2 연동을 지원하여"
+  },
+  "drive": {
+   "value": [
+    "전동 (관절별 개별 액추에이터 내장)"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-s",
+   "quote": "20개의 각 관절에 개별 액추에이터가 내장되어 있어 관절 간 기계적 커플링 없이"
+  },
+  "other": {
+   "value": [
+    "파지 중량 집기 정격 1 kg·최대 2 kg / 감싸 쥐기 정격 7 kg·최대 12 kg",
+    "입력 전압 24 V",
+    "최대 소비 전류 10 A",
+    "절대 엔코더",
+    "자유도 구성 4자유도/손가락"
+   ],
+   "url": "https://www.tesollo.com/ko/products/grippers/dg-5f-s",
+   "quote": "입력 전압 24 V; 최대 소비 전류 Max. 10 A; 절대 엔코더; 20 자유도 (4자유도/손가락)"
+  }
+ },
+ "DH116-L1": {
+  "activeDof": {
+   "value": 6,
+   "url": "https://www.leadshine.com/robot-detail/DH116-L1.html",
+   "quote": "11 degrees of freedom, 6 active degrees of freedom"
+  },
+  "totalDof": {
+   "value": 11,
+   "url": "https://www.leadshine.com/robot-detail/DH116-L1.html",
+   "quote": "11 degrees of freedom, 6 active degrees of freedom"
+  },
+  "gripForce": {
+   "value": "측면 파지력 50 N",
+   "url": "https://www.leadshine.com/robot-detail/DH116-L1.html",
+   "quote": "Lateral grip strength ≤50N"
+  },
+  "drive": {
+   "value": [
+    "전동 (브러시리스 코어리스 서보모터)",
+    "웜기어 구동"
+   ],
+   "url": "https://www.leadshine.com/robot-detail/DH116-L1.html",
+   "quote": "brushless coreless servo motor ... worm gear and worm drive"
+  },
+  "other": {
+   "value": [
+    "전원 12–48 V @2.5 A",
+    "반복정밀도 ±0.2 mm",
+    "단일 손가락 하중 5 kg",
+    "관절 범위: 엄지 측방 0–60°, 엄지 굴곡 0–30°, 네 손가락 굴곡 0–80°",
+    "수명 100만 회",
+    "사용 환경 -10–40℃/85%RH",
+    "FOC 전류 루프"
+   ],
+   "url": "https://www.leadshine.com/robot-detail/DH116-L1.html",
+   "quote": "12~48V@2.5A; ±0.2mm; 1 million cycles"
+  }
+ },
+ "DH116-R1-M": {
+  "gripForce": {
+   "value": "측면 파지 50 N 이하",
+   "url": "https://www.leadshine.com/robot-detail/DH116-R1-M.html",
+   "quote": "Lateral Grip Strength: ≤50N"
+  },
+  "payload": {
+   "value": "후크 파지 30 kg 이하 / 단일 손가락 최대 5 kg",
+   "url": "https://www.leadshine.com/robot-detail/DH116-R1-M.html",
+   "quote": "Hook Grip Load: ≤30kg; the maximum load capacity of a single finger is 5kG"
+  },
+  "speed": {
+   "value": "개폐 ≥0.5 s",
+   "url": "https://www.leadshine.com/robot-detail/DH116-R1-M.html",
+   "quote": "Opening and closing speed: ≥0.5s"
+  },
+  "drive": {
+   "value": [
+    "전동 (브러시리스 코어리스 모터)",
+    "웜 기어 구동"
+   ],
+   "url": "https://www.leadshine.com/robot-detail/DH116-R1-M.html",
+   "quote": "driven by a brushless coreless motor and adopts a worm gear and worm drive scheme"
+  },
+  "other": {
+   "value": [
+    "전원 12–48 V @ 2.5 A",
+    "반복 위치정밀도 ±0.2 mm",
+    "파지 수명 100만 회",
+    "사용 환경 -10~40 ℃ / 85%RH",
+    "Windows/Linux/ROS2, C++/Python 지원",
+    "EtherCAT·RS485 지원(설명문)"
+   ],
+   "url": "https://www.leadshine.com/robot-detail/DH116-R1-M.html",
+   "quote": "Power Supply Specification: 12~48V@2.5A; Repeatability of positioning accuracy: ±0.2mm"
+  }
+ },
+ "DHEB-22-E-U-S-L": {
+  "payload": {
+   "value": "0.32 kg (가이드 값)",
+   "url": "https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_US/1320803.pdf",
+   "quote": "Guide value for payload 0.32 kg"
+  },
+  "speed": {
+   "value": "열림 30 ms / 닫힘 60 ms (6 bar, 최소)",
+   "url": "https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_US/1320803.pdf",
+   "quote": "Min. opening time at 6 bar 30 ms; Min. closing time at 6 bar 60 ms"
+  },
+  "other": {
+   "value": [
+    "작동 압력 5–8 bar",
+    "벨로즈 스트로크 12 mm",
+    "최대 작동 주파수 4 Hz",
+    "공압 연결 M5",
+    "위치 감지 없음",
+    "벨로즈 소재 VMQ(실리콘)"
+   ],
+   "url": "https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_US/1320803.pdf",
+   "quote": "Operating pressure 5 bar...8 bar; Stroke of bellows 12 mm; Max. operating frequency 4 Hz; Pneumatic connection M5; Position sensing None"
+  }
+ },
+ "DHEF-20-A": {
+  "weight": {
+   "value": "475 g",
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Product weight 475 g"
+  },
+  "gripForce": {
+   "value": "접촉력 20 N",
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Contact force on the gripping object 20 N"
+  },
+  "forceOther": {
+   "value": "정적 유지력 26 N (축 평행) / 45 N (축 수직)",
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Static holding force parallel to the gripper axis 26 N; perpendicular 45 N"
+  },
+  "payload": {
+   "value": "1 kg (가이드값)",
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Guide value for payload 1 kg"
+  },
+  "speed": {
+   "value": "전진 270 ms / 후퇴 290 ms, 최대 290 mm/s (무부하) · 120 mm/s (파지 중)",
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Retracting time 290 ms; Advancing time 270 ms; Max. speed without gripped object 290 mm/s"
+  },
+  "sensors": {
+   "value": [
+    "근접 스위치 위치 감지"
+   ],
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Position sensing: Via proximity switch"
+  },
+  "other": {
+   "value": [
+    "스트로크 66 mm",
+    "작동 압력 1–8 bar (캡 0.07–0.1 bar)",
+    "최대 작동 주파수 1 Hz",
+    "복동식 공압",
+    "실리콘(VMQ) 캡",
+    "주변 온도 0–60 °C"
+   ],
+   "url": "https://ftp.festo.com/Public/PNEUMATIC/SOFTWARE_SERVICE/Datasheet/EN_US/8092533.pdf",
+   "quote": "Stroke 66 mm; Operating pressure of actuator 1 bar...8 bar; Max. operating frequency 1 Hz; Double-acting"
+  }
+ },
+ "DLR Hand II": {
+  "weight": {
+   "value": "1.8 kg",
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/hand-ii",
+   "quote": "Weight: 1,8kg"
+  },
+  "speed": {
+   "value": "관절 최대 360°/s",
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/hand-ii",
+   "quote": "360°/s joint velocity"
+  },
+  "other": {
+   "value": [
+    "크기 30 x 15 x 15 cm",
+    "전원 24 V DC (20 A)",
+    "Payload 30 N (펴진 손가락에 수직)",
+    "손가락당 3 DoF·관절 4개, 손바닥 1 DoF",
+    "4개 손가락 동일·상호 교체 가능, 퀵 릴리스 어댑터"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/hand-ii",
+   "quote": "Payload: 30N perpendicular to extended finger; Power supply: 24V DC (20A)"
+  }
+ },
+ "DLR-HIT Hand II": {
+  "tipForce": {
+   "value": "10 N (능동 손끝 힘)",
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand-ii",
+   "quote": "Payload: 10N active fingertip force"
+  },
+  "speed": {
+   "value": "관절 최대 360°/s",
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand-ii",
+   "quote": "Speed: 360°/s joint velocity"
+  },
+  "io": {
+   "value": [
+    "직렬 통신 (손가락–손–외부 제어 PC)"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand-ii",
+   "quote": "Serial communication system connecting the fingers to the hand and the hand to any external control computer."
+  },
+  "other": {
+   "value": [
+    "손가락당 4관절·3 능동 자유도 (동일 모듈형 손가락 5개)",
+    "손가락 링크마다 A/D 변환",
+    "핫플러그 툴 교환 (수 초)",
+    "알루미늄 오픈 골격 + 사출 플라스틱 셸"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand-ii",
+   "quote": "five modular fingers with four joint and three active degrees of freedoms"
+  }
+ },
+ "DLR/HIT Hand I (SCHUNK SAH)": {
+  "drive": {
+   "value": [
+    "전동 (BLDC)"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand",
+   "quote": "The actuators are commercial brushless DC motors with analog Hall sensors."
+  },
+  "io": {
+   "value": [
+    "고속 실시간 시리얼 버스 (FPGA, 25 Mbps)",
+    "PCI 보드 DSP 제어"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand",
+   "quote": "A high speed real-time serial communication bus (25 Mbps) has been implemented using FPGAs"
+  },
+  "other": {
+   "value": [
+    "손가락당 관절 4개·구동기 3개 (엄지에 구동기 1개 추가)",
+    "관절마다 비접촉 자기식 각도 센서 + 스트레인게이지 토크 센서"
+   ],
+   "url": "https://www.dlr.de/en/rm/research/robotic-systems/hands/dlr-hit-hand",
+   "quote": "The hand has four fingers with four joints and three actuators each."
+  }
+ },
+ "eHand-6": {
+  "payload": {
+   "value": "5 kg (인양 하중)",
+   "url": "https://www.hitbot.cc/dexterous-hand/e-hand-6.html",
+   "quote": "5kg"
+  },
+  "drive": {
+   "value": [
+    "코어리스 모터 + 유성 감속기 + 리드스크류 + 링크"
+   ],
+   "url": "https://www.hitbot.cc/dexterous-hand/e-hand-6.html",
+   "quote": "空心杯电机+行星减速机+丝杆+连杆"
+  },
+  "other": {
+   "value": [
+    "전원 24 VDC ±10%",
+    "크기 220×88×52 mm",
+    "굴곡 각도: 네 손가락 60°+110°+170°, 엄지 32°+44°+44°, 엄지 측방 70°"
+   ],
+   "url": "https://www.hitbot.cc/dexterous-hand/e-hand-6.html",
+   "quote": "24VDC±10％; 220*88*52mm"
+  }
+ },
+ "FTHand-12": {
+  "weight": {
+   "value": "550 g",
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "自重：550g"
+  },
+  "tipForce": {
+   "value": "엄지 14 N / 네 손가락 25 N",
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "拇指14N，四指25N"
+  },
+  "gripForce": {
+   "value": "최대 100 N (5지)",
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "五指最大抓握力100N"
+  },
+  "payload": {
+   "value": "20 kg",
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "负载：20kg"
+  },
+  "speed": {
+   "value": "최소 개폐 1.2 s",
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "最小开合时间：1.2s"
+  },
+  "sensors": {
+   "value": [
+    "촉각 센서 (엄지·검지·중지; 법선력·접선력·근접 감지, 0–25 N)"
+   ],
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "大拇指、食指、中指支持；无名指、小拇指不支持 ... 法向力、切向力、接近觉"
+  },
+  "io": {
+   "value": [
+    "CAN",
+    "ROS 2"
+   ],
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "通讯方式：CAN ... 支持ROS2"
+  },
+  "drive": {
+   "value": [
+    "링크 구동"
+   ],
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "驱动方式：连杆"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24 V ±10%",
+    "크기 185×78.5×36 mm (손목 13.5 mm 포함)",
+    "반복정밀도 ±0.2 mm",
+    "알루미늄 합금 골격",
+    "위치·토크 제어"
+   ],
+   "url": "https://www.futuretakt.com/sys-pd/38.html",
+   "quote": "工作电压：DC24V±10% ; 整手尺寸（含手腕13.5mm）：185*78.5*36mm ; 重复定位精度：±0.2mm"
+  }
+ },
+ "Gecko SP5": {
+  "weight": {
+   "value": "318 g",
+   "url": "https://onrobot.com/storage/datasheets/gecko/datasheet_gecko_gripper_v1.5_en.pdf",
+   "quote": "Weight 0.267 / 0.297 / 0.318 [kg] (SP1 / SP3 / SP5)"
+  },
+  "speed": {
+   "value": "탈착 100–1000 ms (로봇 속도에 따라)",
+   "url": "https://onrobot.com/storage/datasheets/gecko/datasheet_gecko_gripper_v1.5_en.pdf",
+   "quote": "Detachment time 100-1000 (dependent on robot speed) [ms]"
+  },
+  "other": {
+   "value": [
+    "예압(preload) 최소 12 N / 중간 29 N / 최대 46 N",
+    "패드 직경 Ø75 mm",
+    "크기(H×W) 69 × 71 mm",
+    "IP42",
+    "정전 시에도 파지 유지",
+    "패드 교체 주기 약 20만 회"
+   ],
+   "url": "https://onrobot.com/storage/datasheets/gecko/datasheet_gecko_gripper_v1.5_en.pdf",
+   "quote": "Preload Minimum 12, Medium 29, Maximum 46 [N] (SP5); IP Classification IP42; SP5 Ø75"
+  }
+ },
+ "Gifu Hand III": {
+  "sensors": {
+   "value": [
+    "분포형 촉각 센서 859점"
+   ],
+   "url": "https://www1.gifu-u.ac.jp/~kawalab/research/research_hand.html",
+   "quote": "859点の分布型触覚センサ"
+  }
+ },
+ "Hey5": {
+  "other": {
+   "value": [
+    "구동기 최대 속도/토크: 엄지·검지 32 rpm / 0.23 Nm, 중지+약지+소지 34 rpm / 0.45 Nm"
+   ],
+   "url": "https://docs.pal-robotics.com/edge/hardware/end-effectors/end-effector-hey5",
+   "quote": "Thumb 32 rpm 0.23 Nm; Index 32 rpm 0.23 Nm; Middle+right+little 34 rpm 0.45 Nm"
+  }
+ },
+ "HX5-D20-MRT": {
+  "weight": {
+   "value": "1,000 g (±2%)",
+   "url": "https://docs.robotis.com/docs/systems/hx5_d20/specifications/hardware",
+   "quote": "Weight | 1,000 g ± 2%"
+  },
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://docs.robotis.com/docs/systems/hx5_d20/specifications/hardware",
+   "quote": "Control Frequency | 1 kHz"
+  },
+  "tipForce": {
+   "value": "최대 14 N",
+   "url": "https://docs.robotis.com/docs/systems/hx5_d20/specifications/hardware",
+   "quote": "Max Finger Tip Force | 14 N"
+  },
+  "payload": {
+   "value": "15 kg (감싸 쥐기 최대)",
+   "url": "https://docs.robotis.com/docs/systems/hx5_d20/specifications/hardware",
+   "quote": "Maximum Load for Envelop | 15 kg"
+  },
+  "other": {
+   "value": [
+    "작동 전압 24 V",
+    "통신 RS485 (DYNAMIXEL Protocol 2.0 / Modbus-RTU)",
+    "손가락 구동기 DYNAMIXEL XM335-T323-T (직접 구동)",
+    "ROS 2 (ros2_control)",
+    "자유도 구성 4 DoF/손가락"
+   ],
+   "url": "https://docs.robotis.com/docs/systems/hx5_d20/specifications/hardware",
+   "quote": "Operating Voltage | 24 V; Protocol Type | RS485 Asynchronous Serial; Degrees of Freedom | 20 (4 DoF / 1 Finger)"
+  }
+ },
+ "IH2 Azzurra": {
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+   "quote": "PID controllers: Position, current, force * (1 kHz)"
+  },
+  "gripForce": {
+   "value": "원통 파지 35 N / 측면 파지 7 N",
+   "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+   "quote": "Grasp force: 35 N, 7 N (Cyl, Lat)"
+  },
+  "speed": {
+   "value": "굴곡·신전 1 s / 내전·외전 1 s",
+   "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+   "quote": "Flexion/Extension time: 1 s; Adduction/Abduction time: 1 s"
+  },
+  "sensors": {
+   "value": [
+    "위치 센서 5개 (디지털)",
+    "모터 전류 센서 5개",
+    "리밋 스위치 10개",
+    "힘 센서 4개 (아날로그)",
+    "텐던 장력 센서 (요청 시)"
+   ],
+   "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+   "quote": "Position sensors (digital): 5 (1000 pulse/deg); Motor current sensors (analog): 5; Limit switches (digital): 10; Force sensors (analog): 4 (~200 mN, 10 bits)"
+  },
+  "other": {
+   "value": [
+    "크기 102 x 45 x 213 mm",
+    "전원 9 V @ 5 A 피크",
+    "사전 설정 파지 10종",
+    "약지·소지 연동"
+   ],
+   "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+   "quote": "Size: 102 x 45 x 213 mm; Power supply: 9V @ 5A peak; Coupled fingers: Ring/Little"
+  }
+ },
+ "LEAP Hand v1": {
+  "weight": {
+   "value": "595 g",
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "The 4-finger LEAP Hand weighs 595g."
+  },
+  "gripForce": {
+   "value": "19.5 N (풀아웃 시험)",
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "Table III pull-out test: LEAP Hand 19.5 N"
+  },
+  "speed": {
+   "value": "관절 약 8 rad/s",
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "hand-like joint movement velocity of around 8 rad/sec"
+  },
+  "sensors": {
+   "value": [
+    "관절 위치·속도·토크(전류) 피드백"
+   ],
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "LEAP Hand can return current joint position, velocity, and torque."
+  },
+  "io": {
+   "value": [
+    "USB (U2D2)",
+    "ROS",
+    "Python",
+    "C++"
+   ],
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "interfaces with the computer using a USB cable and ROS, Python, or C++"
+  },
+  "other": {
+   "value": [
+    "조립 약 4시간",
+    "인간 손보다 약 30% 큼"
+   ],
+   "url": "https://arxiv.org/abs/2309.06440",
+   "quote": "can be assembled in 4 hours at a cost of 2000 USD"
+  }
+ },
+ "LEAP Hand v2 Standard": {
+  "totalDof": {
+   "value": 16,
+   "url": "https://v2.leaphand.com/",
+   "quote": "In total LEAP Hand v2 has 16 DOF with 8 powered motors."
+  },
+  "activeDof": {
+   "value": 8,
+   "url": "https://v2.leaphand.com/",
+   "quote": "a $200 8-DOF highly dexterous robotic hand"
+  },
+  "other": {
+   "value": [
+    "TPU+PLA 다중소재 3D 프린팅",
+    "사람 손 크기",
+    "URDF·시뮬레이션 예제, MANO/Vision Pro 리타게팅, Manus 글러브 원격조작 지원"
+   ],
+   "url": "https://v2.leaphand.com/",
+   "quote": "Each finger is easily multi-material 3D printed with TPU and PLA."
+  }
+ },
+ "Linker Hand L20": {
+  "tipForce": {
+   "value": "엄지 15 N / 네 손가락 20 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+   "quote": "拇指指尖力 15N / 四指指尖力 20N"
+  },
+  "gripForce": {
+   "value": "다섯 손가락 100 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+   "quote": "五指握力 100N"
+  },
+  "payload": {
+   "value": "20 kg (최대)",
+   "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+   "quote": "最大负载 20kg"
+  },
+  "speed": {
+   "value": "네 손가락 굴곡 3.5 rad/s (200.47°/s) / 엄지 측면 스윙 3.2 rad/s / 엄지 굴곡 1.52 rad/s",
+   "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+   "quote": "3.5rad/s(200.47°/s); 3.2rad/s(193.59°/s); 1.52rad/s(87.36°/s)"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24–48 V",
+    "반복정밀도 ±0.20 mm",
+    "자체 개발 브러시리스 모터 약 20개"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandL20/",
+   "quote": "DC 24V—48V; ±0.20mm; 全手装备自研电机近20个; 无刷电机"
+  }
+ },
+ "Linker Hand L30 Pro": {
+  "activeDof": {
+   "value": 17,
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "17个主动自由度 + 4 个被动自由度"
+  },
+  "passiveDof": {
+   "value": 4,
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "17个主动自由度 + 4 个被动自由度"
+  },
+  "rate": {
+   "value": "900 Hz",
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "支持 900Hz 通信频率"
+  },
+  "tipForce": {
+   "value": "엄지 6.5 N / 네 손가락 9 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "拇指指尖力 6.5N；四指指尖力 9N"
+  },
+  "gripForce": {
+   "value": "최대 39 N (5지)",
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "五指最大握力 39N"
+  },
+  "payload": {
+   "value": "15 kg (최대)",
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "最大负载 15kg"
+  },
+  "sensors": {
+   "value": [
+    "고분해능 엔코더",
+    "촉각 센서 어레이 (손끝)"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "高分辨率编码器 ... 高灵敏度触觉传感阵列"
+  },
+  "io": {
+   "value": [
+    "CAN FD"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "CAN FD"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24 V ±10%",
+    "반복정밀도 ±0.2 mm",
+    "관절 속도 400°/s 이상 (엄지 굽힘 450.35°/s, 네 손가락 굽힘 363.6°/s)"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandL30/",
+   "quote": "DC24V±10% ; ±0.2mm ; 指节核心速度可达400°/s以上"
+  }
+ },
+ "Linker Hand O30": {
+  "weight": {
+   "value": "730 g",
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "重量 730g"
+  },
+  "rate": {
+   "value": "500 Hz",
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "通信频率 500Hz"
+  },
+  "tipForce": {
+   "value": "엄지 최대 24 N / 네 손가락 최대 30 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "拇指最大指尖力 24N；四指最大指尖力 30N"
+  },
+  "gripForce": {
+   "value": "다섯 손가락 최대 70 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "五指最大抓握力 70N"
+  },
+  "payload": {
+   "value": "30 kg (최대)",
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "最大负载 30kg"
+  },
+  "io": {
+   "value": [
+    "CAN",
+    "CAN FD"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "控制接口 CAN/CAN FD"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24–48 V",
+    "반복정밀도 ±0.20 mm",
+    "최대 전력 150 W",
+    "정적 전류 0.4 A @24 V",
+    "네 손가락 굽힘 속도 136.77°/s"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandO30/",
+   "quote": "工作电压 DC24V~48V；重复定位精度 ±0.20mm；最大功率 150W"
+  }
+ },
+ "Linker Hand O6": {
+  "weight": {
+   "value": "360 g",
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "360g"
+  },
+  "tipForce": {
+   "value": "엄지 20 N / 네 손가락 25 N",
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "拇指最大指尖力 20N；四指最大指尖力 25N"
+  },
+  "gripForce": {
+   "value": "최대 70 N (5지)",
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "五指最大握力 70N"
+  },
+  "payload": {
+   "value": "50 kg (최대)",
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "最大负载 50kg"
+  },
+  "speed": {
+   "value": "네 손가락 굽힘 74.75°/s, 엄지 굽힘 38°/s, 엄지 측면 스윙 78.10°/s",
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "1.30rad/s(74.75°/s) ; 0.66rad/s(38°/s) ; 1.36rad/s(78.10°/s)"
+  },
+  "sensors": {
+   "value": [
+    "촉각 센서 (옵션)"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "触觉传感器 选配"
+  },
+  "io": {
+   "value": [
+    "CAN",
+    "CAN FD",
+    "RS-485",
+    "EtherCAT"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "CAN/CAN FD/RS485/ECAT"
+  },
+  "other": {
+   "value": [
+    "전원 24–48 V",
+    "반복정밀도 ±0.2 mm 미만",
+    "네 손가락 굽힘 각도 92.59°",
+    "구동·제어 일체형 서보 모듈"
+   ],
+   "url": "https://www.linkerhand.com/details/LinkerHandO6/",
+   "quote": "24V-48V ; <±0.20mm ; 1.61rad(92.59°)"
+  }
+ },
+ "Mark 7": {
+  "sensors": {
+   "value": [
+    "표면 근전도(EMG) 센서"
+   ],
+   "url": "https://www.ot-world.com/exhibitors-products/product/otworld/7005/2860",
+   "quote": "surface EMG sensors that detect muscle signals from the user's skin"
+  }
+ },
+ "MG10": {
+  "fingers": {
+   "value": 4,
+   "url": "https://onrobot.com/storage/datasheets/mg10/datasheet_mg10_v1.5_en.pdf",
+   "quote": "To achieve the full force, all four fingers must be in contact with the workpiece."
+  },
+  "weight": {
+   "value": "0.8 kg",
+   "url": "https://onrobot.com/en/products/mg10-magnetic-gripper",
+   "quote": "0.8 kg Gripper weight"
+  },
+  "speed": {
+   "value": "파지 시간 300 ms (일반, 브레이크 작동 포함)",
+   "url": "https://onrobot.com/storage/datasheets/mg10/datasheet_mg10_v1.5_en.pdf",
+   "quote": "Gripping time (including brake activation) 300 ms"
+  },
+  "sensors": {
+   "value": [
+    "근접 센서 (하부, 2 mm 이내 감지)",
+    "파지 감지 (Grip detection)"
+   ],
+   "url": "https://onrobot.com/storage/datasheets/mg10/datasheet_mg10_v1.5_en.pdf",
+   "quote": "The MG10 has a proximity sensor ... can locate workpieces within 2 mm distance."
+  },
+  "other": {
+   "value": [
+    "IP67",
+    "전원 20–25 V (일반 24 V)",
+    "소비 전류 600–2000 mA",
+    "크기 Ø71×80 mm",
+    "모터: 내장 전동 BLDC",
+    "자력 10단계 조절",
+    "정전 시 파지 유지"
+   ],
+   "url": "https://onrobot.com/storage/datasheets/mg10/datasheet_mg10_v1.5_en.pdf",
+   "quote": "IP67; Power Supply 20 24 25 [V]; Motor Integrated, electric BLDC"
+  }
+ },
+ "MHT2-32DZ": {
+  "weight": {
+   "value": "790 g",
+   "url": "https://content2.smcetech.com/pdf/MHT2-Z_EU.pdf",
+   "quote": "MHT2-32DZ ... Weight [g] 790"
+  },
+  "sensors": {
+   "value": [
+    "오토스위치 장착 가능 (옵션, 4면)"
+   ],
+   "url": "https://www.smcworld.com/webcatalog/s3s/en-jp/detail/?partNumber=MHT2-32DZ",
+   "quote": "New cylinder body allows small auto switches to be mounted on 4 surfaces."
+  },
+  "other": {
+   "value": [
+    "보어 32 mm",
+    "복동, 외경 파지",
+    "사용 유체 공기, 사용 압력 0.1–0.6 MPa",
+    "사용 온도 5–60°C",
+    "급유 불필요",
+    "압력 저하 시에도 토글 기구로 파지 유지"
+   ],
+   "url": "https://content2.smcetech.com/pdf/MHT2-Z_EU.pdf",
+   "quote": "Double acting Air 0.1 to 0.6 MPa 5 to 60°C Not required"
+  }
+ },
+ "Mia Hand R&D": {
+  "activeDof": {
+   "value": 3,
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Degrees of actuation/freedom > 3/4"
+  },
+  "totalDof": {
+   "value": 4,
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Degrees of actuation/freedom > 3/4"
+  },
+  "weight": {
+   "value": "520 g",
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Weight > 520 g"
+  },
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "PID controllers > Position, speed, force* (1 kHz)"
+  },
+  "gripForce": {
+   "value": "최대 44–140 N",
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Max grasp force > 44 to 140 N"
+  },
+  "speed": {
+   "value": "닫힘 0.4 s",
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Closing time > 0.4 s"
+  },
+  "other": {
+   "value": [
+    "최대 크기 140 x 135 x 190 mm",
+    "전원 9 V @ 6 A ~ 24 V @ 2.5 A 피크",
+    "통신 UART over USB",
+    "사전 설정 파지 5종",
+    "위치 센서 3개 / 모터 전류 센서 3개 / 리밋 스위치 6개"
+   ],
+   "url": "https://www.prensilia.com/mia-hand-research/",
+   "quote": "Power supply > From 9V @ 6A peak to 24V @ 2.5A peak; Communication > UART over USB"
+  }
+ },
+ "myGripper H100": {
+  "rate": {
+   "value": "100 Hz",
+   "url": "https://docs.elephantrobotics.com/docs/acc-en/2-serialproduct/H100_Gripper/myhand_en.html",
+   "quote": "H100 supports 100Hz high-frequency communication"
+  },
+  "other": {
+   "value": [
+    "전원 24 V 2 A",
+    "M8-8핀 케이블 커넥터",
+    "수명 10만 회 이상"
+   ],
+   "url": "https://docs.elephantrobotics.com/docs/acc-en/2-serialproduct/H100_Gripper/myhand_en.html",
+   "quote": "Power supply parameters | 24V2A; Cable interface model | M8-8PIN; Service life | 10W times and above"
+  }
+ },
+ "OmniHand 3": {
+  "tipForce": {
+   "value": "최대 5 N (typ.)",
+   "url": "https://www.agibot.com/products/OmniHand_O10",
+   "quote": "Max. fingertip force (typ.): 5N"
+  },
+  "payload": {
+   "value": "1 kg (일반) / 2 kg (최대), 5 cm 강체·손바닥 위",
+   "url": "https://www.agibot.com/products/OmniHand_O10",
+   "quote": "Load capacity (5cm rigid object, palm up): 1kg(typ) 2kg(max)"
+  },
+  "speed": {
+   "value": "최소 개폐 0.7 s",
+   "url": "https://www.agibot.com/products/OmniHand_O10",
+   "quote": "Min. open/close time (typ.): 0.7s"
+  },
+  "drive": {
+   "value": [
+    "링크 구동",
+    "전동 (모터 + 기어)"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O10",
+   "quote": "Transmission: Linkage mechanism; Drive: Motor + Gear"
+  },
+  "other": {
+   "value": [
+    "전원 24 V",
+    "크기 180×85×38.5 mm",
+    "반복정밀도 0.5 mm (typ.)"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O10",
+   "quote": "Operating voltage 24V; Size 180×85×38.5mm; Repeatability (typ.) 0.5mm"
+  }
+ },
+ "OmniHand Pro 2025 (O12)": {
+  "joints": {
+   "value": 19,
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Number of joints: 19"
+  },
+  "weight": {
+   "value": "750 g 이하",
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Weight: ≤750g"
+  },
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Communication rate: 1kHz"
+  },
+  "payload": {
+   "value": "35 kg (손바닥 위, 5 cm 강체) / 5 kg (손바닥 아래)",
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Load capacity (palm up, 5 cm rigid object): 35kg; Load capacity (palm down, 5 cm rigid object): 5kg"
+  },
+  "speed": {
+   "value": "닫힘 최소 0.8 s (typ.)",
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Minimum closing time (typ.): 0.8s"
+  },
+  "sensors": {
+   "value": [
+    "손끝 3축 힘 센서",
+    "손바닥 1축 힘 센서",
+    "촉각 센서 (150+ 점)"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Fingertip 3-axis force; Palm 1-axis force; 150+ tactile points"
+  },
+  "io": {
+   "value": [
+    "CAN FD"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Communication interface: CANFD"
+  },
+  "drive": {
+   "value": [
+    "링크 구동",
+    "모터 + 스크류 로드"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Transmission: Linkage transmission; Drive method: Motor + Screw Rod"
+  },
+  "other": {
+   "value": [
+    "전원 12–24 V",
+    "크기 207 × 98 × 56 mm",
+    "손가락 반복정밀도 0.02 mm (typ.)",
+    "최소 파지 직경 2 mm",
+    "재질 PA + 실리콘"
+   ],
+   "url": "https://www.agibot.com/products/OmniHand_O12",
+   "quote": "Operating voltage: 12~24V; Size: 207 × 98 × 56 mm; Finger reposition accuracy (typ.): 0.02mm"
+  }
+ },
+ "orcahand Touch": {
+  "io": {
+   "value": [
+    "Python SDK (orca_core)"
+   ],
+   "url": "https://github.com/orcahand/orca_core",
+   "quote": "Core Python Controller of the ORCA Hand"
+  }
+ },
+ "PGN-plus-P 380-2": {
+  "speed": {
+   "value": "닫힘 0.6 s / 열림 0.6 s",
+   "url": "https://schunk.com/us/en/gripping-systems/parallel-gripper/pgn-plus-p/pgn-plus-p-380-2/p/000000000001378019",
+   "quote": "Closing time [s] 0.6; Opening time [s] 0.6"
+  },
+  "other": {
+   "value": [
+    "작동 압력 2.5–8 bar (공칭 6 bar)",
+    "열림 힘 20,400 N",
+    "반복정밀도 0.05 mm",
+    "IP40",
+    "크기 410 × 170 × 155 mm",
+    "작동 원리: 쐐기 기어 (면 접촉 동력 전달)"
+   ],
+   "url": "https://schunk.com/us/en/gripping-systems/parallel-gripper/pgn-plus-p/pgn-plus-p-380-2/p/000000000001378019",
+   "quote": "Nominal operating pressure [bar] 6.0; Opening force [N] 20400.0; Repeat accuracy [mm] 0.05; IP protection class 40"
+  }
+ },
+ "piSOFTGRIP 100-4": {
+  "weight": {
+   "value": "136 g (피팅 제외)",
+   "url": "https://www.piab.com/globalassets/productimages/pisoftgripfamilyhandlingsensitiveanddifficulttopickobjects_gb.pdf",
+   "quote": "Weight of gripper (without fitting) ... 100-4: 136 / [4.79]"
+  },
+  "other": {
+   "value": [
+    "권장 진공 25–70 -kPa",
+    "권장 대상 폭 20–100 mm",
+    "높이 104 mm (G3/8\" 피팅 포함)",
+    "외경 112 mm",
+    "사용 온도 -20–100 °C",
+    "식품 접촉 승인 실리콘 (FDA 21 CFR, EU 1935/2004)"
+   ],
+   "url": "https://www.piab.com/globalassets/productimages/pisoftgripfamilyhandlingsensitiveanddifficulttopickobjects_gb.pdf",
+   "quote": "Recommended vacuum level 25-70; Recommended object width 20-100; Building height 104; Outer diameter 112"
+  }
+ },
+ "PXDex III": {
+  "drive": {
+   "value": [
+    "전동 (코어리스 모터)"
+   ],
+   "url": "https://paxini.com/cn/ax/pxdex3",
+   "quote": "空心杯电机"
+  },
+  "other": {
+   "value": [
+    "전원 19–48 V DC",
+    "관절 엔코더 (자체 개발 내자기 고정밀, 정밀도 ±0.15°)",
+    "촉각 힘 정밀도 0.1 N",
+    "카메라 30 fps, 시야각 D170°",
+    "무부하 개폐 수명 100만 회"
+   ],
+   "url": "https://paxini.com/cn/ax/pxdex3",
+   "quote": "19 ~ 48V DC; 空载开合寿命 100 万次"
+  }
+ },
+ "qb SoftHand Industry": {
+  "payload": {
+   "value": "2 kg (파워 그립) / 0.6 kg (핀치 그립)",
+   "url": "https://qbrobotics.com/product/qb-softhand-industry/",
+   "quote": "Power grasp payload: 2 kg; Pinch grasp payload 0.6 kg"
+  },
+  "speed": {
+   "value": "완전 닫힘 1.2 s",
+   "url": "https://qbrobotics.com/product/qb-softhand-industry/",
+   "quote": "Full closing time: 1.2 s"
+  },
+  "other": {
+   "value": [
+    "IP65",
+    "텐던 구동",
+    "마운팅 ISO 9409-1-50-4-M6",
+    "손목 장착 위치 조절 가능",
+    "교체형 글러브"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-industry/",
+   "quote": "Water and dust resistance: IP65; The actuation system is tendon-driven"
+  }
+ },
+ "qb SoftHand Research": {
+  "gripForce": {
+   "value": "62 N (핀치 자세)",
+   "url": "https://qbrobotics.com/product/qb-softhand-research/",
+   "quote": "Grasp force 62N (pinch configuration)"
+  },
+  "payload": {
+   "value": "1.1 kg (공칭, 핀치 자세)",
+   "url": "https://qbrobotics.com/product/qb-softhand-research/",
+   "quote": "Nominal payload 1.1kg (pinch configuration)"
+  },
+  "speed": {
+   "value": "완전 펼침→주먹 1.1 s",
+   "url": "https://qbrobotics.com/product/qb-softhand-research/",
+   "quote": "From wide open to clenched fist in 1.1 s"
+  },
+  "sensors": {
+   "value": [
+    "모터 위치",
+    "모터 전류"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-research/",
+   "quote": "Feedback: motor position and motor current"
+  },
+  "other": {
+   "value": [
+    "ROS·ROS 2 호환",
+    "UR+ 인증",
+    "탈구 후 복구되는 손가락 관절"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-research/",
+   "quote": "ROS & ROS2 compatible; UR+ Approved; Dislocatable, self-healing finger joints"
+  }
+ },
+ "qb SoftHand2 Research": {
+  "weight": {
+   "value": "0.94 kg",
+   "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+   "quote": "Weight: 0.94 kg"
+  },
+  "speed": {
+   "value": "완전 개방→주먹 쥠 1 s",
+   "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+   "quote": "From wide open to clenched fist in 1 s"
+  },
+  "sensors": {
+   "value": [
+    "모터 위치 피드백",
+    "모터 전류 피드백"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+   "quote": "Feedback: motor position and motor current"
+  },
+  "io": {
+   "value": [
+    "USB",
+    "RS-485",
+    "ROS",
+    "ROS 2"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+   "quote": "USB & RS485 interfaces; ROS & ROS2 compatible"
+  },
+  "other": {
+   "value": [
+    "손가락 관절 탈구·자가복구 구조"
+   ],
+   "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+   "quote": "Dislocatable, self-healing finger joints"
+  }
+ },
+ "Revo 2 Basic": {
+  "tipForce": {
+   "value": "핀치력 15 N 이상",
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Pinch force ≥15N"
+  },
+  "gripForce": {
+   "value": "주먹 쥐기 50 N 이상",
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Full fist grip force ≥50N"
+  },
+  "payload": {
+   "value": "20 kg 이상 (최대)",
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Max Payload ≥20kg"
+  },
+  "stroke": {
+   "value": "최대 개폐 거리 100 mm (엄지–검지)",
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Maximum opening and closing distance 100mm(from thumb to index finger)"
+  },
+  "speed": {
+   "value": "굴곡/신전 0.65 s 이하",
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Flexion/Extension Speed ≤0.65s"
+  },
+  "other": {
+   "value": [
+    "전원 12–28 V (Basic)",
+    "높이 160 mm",
+    "반복 제어 정밀도 0.1°",
+    "소음 50 dB 이하"
+   ],
+   "url": "https://www.brainco-hz.com/docs/revolimb-hand/en/revo2/parameters.html",
+   "quote": "Supply voltage 12-28V (BASIC); Height 160 mm; Repetitive control precision 0.1°; ≤50dB"
+  }
+ },
+ "RH-P12-RN": {
+  "stroke": {
+   "value": "스트로크 0–106 mm",
+   "url": "https://www.robotis.com/shop/item.php?it_id=905-0022-000",
+   "quote": "Stroke 0-106mm"
+  },
+  "speed": {
+   "value": "최대 닫힘 속도 75 mm/s",
+   "url": "https://emanual.robotis.com/docs/en/platform/rh_p12_rn/",
+   "quote": "Max Closing Speed 75 mm/s"
+  },
+  "sensors": {
+   "value": [
+    "비접촉 절대 엔코더 (12bit, 360°)",
+    "위치·속도·전류·온도·입력전압 피드백"
+   ],
+   "url": "https://emanual.robotis.com/docs/en/platform/rh_p12_rn/",
+   "quote": "Contactless Absolute Encoder (12 bit, 360°)"
+  },
+  "other": {
+   "value": [
+    "전원 24 V",
+    "코어리스 모터, 기어비 1181:1",
+    "RS485 멀티드롭 버스, 9,600 bps–10.5 Mbps",
+    "MCU STM32F405 (Cortex-M4)",
+    "사용 온도 -5–55°C",
+    "풀 메탈 기어·메탈 바디"
+   ],
+   "url": "https://www.robotis.com/shop/item.php?it_id=905-0022-000",
+   "quote": "Nominal Voltage 24V; Gear Ratio 1181 : 1"
+  }
+ },
+ "RH56BFX": {
+  "speed": {
+   "value": "엄지 측면 235°/s · 엄지 굽힘 150°/s · 네 손가락 굽힘 570°/s",
+   "url": "https://www.inspire-robots.com/dexterous%20hands/rh56bfx-series/",
+   "quote": "拇指侧摆速度 235°/s；拇指弯曲速度 150°/s；四指弯曲速度 570°/s"
+  },
+  "io": {
+   "value": [
+    "RS-485"
+   ],
+   "url": "https://www.inspire-robots.com/dexterous%20hands/rh56bfx-series/",
+   "quote": "控制接口: RS485"
+  },
+  "other": {
+   "value": [
+    "전원 DC 24 V ±10%",
+    "반복정밀도 ±0.20 mm",
+    "힘 분해능 0.5 N",
+    "최대 전류 2 A"
+   ],
+   "url": "https://www.inspire-robots.com/dexterous%20hands/rh56bfx-series/",
+   "quote": "DC24V±10%; ±0.20mm; 0.50N; 2A"
+  }
+ },
+ "RH56DFX": {
+  "speed": {
+   "value": "엄지 측면회전 107°/s, 엄지 굽힘 70°/s, 네 손가락 굽힘 260°/s",
+   "url": "https://en.inspire-robots.com/product/rh56dfx/",
+   "quote": "Thumb lateral rotation speed 107°/s; Thumb flexion speed 70°/s; Four-finger flexion speed 260°/s"
+  },
+  "other": {
+   "value": [
+    "작동 전압 DC 12–48 V",
+    "피크 전류 2 A@24 V",
+    "반복정밀도 ±0.20 mm",
+    "힘 분해능 0.50 N",
+    "엄지 측면회전 범위 >65°"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56dfx/",
+   "quote": "Operating voltage DC12V-48V; Repeatability ±0.20mm; Force resolution 0.50N"
+  }
+ },
+ "RH56E2": {
+  "payload": {
+   "value": "15 kg 상당 (전체 하중 능력)",
+   "url": "https://en.inspire-robots.com/product/rh56e2/",
+   "quote": "overall load capacity equivalent to 15KG"
+  },
+  "speed": {
+   "value": "손 닫힘 0.8 s / 네 손가락 굴곡 200°/s 이상 / 엄지 굴곡·회전 130°/s 이상",
+   "url": "https://en.inspire-robots.com/product/rh56e2/",
+   "quote": "Hand closing time 0.8S; Four-finger flexion speed >200°/s; Thumb flexion speed >130°/s"
+  },
+  "other": {
+   "value": [
+    "전원 24 V ±10%",
+    "반복정밀도 ±0.20 mm",
+    "힘 분해능 0.05 N",
+    "피크 전류 4 A @24 V"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56e2/",
+   "quote": "24V±10%; ±0.20mm; Force resolution 0.05N; 4A @24V"
+  }
+ },
+ "RH56F2": {
+  "joints": {
+   "value": 12,
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "Number of joints: 12"
+  },
+  "tipForce": {
+   "value": "엄지 12 N 이상 / 기타 10 N 이상",
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "Thumb fingertip strength: ≥12N; Fingertip strength: ≥10N"
+  },
+  "payload": {
+   "value": "30 kg (수동 하중)",
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "30kg passive payload"
+  },
+  "speed": {
+   "value": "닫힘 0.8 s 이하",
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "Hand closing time: ≤0.8s"
+  },
+  "sensors": {
+   "value": [
+    "촉각 센서 8개 (범위 30 N, 정확도 5%FS)",
+    "힘 감지 (분해능 0.1 N)"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "Number of tactile sensors: 8; Tactile sensor range: 30N; Force resolution: 0.1N"
+  },
+  "io": {
+   "value": [
+    "EtherCAT",
+    "RS-485",
+    "CAN FD"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "EtherCAT+RS485 (E2R-T1/E2L-T1); EtherCAT+CAN FD (E4R/E4L)"
+  },
+  "other": {
+   "value": [
+    "전원 18–60 V",
+    "반복정밀도 ±0.2 mm",
+    "피크 전류 5 A @24 V",
+    "엄지 측방 회전 범위 60–180°"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56f2/",
+   "quote": "Operating voltage: 18V~60V; Repeatability: ±0.2mm; Peak current: 5A @24V"
+  }
+ },
+ "RH56H1": {
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://en.inspire-robots.com/product/rh56h1/",
+   "quote": "1 kHz high-speed real-time communication"
+  },
+  "payload": {
+   "value": "단일 손가락 정적 수동 하중 8 kg",
+   "url": "https://en.inspire-robots.com/product/rh56h1/",
+   "quote": "single-finger static passive load capacity of 8 kg"
+  },
+  "speed": {
+   "value": "손 닫힘 ≤0.8 s · 네 손가락 굴곡 >110°/s · 엄지 굴곡 >65°/s · 엄지 측방 회전 >157°/s",
+   "url": "https://en.inspire-robots.com/product/rh56h1/",
+   "quote": "Flexion speed of four finger >110°/s; hand closing time ≤0.8s"
+  },
+  "other": {
+   "value": [
+    "전원 24–60 V",
+    "통신 RS485+CANFD (표준) / EtherCAT+CAN-FD+RS485 (촉각 모델)",
+    "촉각 센서 6개, 범위 30 N, 정확도 5%FS (촉각 모델)",
+    "반복정밀도 ±0.2 mm",
+    "힘 분해능 0.1 N",
+    "크기 75×159 mm",
+    "엄지 측방 회전 범위 70–170°",
+    "피크 전류 5 A @24V"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh56h1/",
+   "quote": "Repeatability ±0.2mm; RS485+CANFD"
+  }
+ },
+ "RH5DG2": {
+  "weight": {
+   "value": "1020 ± 15 g (손목 제외)",
+   "url": "https://en.inspire-robots.com/product/rh5dg2/",
+   "quote": "1020±15g(excluding wrist)"
+  },
+  "speed": {
+   "value": "닫힘 0.8 s 이하",
+   "url": "https://en.inspire-robots.com/product/rh5dg2/",
+   "quote": "Hand closing time: ≤0.8s"
+  },
+  "sensors": {
+   "value": [
+    "촉각 센서 8개 (범위 30 N, 촉각 버전)",
+    "힘 감지 (분해능 0.1 N)"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh5dg2/",
+   "quote": "Number of tactile sensors: 8; Tactile sensor range: 30N; Force resolution: 0.1N"
+  },
+  "io": {
+   "value": [
+    "EtherCAT",
+    "CAN FD",
+    "RS-485"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh5dg2/",
+   "quote": "EtherCAT+CAN FD (E4R-T1/E4L-T1); EtherCAT+RS485 (E2R-T1/E2L-T1)"
+  },
+  "other": {
+   "value": [
+    "전원 18–60 V",
+    "반복정밀도 ±0.2 mm",
+    "피크 전류 7.5 A @24 V",
+    "최대 손끝 압력 8 kg",
+    "엄지 측방 회전 65–175°"
+   ],
+   "url": "https://en.inspire-robots.com/product/rh5dg2/",
+   "quote": "Operating voltage: 18V~60V; Repeatability: ±0.2mm; Maximum fingertip pressure: 8kg"
+  }
+ },
+ "RH6D": {
+  "actuators": {
+   "value": 6,
+   "url": "https://www.seedrobotics.com/rh5d-rh7d-childsize-robot-hand",
+   "quote": "6 Smart actuators for precise control"
+  },
+  "payload": {
+   "value": "750 g (수직 당김) / 450 g (3차원 공간)",
+   "url": "https://www.seedrobotics.com/rh5d-rh7d-childsize-robot-hand",
+   "quote": "Payload (Vertical pull): 750g; Payload (3D space): 450g"
+  },
+  "sensors": {
+   "value": [
+    "손바닥 ToF 거리 센서",
+    "손등 정전식 패드 (옵션)",
+    "구동기 위치·속도·전류·온도 피드백"
+   ],
+   "url": "https://www.seedrobotics.com/rh5d-rh7d-childsize-robot-hand",
+   "quote": "palm Time-of-Flight distance sensor; optional capacitive pads"
+  },
+  "drive": {
+   "value": [
+    "저구동(underactuated) 구조",
+    "스마트 액추에이터 내장"
+   ],
+   "url": "https://www.seedrobotics.com/rh5d-rh7d-childsize-robot-hand",
+   "quote": "underactuated"
+  },
+  "other": {
+   "value": [
+    "전원 9–24 V",
+    "통신 UART over RS485 (TTL 옵션)",
+    "USB 설정, Bluetooth 옵션"
+   ],
+   "url": "https://www.seedrobotics.com/rh5d-rh7d-childsize-robot-hand",
+   "quote": "Supply Voltage: 9V to 24V; UART over RS485"
+  }
+ },
+ "RH8D": {
+  "payload": {
+   "value": "2.5 kg (수직 인양) / 1 kg (3D 공간)",
+   "url": "https://www.seedrobotics.com/rh8d-adult-robot-hand",
+   "quote": "Payload (Vertical pull): 2.50Kg; Payload (3D space): 1Kg"
+  },
+  "drive": {
+   "value": [
+    "스마트 액추에이터 (본체 내장)",
+    "저구동 (Under-actuated)"
+   ],
+   "url": "https://www.seedrobotics.com/rh8d-adult-robot-hand",
+   "quote": "8 Smart actuators for precise control ... Under actuated design"
+  },
+  "other": {
+   "value": [
+    "전원 9–24 V",
+    "UART over RS485 / TTL (Dynamixel 프로토콜 1.0·2.0 호환)",
+    "USB (설정·유지보수)",
+    "Bluetooth (옵션)",
+    "손바닥 ToF 거리 센서",
+    "FTS 촉각 압력 센서 옵션 (분해능 1 mN)",
+    "URDF 제공",
+    "32bit Arm Cortex M4"
+   ],
+   "url": "https://www.seedrobotics.com/rh8d-adult-robot-hand",
+   "quote": "Supply Voltage: 9V to 24V; UART over RS485; Palm ToF Distance sensor"
+  }
+ },
+ "ROH-A002": {
+  "payload": {
+   "value": "30 kg (네 손가락 굽힘 최대 인양) / 단일 손가락 정적 하중 10 kg (굽힘)·8 kg (손끝, 펴짐)",
+   "url": "https://www.oymotion.com/product61/189",
+   "quote": "最大提重物(四指弯曲状态) 30千克; 最大单指静态载荷(手指弯曲状态) 10千克"
+  },
+  "other": {
+   "value": [
+    "엄지 스윙 범위 횡방향 0–31°, 반대방향 0–50°",
+    "엄지 회전 전행정 0.7 s",
+    "크기: 중지 끝~손바닥 하단 184 mm, 손바닥 폭 83 mm, 손목 직경 49 mm",
+    "터치스크린 대응 손가락 패드",
+    "내장 PID 모터 제어"
+   ],
+   "url": "https://www.oymotion.com/product61/189",
+   "quote": "手掌的宽度：83mm; 大拇指旋转全行程运行时间(最大速度下) 0.7秒"
+  },
+  "forceOther": {
+   "value": "손끝 힘 엄지 ≥1.0 kgf / 기타 손끝 ≥0.5 kgf (펴짐), ≥1.0 kgf (굽힘)",
+   "url": "https://www.oymotion.com/product61/189",
+   "quote": "指尖(除拇指外)最大主动推力(伸直状态)≥0.5千克力 ... (弯曲状态) ≥1.0千克力; 拇指指尖最大主动推力 ≥1.0千克力"
+  }
+ },
+ "ROH-AP002": {
+  "joints": {
+   "value": 11,
+   "url": "https://oymotion.com/en/product62",
+   "quote": "It features 11 motion joints and 6 active degrees of freedom"
+  },
+  "weight": {
+   "value": "575±5 g (손목 포함)",
+   "url": "https://www.oymotion.com/en/product62/200",
+   "quote": "Weight (including wrist): 575g±5g"
+  },
+  "payload": {
+   "value": "네 손가락 굽힘 30 kg / 손가락당 10 kg (굽힘), 8 kg (폄) — 수동 하중",
+   "url": "https://www.oymotion.com/en/product62/200",
+   "quote": "Maximum passive load for four fingers in bent state: 30 Kg"
+  },
+  "speed": {
+   "value": "손가락 전범위 굽힘/폄 0.7 s, 엄지 회전 0.7 s",
+   "url": "https://www.oymotion.com/en/product62/200",
+   "quote": "Full-range bending/stretching time of fingers (at maximum speed): 0.7 s"
+  },
+  "io": {
+   "value": [
+    "다중 프로토콜 인터페이스",
+    "ROS"
+   ],
+   "url": "https://oymotion.com/en/product62",
+   "quote": "support multi-protocol interfaces and ROS secondary development"
+  },
+  "drive": {
+   "value": [
+    "다섯 손가락 독립 구동"
+   ],
+   "url": "https://oymotion.com/en/product62",
+   "quote": "independent five-finger drive"
+  },
+  "other": {
+   "value": [
+    "반복 위치정밀도 ±0.05 mm",
+    "힘 분해능 0.1 N",
+    "손가락 법선력 센서 0.1–25 N, ≥50 Hz",
+    "손바닥 압력 매트릭스 11×5, 150 Hz"
+   ],
+   "url": "https://www.oymotion.com/en/product62/200",
+   "quote": "Palm dot matrix: Sampling frequency: 150Hz, Number of dots: 11×5"
+  },
+  "forceOther": {
+   "value": "손끝 힘 엄지 ±1.0 kgf / 기타 손가락 ±1.0 kgf (굽힘), ±0.5 kgf (폄)",
+   "url": "https://www.oymotion.com/en/product62/200",
+   "quote": "Maximum active force of fingertips (excluding thumb) in bent state: ±1.0 Kgf"
+  }
+ },
+ "ROH-AP003": {
+  "weight": {
+   "value": "626±5 g",
+   "url": "https://oymotion.com/en/product62/211",
+   "quote": "Overall weight: 626g±5g"
+  },
+  "payload": {
+   "value": "30 kg (네 손가락 굽힘, 수동 하중) / 10 kg (단일 손가락 펴짐)",
+   "url": "https://oymotion.com/en/product62/211",
+   "quote": "Passive load: Max. 30kg (four fingers bent), Max. 10kg (single finger extended)"
+  },
+  "other": {
+   "value": [
+    "다차원 힘 출력 ≥0.5 kgf, ≥1.0 kgf, ≥1.0 kgf",
+    "촉각: 샘플링 ≥50 Hz, 수직력 범위 15 N (최대 30 N), 감도 0.1 N, 전단력 ±5 N, 방향 분해능 1°",
+    "원위·중간·근위 마디 분산 도트 매트릭스 촉각",
+    "완전 회전 엄지"
+   ],
+   "url": "https://oymotion.com/en/product62/211",
+   "quote": "Multi-dimensional force output: ≥0.5kgf, ≥1.0kgf, ≥1.0kgf; Sampling rate ≥50Hz"
+  }
+ },
+ "Sandia Hand": {
+  "tipForce": {
+   "value": "연속 4 N / 피크 11 N",
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "4 N cont 11 N peak"
+  },
+  "forceOther": {
+   "value": "연속 10 N / 피크 28 N (손가락 중간부, 도면 표기)",
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "10 N cont 28 N peak"
+  },
+  "sensors": {
+   "value": [
+    "모터 위치 8000 ppr",
+    "스트레인 게이지",
+    "3D 가속도계",
+    "3D 자력계",
+    "3D 자이로",
+    "촉각 센서 (손가락 20 taxel, 손바닥 40 taxel, 예정)",
+    "3안 카메라 어레이",
+    "마이크 어레이"
+   ],
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "8000 ppr motor positioning; Strain Gauge; 3D Accelerometers; 40 taxel tactile sensor*; Trinocular Camera Array"
+  },
+  "io": {
+   "value": [
+    "Ethernet (10/100/1000)",
+    "CAN",
+    "USB",
+    "ROS"
+   ],
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "Connectivity: 10/100/1000 Ethernet, CANbus, USB Linux and Windows* driver library with ROS interface"
+  },
+  "drive": {
+   "value": [
+    "전동 (모터)",
+    "모듈식 손가락 (자석 탈착·핫스왑)"
+   ],
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "identical finger modules that attach through magnetic attachment ... permitting hot swapping of finger modules"
+  },
+  "other": {
+   "value": [
+    "전원 24 또는 48 V DC (대기 5 W / 피크 100 W)",
+    "과부하 시 손가락 기계적 이탈"
+   ],
+   "url": "https://www.sandia.gov/app/uploads/sites/156/2021/10/SandiaHand_Handout_Final.pdf",
+   "quote": "24 or 48 VDC input (5 W idle / 100 W peak)"
+  }
+ },
+ "Shadow Dexterous Hand Lite": {
+  "joints": {
+   "value": 16,
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "13 DOF across 16 joints"
+  },
+  "actuators": {
+   "value": 13,
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "No. of Actuators: 13 DC motors"
+  },
+  "weight": {
+   "value": "2.4 kg",
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "Overall Weight: 2.4 Kg"
+  },
+  "rate": {
+   "value": "1 kHz",
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "Control loop rate through host: 1kHz (EtherCat protocol)"
+  },
+  "sensors": {
+   "value": [
+    "텐던 하중 센서 26개",
+    "IMU 1개",
+    "STF 손끝 촉각 센서 (기본 2개, 최대 4개)"
+   ],
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "Tendon Load Sensors: 26; IMUs: 1; STFs fitted as standard: 2; Max No. of STFs: 4"
+  },
+  "io": {
+   "value": [
+    "EtherCAT",
+    "ROS"
+   ],
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "1kHz (EtherCat protocol); ROS Open Source Platform"
+  },
+  "other": {
+   "value": [
+    "손가락 관절 4개 / 엄지 관절 4개 / 손목 관절 0개",
+    "5지 풀 핸드 대비 전력 35% 절감"
+   ],
+   "url": "https://shadowrobot.com/dexterous-hand-series/",
+   "quote": "Finger Joints: 4; Thumb Joints: 4; Wrist Joints: 0"
+  }
+ },
+ "Sharpa Wave W01": {
+  "actuators": {
+   "value": 22,
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Actuation System: 22 Proprietary Actuation Modules"
+  },
+  "tipForce": {
+   "value": "20 N",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Fingertip Force 20 N / 12 N"
+  },
+  "gripForce": {
+   "value": "150 N",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Grip Force 150 N / 90 N"
+  },
+  "payload": {
+   "value": "40 kg",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Payload 40 kg / 24 kg"
+  },
+  "speed": {
+   "value": "동작 속도 4 Hz",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Operating Speed 4 Hz / 2 Hz"
+  },
+  "io": {
+   "value": [
+    "1000BASE-T Ethernet",
+    "Sharpa Wave SDK",
+    "Sharpa Pilot"
+   ],
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Communication interface: 1000BASE-T Ethernet; Development toolkit: Sharpa Wave SDK; Host software: Sharpa Pilot"
+  },
+  "other": {
+   "value": [
+    "크기 208 × 90 × 50 mm",
+    "작동 전압 18–28 V",
+    "손끝 위치 반복정밀도 ±1 mm",
+    "네 손가락 측면 스윙 ±20°",
+    "최소 파지 직경 10 mm",
+    "촉각 해상도 240×240",
+    "정격 수명 100만 회 이상"
+   ],
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Dimensions 208 mm × 90 mm × 50 mm; Minimum Grasp Diameter 10 mm"
+  }
+ },
+ "Sharpa Wave W01 SE": {
+  "actuators": {
+   "value": 22,
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Actuation System: 22 Proprietary Actuation Modules"
+  },
+  "tipForce": {
+   "value": "12 N",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Fingertip Force 20 N / 12 N"
+  },
+  "gripForce": {
+   "value": "90 N",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Grip Force 150 N / 90 N"
+  },
+  "payload": {
+   "value": "24 kg",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Payload 40 kg / 24 kg"
+  },
+  "speed": {
+   "value": "동작 속도 2 Hz",
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Operating Speed 4 Hz / 2 Hz"
+  },
+  "io": {
+   "value": [
+    "1000BASE-T Ethernet",
+    "Sharpa Wave SDK",
+    "Sharpa Pilot"
+   ],
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Communication interface: 1000BASE-T Ethernet; Development toolkit: Sharpa Wave SDK"
+  },
+  "other": {
+   "value": [
+    "크기 208 × 90 × 50 mm",
+    "작동 전압 18–28 V",
+    "손끝 위치 반복정밀도 ±1 mm",
+    "최소 파지 직경 10 mm",
+    "촉각 해상도 60×60",
+    "추론 모드: 온보드 전용"
+   ],
+   "url": "https://www.sharpa.com/pages/w01",
+   "quote": "Tactile Resolution 240×240 / 60×60; Dimensions 208 mm × 90 mm × 50 mm"
+  }
+ },
+ "SNG-V 6 1.5 V-HP-25": {
+  "other": {
+   "value": [
+    "바늘 6개 (직경 1.5 mm)",
+    "작동 온도 5–60 °C",
+    "공압 연결 M5 / G1/8\""
+   ],
+   "url": "https://www.schmalz.com/en-ch/products/automation-743270/other-gripping-technologies-746237/needle-grippers-306131/needle-grippers-sng-v-306144/10.01.29.00568",
+   "quote": "Number of needles 6; Needle diameter 1.5 (mm); Operating temperature 5 ... 60 °C"
+  }
+ },
+ "SVH": {
+  "payload": {
+   "value": "0.85 kg (인간-로봇 협업 적용 시 최대 공작물 질량)",
+   "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/svh-linke-hand/p/000000000001545589",
+   "quote": "Workpiece weight is a maximum of 0.85 kg for applications with human-robot collaboration."
+  },
+  "other": {
+   "value": [
+    "공칭 전압 24 V",
+    "IP20",
+    "전체 길이 242.5 mm, 손 폭 92 mm (사람 손 1:1)",
+    "축 수 20",
+    "자유도 표기: 엄지 2·검지 2·중지 2·약지 1·소지 1·벌림 1",
+    "구동: 서보모터 전동, 스핀들 가이드",
+    "ROS1/ROS2 드라이버 제공"
+   ],
+   "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/svh-linke-hand/p/000000000001545589",
+   "quote": "Number of axes | 20.0; Degrees of freedom thumb | 2.0; ... Degrees of freedom to spread hand | 1.0; Nominal voltage [V] | 24.0; IP protection class | 20"
+  }
+ },
+ "VGP30": {
+  "weight": {
+   "value": "3.1 kg",
+   "url": "https://onrobot.com/en/products/vgp30-vacuum-gripper",
+   "quote": "3.1 kg Gripper weight"
+  },
+  "sensors": {
+   "value": [
+    "공기 유량 실시간 모니터링 (옵션)"
+   ],
+   "url": "https://b2b.onrobot.com/vgp30/",
+   "quote": "optional continuous monitoring feature that provides real-time feedback on air flow"
+  },
+  "other": {
+   "value": [
+    "독립 진공 채널 2개",
+    "진공 컵 20개",
+    "총 공기 유량 440 L/min",
+    "IP54"
+   ],
+   "url": "https://onrobot.com/en/products/vgp30-vacuum-gripper",
+   "quote": "440 L/min Total air flow; 2 Independent channels; 20 Vacuum cups; IP54 Protection rating"
+  }
+ },
+ "WSG 50-110": {
+  "weight": {
+   "value": "1.2 kg",
+   "url": "https://weiss-robotics.com/servo-electric/wsg-series/?cid=4248",
+   "quote": "Weight 1.2 kg"
+  },
+  "speed": {
+   "value": "핑거 최대 420 mm/s",
+   "url": "https://weiss-robotics.com/servo-electric/wsg-series/?cid=4248",
+   "quote": "max. finger speed 420 mm/s"
+  },
+  "other": {
+   "value": [
+    "사이클 타임 0.2 s (4 mm 스트로크)",
+    "반복정밀도 ±0.005 mm",
+    "IP20",
+    "24 V DC (850 mA)",
+    "크기 146×50×97 mm",
+    "PROFIBUS/PROFINET (옵션)"
+   ],
+   "url": "https://weiss-robotics.com/servo-electric/wsg-series/?cid=4248",
+   "quote": "Cycle time 0.2 s (at 4 mm stroke); ± 0.005 mm; IP20; 24 VDC 850 mA"
+  }
+ },
+ "Wuji Hand 2": {
+  "tipForce": {
+   "value": "손끝 최대 ≥12 N",
+   "url": "https://www.wuji.tech/en/hand2",
+   "quote": "Fingertip peak force ≥ 12 N*"
+  },
+  "speed": {
+   "value": "개폐 ≥4회/s",
+   "url": "https://www.wuji.tech/en/hand2",
+   "quote": "Open/close speed ≥ 4 cycles / s"
+  },
+  "drive": {
+   "value": [
+    "직접 구동 회전형 (백드라이브 가능)"
+   ],
+   "url": "https://www.wuji.tech/en/hand2",
+   "quote": "Direct-drive rotary, back-drivable"
+  },
+  "other": {
+   "value": [
+    "전원 12 V DC",
+    "크기 약 180×80×40 mm",
+    "통신 EtherNet (100BASE-T)",
+    "제어 MIT 힘-위치 하이브리드, 1000 Hz × 20축",
+    "관절 백래시 < 1°",
+    "최소 파지 직경 0 mm",
+    "Wuji SDK & CLI, Wuji Glove 원격조작"
+   ],
+   "url": "https://www.wuji.tech/en/hand2",
+   "quote": "12V DC; ≈ 180 × 80 × 40 mm; EtherNet (100BASE-T)"
+  }
+ },
+ "Wuji Hand v1": {
+  "joints": {
+   "value": 20,
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Number of joints: 20, 4 per finger"
+  },
+  "weight": {
+   "value": "580 ± 10 g (케이블 제외)",
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Self-weight (excluding cables): 580 ± 10 g"
+  },
+  "rate": {
+   "value": "1 kHz (×20축)",
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Control frequency: 1000 Hz × 20 axes"
+  },
+  "payload": {
+   "value": "10 kg (전체 손 정적 파지 최대) / 손가락당 3 kg (후크)",
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Max static load, whole-hand grasping: 10 kg; Single finger max load (hook grip): 3 kg"
+  },
+  "speed": {
+   "value": "개폐 최소 약 0.3 s",
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Minimum opening and closing time: ≈ 0.3 s"
+  },
+  "sensors": {
+   "value": [
+    "촉각 센싱 장갑 (옵션, 400개 이상 압저항 센서)"
+   ],
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Tactile Sensing Glove (Optional): Sensor count > 400; Pressure-Resistance"
+  },
+  "io": {
+   "value": [
+    "USB 2.0 (USB-C)",
+    "Python SDK (wujihandpy)",
+    "C++ SDK (wujihandcpp)"
+   ],
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Communication interface: USB 2.0; wujihandpy (Python); wujihandcpp (C++)"
+  },
+  "drive": {
+   "value": [
+    "자기잠금 회전 직접 구동 관절",
+    "FOC 벡터 제어"
+   ],
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Drive mode: Self-locking rotary direct drive joints; FOC vector control drive"
+  },
+  "other": {
+   "value": [
+    "전원 12–20 V DC",
+    "크기 201 × 75 × 50 mm",
+    "IP40",
+    "반복정밀도 ±1 mm",
+    "최대 파지 직경 100 mm",
+    "알루미늄 합금 셸"
+   ],
+   "url": "https://docs.wuji.tech/docs/en/wuji-hand/v1/overview/",
+   "quote": "Operating voltage: 12V - 20V DC; Dimensions: 201 mm × 75 mm × 50 mm; Protection class: IP40"
+  }
+ },
+ "Xiaoyao Dexterous Hand": {
+  "other": {
+   "value": [
+    "촉각 감지 어레이 6개",
+    "소프트 관절·소프트 지절",
+    "본체감지 구동·제어 일체 설계"
+   ],
+   "url": "https://www.frd.cn/prod_view.aspx?FId=t3%3A80%3A3&Id=206&TypeId=80",
+   "quote": "6个触觉感知阵列 ; 软体关节、软体指节 ; 本体感驱控一体化设计"
+  }
+ }
+}
