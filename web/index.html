@@ -26,6 +26,7 @@
       <a href="#explore" data-view-link="wiki">Wiki Explorer</a>
       <a href="#explore" data-view-link="cards">Graphical Explorer</a>
       <a href="#intro" class="nav-optional">About</a>
+      <a href="#contact" class="nav-optional">Contact</a>
     </nav>
   </header>
 
@@ -154,21 +155,27 @@
       <p class="empty" id="emptyState" hidden>조건에 맞는 모델이 없습니다. <button type="button" class="link-btn" id="emptyReset">조건 지우기</button></p>
     </section>
 
-    <section class="about" id="about" aria-labelledby="aboutTitle">
-      <h2 id="aboutTitle" data-reveal>데이터 기준</h2>
-      <div class="about-grid">
-        <div data-reveal>
-          <h3>조사표 기준</h3>
-          <p>HANDSLab 노션 조사표에 등록된 로봇핸드·비교용 그리퍼를 그대로 옮겼습니다. 제조사·연구기관의 공개 자료를 근거로 하며, 모델마다 사양 출처 링크를 함께 둡니다. 실제 사양은 제조사 최신 자료로 다시 확인해 주세요.</p>
-        </div>
-        <div data-reveal>
-          <h3>자유도와 힘의 구분</h3>
-          <p><strong>능동 DoF</strong>는 독립 구동 축, <strong>수동 DoF</strong>는 연동·수동 관절, <strong>총 DoF</strong>는 둘을 합한 값입니다. 구분 없이 적힌 자유도는 ‘표기 DoF’로 따로 둡니다. 힘은 <strong>Tip force(N)</strong>, <strong>Grip force(N)</strong>, <strong>Payload(kg)</strong>를 섞지 않습니다.</p>
-        </div>
-        <div data-reveal>
-          <h3>사진 출처와 이용 원칙</h3>
-          <p>제품 사진의 저작권은 각 제조사·연구기관에 있으며, 사진마다 제조사 이름과 제품 페이지 링크를 함께 표시합니다. 비영리 연구·교육 목적의 비교 자료로서 출처를 밝혀 인용합니다(저작권법 제28조·제37조). 권리자가 삭제를 요청하면 즉시 내리겠습니다 — <a href="https://github.com/gayeong1214-wq/ROBOT_HAND__HANDSLAB/issues" target="_blank" rel="noopener noreferrer">요청하기</a>.</p>
-        </div>
+    <!-- HANDS Lab 공식 홈페이지 Contact·Principal Investigator 페이지의 내용 -->
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <p class="section-label" data-reveal>Contact</p>
+      <div class="contact-body">
+        <h2 id="contactTitle" data-reveal><span class="nb">HANDS Lab에</span> <span class="nb">문의하기</span></h2>
+        <a class="contact-mail" data-reveal href="mailto:jmyang@yu.ac.kr">jmyang@yu.ac.kr<span aria-hidden="true">↗</span></a>
+        <dl class="contact-grid" data-reveal>
+          <div>
+            <dt>Principal Investigator</dt>
+            <dd><strong>Junmo Yang, Ph.D.</strong><br>Director of HANDS Lab · Assistant Professor<br>Department of Robotics Engineering, Yeungnam University</dd>
+          </div>
+          <div>
+            <dt>Office</dt>
+            <dd>G13 Room 311, Yeungnam University<br>280 Daehak-Ro, Gyeongsan,<br>Gyeongbuk 38541, Republic of Korea</dd>
+          </div>
+          <div>
+            <dt>E-mail · Tel</dt>
+            <dd><a href="mailto:jmyang@yu.ac.kr">jmyang@yu.ac.kr</a><br><a href="tel:+82538103016">+82-53-810-3016</a></dd>
+          </div>
+        </dl>
+        <p class="contact-recruit" data-reveal>석사과정·학부연구생을 모집하고 있습니다. <a href="https://sites.google.com/view/handslab/contact" target="_blank" rel="noopener noreferrer">HANDS Lab Contact 페이지 <span aria-hidden="true">↗</span><span class="sr-only">새 창</span></a></p>
       </div>
     </section>
   </main>
@@ -205,15 +212,14 @@
         <address>
           Prof. Junmo Yang, Ph.D.<br>
           G13 Room 311, Yeungnam University<br>
-          280 Daehak-Ro, Gyeongsan,<br>
-          Gyeongbuk 38541, Republic of Korea<br>
-          <a href="mailto:jmyang@yu.ac.kr">jmyang@yu.ac.kr</a>
+          <a href="mailto:jmyang@yu.ac.kr">jmyang@yu.ac.kr</a><br>
+          <a href="tel:+82538103016">+82-53-810-3016</a>
         </address>
         <p class="footer-recruit">석사과정·학부연구생 모집 중 · <a href="https://sites.google.com/view/handslab/contact" target="_blank" rel="noopener noreferrer">Contact ↗</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 HANDS Lab, Yeungnam University</p>
+      <p>© 2026 HANDS Lab, Yeungnam University · 제품 사진 © 각 제조사·연구기관 (사진 아래 출처 표기) · <a href="https://github.com/gayeong1214-wq/ROBOT_HAND__HANDSLAB/issues" target="_blank" rel="noopener noreferrer">삭제 요청</a></p>
       <p><a href="https://sites.google.com/view/handslab/home" target="_blank" rel="noopener noreferrer">sites.google.com/view/handslab ↗</a> · <a href="https://github.com/gayeong1214-wq/ROBOT_HAND__HANDSLAB" target="_blank" rel="noopener noreferrer">GitHub ↗</a></p>
     </div>
   </footer>

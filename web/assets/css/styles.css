@@ -188,7 +188,7 @@ button { cursor: pointer; }
 .explore { max-width: var(--max); margin: 0 auto; padding: clamp(40px, 8vh, 96px) var(--m) 110px; min-height: 100vh; }
 .explore-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px 40px; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
 .explore-head > div:first-child { padding-bottom: 22px; }
-.explore h2, .about h2 { font-size: clamp(36px, 4.6vw, 68px); letter-spacing: -.04em; line-height: 1.02; font-weight: 640; }
+.explore h2 { font-size: clamp(36px, 4.6vw, 68px); letter-spacing: -.04em; line-height: 1.02; font-weight: 640; }
 .explore-note { margin-top: 12px; color: var(--fg-2); font-size: 14.5px; }
 
 /* 보기 전환: 밑줄 탭 */
@@ -352,14 +352,7 @@ svg.has-focus .g-node.on text { opacity: 1; }
 @media (max-width: 1099px) { .graph-layout { grid-template-columns: 1fr; } .graph-canvas { height: 520px; } .graph-list { max-height: none; } .graph-legend { margin-left: 0; } }
 @media (max-width: 719px) { .graph-canvas { display: none; } .graph-legend { display: none; } .graph-list li a { min-height: 44px; } }
 
-/* ── 데이터 기준 / 푸터 ───────────────────────────── */
-.about { max-width: var(--max); margin: 0 auto; padding: 40px var(--m) 110px; }
-.about-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin-top: 36px; padding-top: 30px; border-top: 1px solid var(--line); }
-.about h3 { font-size: 16px; font-weight: 640; }
-.about p { margin-top: 10px; font-size: 15px; color: var(--fg-2); text-wrap: pretty; }
-.about p strong { color: var(--fg); font-weight: 600; }
-@media (max-width: 899px) { .about-grid { grid-template-columns: 1fr; gap: 26px; } }
-/* 푸터 스타일은 motion.css 에 있다 */
+/* Contact 섹션과 푸터 스타일은 motion.css 에 있다 */
 
 /* ── 비교 트레이 / 토스트 ─────────────────────────── */
 .compare-tray {

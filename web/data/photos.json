@@ -468,13 +468,13 @@
   "origin": "notion"
  },
  "2F-85": {
-  "file": "assets/img/hands/2f-85-notion.webp",
-  "w": 960,
-  "h": 772,
-  "alpha": true,
-  "bg": null,
+  "file": "assets/img/hands/2f-85.png",
+  "w": 300,
+  "h": 300,
+  "alpha": false,
+  "bg": "#FFFFFF",
   "imageUrl": null,
-  "origin": "notion"
+  "origin": "handslab"
  },
  "Aero Hand Open": {
   "file": "assets/img/hands/aero-hand-open-notion.webp",

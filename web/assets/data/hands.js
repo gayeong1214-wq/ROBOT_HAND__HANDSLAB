@@ -1878,11 +1878,11 @@ window.HANDSLAB_DATA = {
     "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02933.pdf"
    ],
    "photo": {
-    "src": "assets/img/hands/2f-85-notion.webp",
-    "w": 960,
-    "h": 772,
-    "alpha": true,
-    "bg": null,
+    "src": "assets/img/hands/2f-85.png",
+    "w": 300,
+    "h": 300,
+    "alpha": false,
+    "bg": "#FFFFFF",
     "creditName": "Robotiq",
     "creditUrl": "https://robotiq.com/products/adaptive-grippers"
    }
